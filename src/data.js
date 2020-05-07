@@ -76,6 +76,45 @@ export const placeInfo = [
     img: '././img/blockchain.png',
     maps:
       'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.397087990157!2d37.62463341561838!3d55.76897499821247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a68e2e342b7%3A0x934bc1e9948c826b!2z0KbQtdC90YLRgCDQnNCw0YDRgQ!5e0!3m2!1sru!2sru!4v1547878491776'
+  },
+  {
+    id: 7,
+    headerTitle: 'TRY staking',
+    headerSubTitle: 'Excepturi sequi',
+    headerText:
+      'Now that you understand what a Cryptocurrency is, you can start learning how to Stake and create a passive income!',
+    title: 'Animi nobis',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, nostrum. Non, cupiditate facere quidem quibusdam atque aliquam corrupti minus esse dolor doloremque, vel aut. Quae eos quo consequuntur id commodi?',
+    img: '././img/blockchain.png',
+    maps:
+      'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.397087990157!2d37.62463341561838!3d55.76897499821247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a68e2e342b7%3A0x934bc1e9948c826b!2z0KbQtdC90YLRgCDQnNCw0YDRgQ!5e0!3m2!1sru!2sru!4v1547878491776'
+  },
+  {
+    id: 8,
+    headerTitle: 'TRY staking',
+    headerSubTitle: 'Excepturi sequi',
+    headerText:
+      'Now that you understand what a Cryptocurrency is, you can start learning how to Stake and create a passive income!',
+    title: 'Animi nobis',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, nostrum. Non, cupiditate facere quidem quibusdam atque aliquam corrupti minus esse dolor doloremque, vel aut. Quae eos quo consequuntur id commodi?',
+    img: '././img/blockchain.png',
+    maps:
+      'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.397087990157!2d37.62463341561838!3d55.76897499821247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a68e2e342b7%3A0x934bc1e9948c826b!2z0KbQtdC90YLRgCDQnNCw0YDRgQ!5e0!3m2!1sru!2sru!4v1547878491776'
+  },
+  {
+    id: 9,
+    headerTitle: 'TRY staking',
+    headerSubTitle: 'Excepturi sequi',
+    headerText:
+      'Now that you understand what a Cryptocurrency is, you can start learning how to Stake and create a passive income!',
+    title: 'Animi nobis',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, nostrum. Non, cupiditate facere quidem quibusdam atque aliquam corrupti minus esse dolor doloremque, vel aut. Quae eos quo consequuntur id commodi?',
+    img: '././img/blockchain.png',
+    maps:
+      'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.397087990157!2d37.62463341561838!3d55.76897499821247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a68e2e342b7%3A0x934bc1e9948c826b!2z0KbQtdC90YLRgCDQnNCw0YDRgQ!5e0!3m2!1sru!2sru!4v1547878491776'
   }
 ];
 
