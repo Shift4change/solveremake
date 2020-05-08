@@ -17,7 +17,7 @@ export const placeInfo = [
     headerTitle: 'ADA',
     headerSubTitle: 'commodi',
     headerText:
-      ' Named after Ada Lovelace the famous mathematician and writer. ADA is the currency powering the Cardano Blockchain.',
+      ' Named after Ada Lovelace the famous mathematician and writer. ADA is a deflationary digital currency as it has a fixed supply. ADA is provably secure, smart money that is powering the Cardano Blockchain.',
     title: 'Lorem unitye',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Est incidunt quo veritatis ad, nobis dolorum corrupti excepturi, natus fugit necessitatibus nihil nam minus explicabo debitis quod accusamus consectetur a eaque.',
@@ -78,44 +78,44 @@ export const placeInfo = [
       'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.397087990157!2d37.62463341561838!3d55.76897499821247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a68e2e342b7%3A0x934bc1e9948c826b!2z0KbQtdC90YLRgCDQnNCw0YDRgQ!5e0!3m2!1sru!2sru!4v1547878491776'
   },
   {
-    id: 7,
-    headerTitle: 'TRY staking',
-    headerSubTitle: 'Excepturi sequi',
-    headerText:
-      'Now that you understand what a Cryptocurrency is, you can start learning how to Stake and create a passive income!',
-    title: 'Animi nobis',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, nostrum. Non, cupiditate facere quidem quibusdam atque aliquam corrupti minus esse dolor doloremque, vel aut. Quae eos quo consequuntur id commodi?',
-    img: '././img/blockchain.png',
-    maps:
-      'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.397087990157!2d37.62463341561838!3d55.76897499821247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a68e2e342b7%3A0x934bc1e9948c826b!2z0KbQtdC90YLRgCDQnNCw0YDRgQ!5e0!3m2!1sru!2sru!4v1547878491776'
-  },
-  {
-    id: 8,
-    headerTitle: 'TRY staking',
-    headerSubTitle: 'Excepturi sequi',
-    headerText:
-      'Now that you understand what a Cryptocurrency is, you can start learning how to Stake and create a passive income!',
-    title: 'Animi nobis',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, nostrum. Non, cupiditate facere quidem quibusdam atque aliquam corrupti minus esse dolor doloremque, vel aut. Quae eos quo consequuntur id commodi?',
-    img: '././img/blockchain.png',
-    maps:
-      'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.397087990157!2d37.62463341561838!3d55.76897499821247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a68e2e342b7%3A0x934bc1e9948c826b!2z0KbQtdC90YLRgCDQnNCw0YDRgQ!5e0!3m2!1sru!2sru!4v1547878491776'
-  },
-  {
     id: 9,
-    headerTitle: 'TRY staking',
+    headerTitle: 'Treasury',
     headerSubTitle: 'Excepturi sequi',
     headerText:
-      'Now that you understand what a Cryptocurrency is, you can start learning how to Stake and create a passive income!',
+      "The fundamental purpose of the Cardano Treasury is to resolve the funding sustainability issue for long-term cryptocurrency development and maintenance. In Cardano's Treasury the voting power is proportional to the corresponding stake. Voting does not require identity. The system collects funding via three sources: minting new ADA, fees from staking rewards, and donations.",
     title: 'Animi nobis',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, nostrum. Non, cupiditate facere quidem quibusdam atque aliquam corrupti minus esse dolor doloremque, vel aut. Quae eos quo consequuntur id commodi?',
-    img: '././img/blockchain.png',
+    img: '././img/treasury1.png',
     maps:
       'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.397087990157!2d37.62463341561838!3d55.76897499821247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a68e2e342b7%3A0x934bc1e9948c826b!2z0KbQtdC90YLRgCDQnNCw0YDRgQ!5e0!3m2!1sru!2sru!4v1547878491776'
-  }
+  },
+  // {
+  //   id: 8,
+  //   headerTitle: 'Plutus',
+  //   headerSubTitle: 'Excepturi sequi',
+  //   headerText:
+  //     'Plutus Platform, a smart contracts language for the Cardano blockchain.',
+  //   title: 'Animi nobis',
+  //   description:
+  //     'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, nostrum. Non, cupiditate facere quidem quibusdam atque aliquam corrupti minus esse dolor doloremque, vel aut. Quae eos quo consequuntur id commodi?',
+  //   img: '././img/plutus-header.jpg',
+  //   maps:
+  //     'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.397087990157!2d37.62463341561838!3d55.76897499821247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a68e2e342b7%3A0x934bc1e9948c826b!2z0KbQtdC90YLRgCDQnNCw0YDRgQ!5e0!3m2!1sru!2sru!4v1547878491776'
+  // },
+  // {
+  //   id: 9,
+  //   headerTitle: 'TRY staking',
+  //   headerSubTitle: 'Excepturi sequi',
+  //   headerText:
+  //     'Now that you understand what a Cryptocurrency is, you can start learning how to Stake and create a passive income!',
+  //   title: 'Animi nobis',
+  //   description:
+  //     'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, nostrum. Non, cupiditate facere quidem quibusdam atque aliquam corrupti minus esse dolor doloremque, vel aut. Quae eos quo consequuntur id commodi?',
+  //   img: '././img/blockchain.png',
+  //   maps:
+  //     'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.397087990157!2d37.62463341561838!3d55.76897499821247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a68e2e342b7%3A0x934bc1e9948c826b!2z0KbQtdC90YLRgCDQnNCw0YDRgQ!5e0!3m2!1sru!2sru!4v1547878491776'
+  // }
 ];
 
 export const reviews = [
