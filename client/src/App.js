@@ -11,6 +11,13 @@ import Altmedia from './pages/Altmedia';
 import Contacts from './pages/Contacts';
 import Details from './pages/Details';
 import NotFoundPage from './pages/NotFoundPage';
+import Bitcoin from './pages/bitcoinInfo';
+import Cardano from './pages/cardanoInfo';
+import Ada from './pages/adaInfo';
+import Exchanges from './pages/exchangesInfo';
+import Wallets from './pages/walletsInfo';
+import Staking from './pages/stakingInfo';
+import Treasury from './pages/treasuryInfo';
 
 
 
@@ -24,6 +31,14 @@ class App extends Component {
           <Route path="/altmedia" component={Altmedia} />
           <Route path="/contacts" component={Contacts} />
           <Route path="/details" component={Details} />
+          <Route path="/bitcoin" component={Bitcoin} />
+          <Route path="/cardano" component={Cardano} />
+          <Route path="/ada" component={Ada} />
+          <Route path="/exchanges" component={Exchanges} />
+          <Route path="/wallets" component={Wallets} />
+          <Route path="/staking" component={Staking} />
+          <Route path="/treasury" component={Treasury} />
+          
           <Route  component={NotFoundPage} />
         </Switch>
         <Footer />

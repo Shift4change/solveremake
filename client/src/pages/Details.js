@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { InfoConsumer } from "../components/context";
 import styled from 'styled-components';
 import Reviews from "../components/Reviews";
-
+import YouTube from "react-youtube";
 class Details extends Component {
     render() {
         return (
@@ -22,7 +22,8 @@ class Details extends Component {
 
 
                     return (
-                        <React.Fragment>
+                        <div>
+                        {/* // <React.Fragment> */}
                             <HeaderDetails className="container-fluid align-items-center">
                                 <h1 className="display-1 font-weight-bold">{headerTitle}</h1>
                                 <h4 className="display-5">{headerSubtitle}</h4>
@@ -65,7 +66,7 @@ class Details extends Component {
                                     </li>
                                     {/* Map link */}
                                     <li className="nav-item">
-                                        <a href="#map" className="nav-link" role="tab" data-toggle="tab">Map</a>
+                                        <a href="#map" className="nav-link" role="tab" data-toggle="tab">videos</a>
                                     </li>
                                 </ul>
                                 {/* Tab Pane */}
@@ -86,7 +87,8 @@ class Details extends Component {
                                     </div>
                                 </div>
                             </div>
-                        </React.Fragment>
+                            </div>
+                        // </React.Fragment>
                     );
 
                 }}
