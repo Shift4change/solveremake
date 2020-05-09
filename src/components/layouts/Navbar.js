@@ -1,6 +1,7 @@
 import React from "react";
 import home from "../assets/img/home.svg";
 import logo from "../assets/img/logo3.png";
+import shop from "../assets/img/monitor.svg"
 import { link, Link } from 'react-router-dom'
 // import App from "../../App";
 import "../../App.css";
@@ -37,7 +38,7 @@ function Navbar() {
         </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link text-white text-uppercase ml-5" to="/contacts">Contact Us
+            <Link className="nav-link text-white text-uppercase ml-5" to="/contacts"><img src={shop} alt="home" style={{ width: "25px", marginTop: "-7px" }} />Shop
         </Link>
           </li>
 

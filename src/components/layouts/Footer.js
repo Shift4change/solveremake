@@ -10,7 +10,7 @@ function Footer() {
                     <div className="row">
                         {/* Column 1    */}
                         <div className="col-md-3 col-sm-6">
-                            <h4>Contact Us</h4>
+                            <h4><a href="/contacts">Contact Us</a></h4>
                             <ul className="list-unstyled">
                                 <li>University of Pennsilvania</li>
                                 <li>Address: Philadelphia, PA 19104</li>
