@@ -33,7 +33,7 @@ function Navbar() {
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link text-white text-uppercase ml-5" to="/altmedia">Alt Media
+            <Link className="nav-link text-white text-uppercase ml-5" to="/altmedia">Alternative Media
         </Link>
           </li>
           <li className="nav-item">
