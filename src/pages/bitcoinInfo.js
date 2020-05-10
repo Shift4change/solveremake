@@ -3,6 +3,11 @@ import { InfoConsumer } from "../components/context";
 import styled from 'styled-components';
 import Reviews from "../components/Reviews";
 import YouTube from "react-youtube"
+import bit from "../components/assets/img/bitcoin1.jpeg"
+
+
+// https://www.youtube.com/watch?v=_nBlN9yp9R8
+// https://youtu.be/_nBlN9yp9R8
 
 class BitcoinD extends Component {
     render() {
@@ -14,9 +19,13 @@ class BitcoinD extends Component {
             <div>
                 {/* // <React.Fragment> */}
                 <HeaderDetails className="container-fluid align-items-center">
-                    <h1 className="display-1 font-weight-bold">dadsfd</h1>
+                    <h1 className="display-1 font-weight-bold">BITCOIN</h1>
+                    {/* <img src={bit} alt="Bitcoin" className="img-thumbnail img-fluid" /> */}
+
                     <h4 className="display-5">dadasd</h4>
+
                     <p>hellou</p>
+
                     {/* Social Icons */}
                     <div className="container mt-5">
                         <div className="row justify-content-center">
@@ -64,7 +73,7 @@ class BitcoinD extends Component {
                         <div id="aboutPlace" className="tab-pane in active text-center" role="tabpanel">
                             <h2 className="mb-3">dsadas</h2>
                             <p>hellou</p>
-                            <img src="" alt="" className="img-thumbnail img-fluid" />
+                            <img src={bit} alt="" className="img-thumbnail img-fluid" />
                         </div>
                         {/* reviews */}
                         <div className="tab-pane" id="reviews" role="tabpanel">

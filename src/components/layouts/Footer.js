@@ -20,31 +20,32 @@ function Footer() {
                         </div>
                         {/* Column 2    */}
                         <div className="col-md-3 col-sm-6">
-                            <h4>Lorem ipsum</h4>
+                            <h4 className="ml-5"> CARDANO  </h4>
                             <ul className="list-unstyled">
-                                <li><a href="/">Lorem Lorem</a></li>
-                                <li><a href="/">Lorem Lorem</a></li>
-                                <li><a href="/">Lorem Lorem</a></li>
-                                <li><a href="/">Lorem Lorem</a></li>
+                            <li><a className="btn btn-outline text-uppercase ml-5" target="_blank" rel="noopener noreferrer" href="https://cardano.org">Cardano</a></li>
+                                <li><a className="btn btn-outline text-uppercase ml-5" target="_blank" rel="noopener noreferrer" href="https://iohk.io/en/team/">IOHK</a></li>
+                                <li><a className="btn btn-outline text-uppercase ml-5" target="_blank" rel="noopener noreferrer" href="https://emurgo.io/en/about-us#our-team">Emurgo</a></li>
+                                
+                                {/* <li><a href="/">Lorem Lorem</a></li> */}
                             </ul>
                         </div>
                         {/* Column 3    */}
                         <div className="col-md-3 col-sm-6">
-                            <h4>Lorem ipsum</h4>
+                            <h4 className="ml-5">Tools</h4>
                             <ul className="list-unstyled">
-                                <li><a href="/">Lorem Lorem</a></li>
-                                <li><a href="/">Lorem Lorem</a></li>
-                                <li><a href="/">Lorem Lorem</a></li>
-                                <li><a href="/">Lorem Lorem</a></li>
+                                <li><a className="btn text-uppercase ml-4" target="_blank" rel="noopener noreferrer" href="https://pooltool.io/">Pool Tool</a></li>
+                                <li><a className="btn text-uppercase mr-5"  target="_blank" rel="noopener noreferrer" href="https://explorer.cardano.org/">Block/Address Explorer</a></li>
+                                <li><a className="btn btn-outline text-uppercase " target="_blank" rel="noopener noreferrer" href="https://guides.poapool.com/">Stakepool guides</a></li>
+                                {/* <li><a href="/">Lorem Lorem</a></li> */}
                             </ul>
                         </div>{/* Column 4    */}
                         <div className="col-md-3 col-sm-6">
-                            <h4>Lorem ipsum</h4>
+                            <h4 className="ml-5">Wallets</h4>
                             <ul className="list-unstyled">
-                                <li><a href="/">Lorem Lorem</a></li>
-                                <li><a href="/">Lorem Lorem</a></li>
-                                <li><a href="/">Lorem Lorem</a></li>
-                                <li><a href="/">Lorem Lorem</a></li>
+                                <li><a className="btn text-uppercase" target="_blank" rel="noopener noreferrer" href="https://daedaluswallet.io/">Daedalus Wallet</a></li>
+                                <li><a className="btn btn-outline text-uppercase" target="_blank" rel="noopener noreferrer" href="https://yoroi-wallet.com/">Yoroi Wallet</a></li>
+                                <li><a className="btn btn-outline text-uppercase" target="_blank" rel="noopener noreferrer" href="https://www.ledger.com/">Hardware Wallet</a></li>
+                                {/* <li><a href="/">Lorem Lorem</a></li> */}
                             </ul>
                         </div>
                     </div>
@@ -71,12 +72,17 @@ const FooterContainer = styled.footer`
     color: var(--mainWhite);
 }
 
+#cardano {
+    color: var(--mainWhite)
+}
+
 .footer-bottom {
     padding-top: 3rem;
     padding-bottom: 2rem;
 }
 ul li a{
-    color: var(--mainGrey)
+    color: var(--mainGrey);
+    
 }
 ul li a:hover {
     color: var(--mainLightGrey)
