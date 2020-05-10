@@ -4,7 +4,9 @@ import styled from 'styled-components';
 import Reviews from "../components/Reviews";
 import YouTube from "react-youtube"
 import bit from "../components/assets/img/bitcoin1.jpeg"
-
+import mining from "../components/assets/img/mining.jpg"
+import mining1 from "../components/assets/img/mining1.jpg"
+import front from "../components/assets/img/bitcoinfront.png"
 
 // https://www.youtube.com/watch?v=_nBlN9yp9R8
 // https://youtu.be/_nBlN9yp9R8
@@ -19,15 +21,59 @@ class BitcoinD extends Component {
             <div>
                 {/* // <React.Fragment> */}
                 <HeaderDetails className="container-fluid align-items-center">
-                    <h1 className="display-1 font-weight-bold">BITCOIN</h1>
+                    <h1 className="display-2 font-weight-bold">BITCOIN</h1>
                     {/* <img src={bit} alt="Bitcoin" className="img-thumbnail img-fluid" /> */}
+                    
+                    <h4 className="display-6">Digital Gold / Public Ledger</h4>
+                    <br></br>
+                    {/* <br></br> */}
+                    <div className="container-fluid mt-5">
+                        <div className="row">
 
-                    <h4 className="display-5">dadasd</h4>
+                        <div className="col-4">
+                        <p> Being a public ledger, the Bitcoin blockchain works similar to a bank database system. </p>
+                        <p>Details of all confirmed transactions are recorded on each block created.</p>
+                        <p> As blocks are filled to capacity with transaction details, new blocks are mined and added to the blockchain by the network participants called miners.</p>
+                        </div>
+
+                        <div className="col-4 mb-1">
+                        <img src={front} alt='Plutus' className="card-img-top" />
+                        {/* <img src={mining} alt='Plutus' className="card-img-top" /> */}
+                        </div>
+                        <div className="col-4">
+                        <p>Bitcoin is a scarce resource that's resistant to inflation. It's finite supply of 21 million and it's process called "halving", make this system deflationary. </p>
+                    
+                        <p>Only 3 million Bitcoin are left to be mined and every 4 years the reward for mining new blocks is halved, meaning miners receive 50% fewer bitcoins for verifying transactions.</p>
+                       
+                        </div>
+                       
+                        </div>
+
+                    </div>
+                    <div className="container-fluid mt-2 ">
+                        <div className="row">
+
+                        <div className="col-4">
+                        <p> Powerful machines and mining pools are used for mining. On average, the time it takes for all miner's computational power in the world to obtain 1 BTC "Bitcoin" is 10 minutes. This hard process is know as "Proof of Work".</p>
+                        <p >  </p>
+                        </div>
+
+                        <div className="col-4 mb-2">
+                        <img src={mining} alt='Plutus' className="card-img-top" />
+                        {/* <img src={mining} alt='Plutus' className="card-img-top" /> */}
+                        </div>
+                        <div className="col-4">
+                        <p>This "halving" cycle is very important for speculators since the number of bitcoin produced are reduce and if the demand remains the same this means the price will increase substantially.</p>
+                        </div>
+                       
+                        </div>
+
+                    </div>
 
                     <p>hellou</p>
-
+                    <br></br>
                     {/* Social Icons */}
-                    <div className="container mt-5">
+                    <div className="container mt-5 ">
                         <div className="row justify-content-center">
                             <div className="col-2">
                                 <i className="fab fa-facebook"></i>
@@ -51,8 +97,29 @@ class BitcoinD extends Component {
                         </div>
                     </div>
                 </HeaderDetails>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
                 {/* {Navlinks} */}
-                <div className="container">
+                <div className="container ">
                     <ul className="nav nav-tabs">
                         {/* About Place Link */}
                         <li className="nav-item">
@@ -73,7 +140,7 @@ class BitcoinD extends Component {
                         <div id="aboutPlace" className="tab-pane in active text-center" role="tabpanel">
                             <h2 className="mb-3">dsadas</h2>
                             <p>hellou</p>
-                            <img src={bit} alt="" className="img-thumbnail img-fluid" />
+                            {/* <img src={front} alt="" className="img-thumbnail img-fluid" /> */}
                         </div>
                         {/* reviews */}
                         <div className="tab-pane" id="reviews" role="tabpanel">
@@ -101,12 +168,12 @@ export default BitcoinD;
 const HeaderDetails = styled.header`
 background: linear-gradient(rgba(109,109,109), rgba(255,255,255));
 height: 100vh;
-text-transform: uppercase;
+/* text-transform: uppercase; */
 color: var(--mainWhite);
 text-align: center;
 
 h1 {
-    padding-top: 10%;
+    padding-top: 3%;
     color: var(--mainDark);
 }
 
