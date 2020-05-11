@@ -20,12 +20,11 @@ function Footer() {
                         </div>
                         {/* Column 2    */}
                         <div className="col-md-3 col-sm-6">
-                            <h4 className="ml-5"> CARDANO  </h4>
+                            <h4><a className=" btn-outline ml-4" target="_blank" rel="noopener noreferrer" href="https://cardano.org">Cardano.org</a> </h4>
                             <ul className="list-unstyled">
-                            <li><a className="btn btn-outline text-uppercase ml-5" target="_blank" rel="noopener noreferrer" href="https://cardano.org">Cardano</a></li>
-                                <li><a className="btn btn-outline text-uppercase ml-5" target="_blank" rel="noopener noreferrer" href="https://iohk.io/en/team/">IOHK</a></li>
+                                <li><a id="iohk" className="btn btn-outline text-uppercase  " target="_blank" rel="noopener noreferrer" href="https://iohk.io/en/team/">IOHK</a></li>
                                 <li><a className="btn btn-outline text-uppercase ml-5" target="_blank" rel="noopener noreferrer" href="https://emurgo.io/en/about-us#our-team">Emurgo</a></li>
-                                
+                                <li><a className="btn btn-outline text-uppercase mr-3" target="_blank" rel="noopener noreferrer" href="https://cardanofoundation.org/">Cardano Foundation</a></li>
                                 {/* <li><a href="/">Lorem Lorem</a></li> */}
                             </ul>
                         </div>
@@ -43,7 +42,7 @@ function Footer() {
                             <h4 className="ml-5">Wallets</h4>
                             <ul className="list-unstyled">
                                 <li><a className="btn text-uppercase" target="_blank" rel="noopener noreferrer" href="https://daedaluswallet.io/">Daedalus Wallet</a></li>
-                                <li><a className="btn btn-outline text-uppercase" target="_blank" rel="noopener noreferrer" href="https://yoroi-wallet.com/">Yoroi Wallet</a></li>
+                                <li><a className="btn btn-outline text-uppercase ml-3" target="_blank" rel="noopener noreferrer" href="https://yoroi-wallet.com/">Yoroi Wallet</a></li>
                                 <li><a className="btn btn-outline text-uppercase" target="_blank" rel="noopener noreferrer" href="https://www.ledger.com/">Hardware Wallet</a></li>
                                 {/* <li><a href="/">Lorem Lorem</a></li> */}
                             </ul>
@@ -70,6 +69,11 @@ const FooterContainer = styled.footer`
     background: var(--mainDark);
     padding-top: 3rem;
     color: var(--mainWhite);
+}
+
+#iohk {
+   
+    margin-left:60px;
 }
 
 #cardano {
