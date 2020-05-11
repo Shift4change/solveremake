@@ -6,6 +6,8 @@ import YouTube from "react-youtube"
 import bit from "../components/assets/img/bitcoin1.jpeg"
 import mining from "../components/assets/img/mining.jpg"
 import mining1 from "../components/assets/img/mining1.jpg"
+import mkb from "../components/assets/img/mkb.jpg"
+import bpc from "../components/assets/img/bpc.jpg"
 import front from "../components/assets/img/bitcoinfront.png"
 
 // https://www.youtube.com/watch?v=_nBlN9yp9R8
@@ -23,54 +25,86 @@ class BitcoinD extends Component {
                 <HeaderDetails className="container-fluid align-items-center">
                     <h1 className="display-2 font-weight-bold">BITCOIN</h1>
                     {/* <img src={bit} alt="Bitcoin" className="img-thumbnail img-fluid" /> */}
-                    
-                    <h4 className="display-6">Digital Gold / Public Ledger</h4>
+
+                    <h4 className="display-6">Digital Gold /  Public Ledger</h4>
                     <br></br>
                     {/* <br></br> */}
                     <div className="container-fluid mt-5">
                         <div className="row">
 
-                        <div className="col-4">
-                        <p> Being a public ledger, the Bitcoin blockchain works similar to a bank database system. </p>
-                        <p>Details of all confirmed transactions are recorded on each block created.</p>
-                        <p> As blocks are filled to capacity with transaction details, new blocks are mined and added to the blockchain by the network participants called miners.</p>
-                        </div>
+                            <div className="col-4">
+                                <p> Being a public ledger, the Bitcoin blockchain works similar to a bank database system. </p>
+                                <p>Details of all confirmed transactions are recorded on each block created.</p>
+                                <p> As blocks are filled to capacity with transaction details, new blocks are mined and added to the blockchain by the network participants called miners.</p>
+                            </div>
 
-                        <div className="col-4 mb-1">
-                        <img src={front} alt='Plutus' className="card-img-top" />
-                        {/* <img src={mining} alt='Plutus' className="card-img-top" /> */}
-                        </div>
-                        <div className="col-4">
-                        <p>Bitcoin is a scarce resource that's resistant to inflation. It's finite supply of 21 million and it's process called "halving", make this system deflationary. </p>
-                    
-                        <p>Only 3 million Bitcoin are left to be mined and every 4 years the reward for mining new blocks is halved, meaning miners receive 50% fewer bitcoins for verifying transactions.</p>
-                       
-                        </div>
-                       
+                            <div className="col-4 mb-1">
+                                <img src={front} alt='Plutus' className="card-img-top" />
+                                {/* <img src={mining} alt='Plutus' className="card-img-top" /> */}
+                            </div>
+                            <div className="col-4">
+                                <p>Bitcoin is a scarce resource that's resistant to inflation. It's finite supply of 21 million and it's process called "halving", make this system deflationary. </p>
+
+                                <p>Only 3 million Bitcoin are left to be mined and every 4 years the reward for mining new blocks is halved, meaning miners receive 50% fewer bitcoins for verifying transactions.</p>
+
+                            </div>
+
                         </div>
 
                     </div>
                     <div className="container-fluid mt-2 ">
                         <div className="row">
 
-                        <div className="col-4">
-                        <p> Powerful machines and mining pools are used for mining. On average, the time it takes for all miner's computational power in the world to obtain 1 BTC "Bitcoin" is 10 minutes. This hard process is know as "Proof of Work".</p>
-                        <p >  </p>
-                        </div>
+                            <div className="col-4">
+                                <p> Powerful machines and mining pools are used for mining. On average, the time it takes for all miner's computational power in the world to obtain 1 BTC "Bitcoin" is 10 minutes. This hard process is know as "Proof of Work".</p>
+                                <p >  </p>
+                            </div>
 
-                        <div className="col-4 mb-2">
-                        <img src={mining} alt='Plutus' className="card-img-top" />
-                        {/* <img src={mining} alt='Plutus' className="card-img-top" /> */}
-                        </div>
-                        <div className="col-4">
-                        <p>This "halving" cycle is very important for speculators since the number of bitcoin produced are reduce and if the demand remains the same this means the price will increase substantially.</p>
-                        </div>
-                       
+                            <div className="col-4 mb-2">
+                                <img src={mining} alt='Plutus' className="card-img-top" />
+                                {/* <img src={mining} alt='Plutus' className="card-img-top" /> */}
+                            </div>
+                            <div className="col-4">
+                                <p>This "Halving" cycle is very important for speculators since the number of bitcoin produced are reduce and if the demand remains the same this means the price will increase substantially.</p>
+                            </div>
+
                         </div>
 
                     </div>
-
+                    <div className="container-fluid mt-2 ">
+                        <div className="row">
+                            <div className="col-8 mt-5">
+                                <img src={mkb} alt='Plutus' className="card-img-top" />
+                                <img src={bpc} alt='Plutus' className="card-img-top" style={{height:"240px"}} />
+                                {/* <img src={mining} alt='Plutus' className="card-img-top" /> */}
+                                <p>Bitcoin usually has a 4 year cycle . Where the "Bear" market transforms into a "Bull" market and then a bubble forms and the cycle continues. Bitcoin doesn't care about the price fluctuation, and it continues to to be more resistent and improve because it is decentralized.  </p>
+                            </div>
+                            
+                            <div className="col-4 mt-5">
+                            <p>In this example the price of one BTC "Bitcoin" is 8,500 USD </p>
+                            <p>Market Cap shows the size of how much money is flowing through the system at the particular time, in our case 156 B. USD </p>
+                            <p>You can take a look at what other cryptocurrencies look like and find more details about their all time high and price fluctuation.<a className=" btn-outline ml-4" target="_blank" rel="noopener noreferrer" href="https://coinranking.com/">Here</a> </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="container-fluid  ">
+                        <div className="row">
+                            
+                            <div className="col-8 ">
+                            <p>hhh  </p>
+                                {/* <img src={mkb} alt='Plutus' className="card-img-top" /> */}
+                                {/* <img src={mining} alt='Plutus' className="card-img-top" /> */}
+                            </div>
+                            
+                        </div>
+                    </div>
                     <p>hellou</p>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
                     <br></br>
                     {/* Social Icons */}
                     <div className="container mt-5 ">
@@ -97,6 +131,27 @@ class BitcoinD extends Component {
                         </div>
                     </div>
                 </HeaderDetails>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
                 <br></br>
                 <br></br>
                 <br></br>
@@ -158,10 +213,10 @@ class BitcoinD extends Component {
 
     }
 }
-        
-        
-         
-    
+
+
+
+
 export default BitcoinD;
 
 
