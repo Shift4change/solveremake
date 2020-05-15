@@ -33,7 +33,7 @@ class BitcoinD extends Component {
             <div>
                 {/* // <React.Fragment> */}
                 <HeaderDetails className="container-fluid align-items-center">
-                <h1 className="display-2 font-weight-bold "> <img src={front} alt='Plutus' className="card-img-top mb-5"style={{width:"150px", height:"150px"}}  />BITCOIN</h1>
+                <h1 className="display-2 font-weight-bold " id="front" >Bitcoin <img src={front} alt='Front'  className="card-img-top mt-2  mb-5"style={{width:"150px", height:"150px"}}  /></h1>
                
                  
                    
@@ -44,7 +44,7 @@ class BitcoinD extends Component {
 
 
                     <div className="container ">
-                        <div className="row mt-3">
+                        <div className="row mt-2">
                             <div className="col-10 col-lg-4 mx-auto mt-4 mb-5">
                                 <div className="card" style={{ width: "18rem" }}>
                                     <h3 className="card-title text-uppercase mt-3">Public Ledger</h3>
@@ -200,7 +200,7 @@ class BitcoinD extends Component {
                             </div>
                         </div>
                     </div>
-
+                    <br></br>
                 </HeaderDetails>
                 <br></br>
 
@@ -219,7 +219,7 @@ export default BitcoinD;
 
 const HeaderDetails = styled.header`
 background: linear-gradient(rgba(109,109,109), rgba(255,255,255));
-height: 380vh;
+height: 100%;
 /* text-transform: uppercase; */
 color: var(--mainWhite);
 text-align: center;
@@ -293,6 +293,11 @@ i:hover {
         align-self:start;
         display: table;
     }
-    
+    #front{
+      padding-top:42px;
+      padding-bottom:-15px;
+      
+    }
+   
 }
 `;
