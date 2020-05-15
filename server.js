@@ -25,7 +25,7 @@ if (process.env.NODE_ENV === "production") {
 //   { useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true }
 // );
 
-app.get("/api/contacts", (req, res) => {
+app.get("/contacts", (req, res) => {
   console.log('hello');
 })
 

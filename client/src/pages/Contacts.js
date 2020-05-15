@@ -27,7 +27,7 @@ import axios from "axios";
         e.preventDefault();
         console.log("handleformsubmit")
 
-        axios.get("/api/contacts")
+        axios.get("/contacts")
         .then(res => console.log(res))
         .catch(err => console.log(err))
         // axios.post("/api/contact", {name: "patrick", age: "10"})
