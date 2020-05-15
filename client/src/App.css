@@ -14,3 +14,9 @@ i.navbar-toggler-icon:focus {
 i.navbar-toggler-icon {
     border: none;
 }
+
+.contact-btn {
+    color: white !important;
+    background-color: green !important;
+    margin-top: 10px;
+}
