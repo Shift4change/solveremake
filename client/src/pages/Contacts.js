@@ -10,7 +10,9 @@ class Contacts extends Component {
             email: '',
             message: '',
             success: false,
-            error: false
+            error: false,
+            warn: false,
+            warnEmail: false
         }
     }
 
@@ -27,6 +29,14 @@ class Contacts extends Component {
 
     handleFormSubmit(e) {
         e.preventDefault();
+
+        if (!this.state.name || !this.state.email || !this.state.message) {
+            return this.warn();
+        }
+
+        if (!this.state.email.includes('@') || !this.state.email.includes('.')) {
+            return this.warnEmail();
+        }
 
         axios.post("/api/contact", this.state)
             .then(res => {
@@ -56,12 +66,29 @@ class Contacts extends Component {
             })
     }
 
+    warn() {
+        this.setState({ ...this.state, warn: true })
+
+        setTimeout(() => {
+            this.setState({ ...this.state, warn: false })
+        }, 3000)
+    }
+
+    warnEmail() {
+        this.setState({ ...this.state, warnEmail: true })
+
+        setTimeout(() => {
+            this.setState({ ...this.state, warnEmail: false })
+        }, 3000)
+    }
+
     render() {
         return (
             <section className="my-5 py-5">
                 <div className="container">
-                    {this.state.success ? <div class="alert alert-success" role="alert">
-                        Thank you for contacting us!</div> : ""}
+                    {this.state.warnEmail ? <div class="alert alert-warning" role="alert">Please provide a valid email address.</div> : ""}
+                    {this.state.warn ? <div class="alert alert-warning" role="alert">Please fill out all of the fields.</div> : ""}
+                    {this.state.success ? <div class="alert alert-success" role="alert">Thank you for contacting us!</div> : ""}
                     {this.state.error ? <div class="alert alert-danger" role="alert">Something went wrong. We did not receive your contact!</div> : ""}
                     <div className="well well-sm">
                         <h3><strong>Our Location</strong></h3>
