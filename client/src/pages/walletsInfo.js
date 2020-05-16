@@ -17,6 +17,7 @@ class Wallets extends Component {
                     <h1 className="display-1 font-weight-bold">dadsfd</h1>
                     <h4 className="display-5">dadasd</h4>
                     <p>hellou</p>
+                    <p>Transactions are irreversible so bubble check the address before sending funds.</p>
                     {/* Social Icons */}
                     <div className="container mt-5">
                         <div className="row justify-content-center">
