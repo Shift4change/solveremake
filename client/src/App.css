@@ -4,6 +4,7 @@
     --mainLightGrey: rgba(172, 172, 172);
     --mainWhite: #fff;
     --mainBlue: #007bff;
+    --mainBlack: rgb(7, 7, 7);
 }
 
 i.navbar-toggler-icon:focus {
