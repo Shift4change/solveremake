@@ -33,7 +33,7 @@ app.post("/api/contact", (req, res) => {
     from: 'solvestaking@gmail.com',
     to: 'solvestaking@gmail.com',
     subject: `Solve Staking Contact from ${req.body.name}`,
-    text: `Email: ${req.body.email}, \n \nMessage: ${req.body.message}`
+    text: `Name: ${req.body.name} \n \nEmail: ${req.body.email} \n \nMessage: ${req.body.message}`
   };
 
   transporter.sendMail(mailOptions, function (error, info) {
