@@ -24,6 +24,9 @@ import ep from "../components/assets/img/ep.svg"
 // https://www.youtube.com/watch?v=_nBlN9yp9R8
 // https://youtu.be/_nBlN9yp9R8
 
+
+ 
+
 class BitcoinD extends Component {
     render() {
 
@@ -140,7 +143,7 @@ class BitcoinD extends Component {
                                 <div className="card" style={{ width: "18rem" }}>
                                     <h3 className="card-title text-uppercase mt-3">Easy payments</h3>
                                    
-                                    <p id="wan">Wallet address: 3E9jdx5TmpGwPvV6M7itiAd33NBuJgXtoZ</p>
+                                    <p id="wan">Bitcoin address: 3E9jdx5TmpGwPvV6M7itiAd33NBuJgXtoZ</p>
                                     {/* <img src={wa1} alt='Bitcoin' className="card-img-top" style={{width:"250px", height:"100%"}} /> */}
                                     <div className="card-body">
 
