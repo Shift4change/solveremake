@@ -5,7 +5,16 @@
 
 }
 
-.navbar-toggler {
+  .navbar-toggler {
     border: none;
 
+}  
+#navsol{
+    width: 100%;
+    
+    position: fixed;
+    z-index: 100;
+    padding: 0.2rem 3px;
+    transition: padding 0.4s ease-in-out 0s, background-color 0.4s ease-in-out 0s;
+    border-bottom: 0.1rem solid rgba(255, 255, 255, 0.3);
 }
