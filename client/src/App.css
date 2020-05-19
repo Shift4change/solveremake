@@ -21,3 +21,11 @@ i.navbar-toggler-icon {
     background-color: green !important;
     margin-top: 10px;
 }
+
+.nav-search {
+    margin-right: 75px;
+}
+
+.nav-search-btn {
+    border-radius: 5px;
+}
