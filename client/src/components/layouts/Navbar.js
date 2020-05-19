@@ -10,7 +10,7 @@ import './Navbar.css'
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+    <nav id="navsol" className="navbar navbar-expand-lg navbar-light bg-dark">
       <a className="navbar-brand mx-5" href='#'><img src={logo} alt="logo" style={{ width: "98px" }} /> </a>
       <button
        className="navbar-toggler"

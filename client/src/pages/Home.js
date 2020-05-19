@@ -18,8 +18,8 @@ class Home extends Component {
     render() {
         return (
 
-            <div className="container">
-                <div className="row mt-5">
+            <div className="container pt-5 ">
+                <div className="row pt-5">
                     {/* <InfoConsumer>
                         {value => {
                             return value.info.map(item => {
@@ -29,7 +29,10 @@ class Home extends Component {
                     </InfoConsumer> */}
                     <div className="col-10 col-lg-4 mx-auto mb-5">
                         <div className="card" style={{ width: "18rem" }}>
-                            <img src={bitcoin} alt='Bitcoin'  className="card-img-top" />
+                        <Link  
+                                to="/bitcoin"
+                                className="hover"
+                                >  <img src={bitcoin}  alt='Bitcoin'  className="card-img-top" /> </Link>
                             <div className="card-body mb-4">
                                 <h3 className="card-title text-uppercase">Bitcoin</h3>
                                 {/* <h5 className="card-title">lalal</h5> */}
@@ -48,7 +51,10 @@ class Home extends Component {
                     </div>
                     <div className="col-10 col-lg-4 mx-auto mb-5">
                         <div className="card" style={{ width: "18rem" }}>
-                            <img src={ada} alt='ADA' className="card-img-top" />
+                        <Link  
+                                to="/ada"
+                                className="hover"
+                                > <img src={ada} alt='ADA' className="card-img-top" /></Link>
                             <div className="card-body mb-3">
                                 <h3 className="card-title text-uppercase">ADA</h3>
                                 {/* <h5 className="card-title">lalal</h5> */}
@@ -65,7 +71,10 @@ class Home extends Component {
                     </div>
                     <div className="col-10 col-lg-4 mx-auto mb-5">
                         <div className="card" style={{ width: "18rem" }}>
-                            <img src={cardano} alt='Cardano' className="card-img-top" />
+                        <Link  
+                                to="/cardano"
+                                className="hover"
+                                ><img src={cardano} alt='Cardano' className="card-img-top" /> </Link>
                             <div className="card-body">
                                 <h3 className="card-title text-uppercase">CARDANO</h3>
                                 {/* <h5 className="card-title">lalal</h5> */}
@@ -83,7 +92,10 @@ class Home extends Component {
                     </div>
                     <div className="col-10 col-lg-4 mx-auto mb-5">
                         <div className="card" style={{ width: "18rem" }}>
-                            <img src={exchanges} alt='Exchanges' className="card-img-top" />
+                        <Link  
+                                to="/exchanges"
+                                className="hover"
+                                ><img src={exchanges} alt='Exchanges' className="card-img-top" /></Link>
                             <div className="card-body">
                                 <h3 className="card-title text-uppercase">EXCHANGES</h3>
                                 {/* <h5 className="card-title">lalal</h5> */}
@@ -101,7 +113,10 @@ class Home extends Component {
                     </div>
                     <div className="col-10 col-lg-4 mx-auto mb-5">
                         <div className="card" style={{ width: "18rem" }}>
-                            <img src={wallets} alt='Plutus' className="card-img-top" />
+                        <Link  
+                                to="/wallets"
+                                className="hover"
+                                ><img src={wallets} alt='Plutus' className="card-img-top" /></Link>
                             <div className="card-body">
                                 <h3 className="card-title text-uppercase">WALLETS</h3>
                                 {/* <h5 className="card-title">lalal</h5> */}
@@ -119,7 +134,10 @@ class Home extends Component {
                     </div>
                     <div className="col-10 col-lg-4 mx-auto mb-5">
                         <div className="card" style={{ width: "18rem" }}>
-                            <img src={staking} alt='Plutus' className="card-img-top" />
+                        <Link  
+                                to="/staking"
+                                className="hover">
+                                <img src={staking} alt='Staking' className="card-img-top" /></Link>
                             <div className="card-body">
                                 <h3 className="card-title text-uppercase">TRY STAKING</h3>
                                 {/* <h5 className="card-title">lalal</h5> */}
@@ -137,7 +155,10 @@ class Home extends Component {
                     </div>
                     <div className="col-10 col-lg-4 mx-auto mb-5">
                         <div className="card" style={{ width: "18rem" }}>
-                            <img src={treasury} alt='Treasury' className="card-img-top" />
+                        <Link  
+                                to="/treasury"
+                                className="hover"
+                                ><img src={treasury} alt='Treasury' className="card-img-top" /></Link>
                             <div className="card-body">
                                 <h3 className="card-title text-uppercase">TREASURY</h3>
                                 {/* <h5 className="card-title">lalal</h5> */}

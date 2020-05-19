@@ -84,8 +84,8 @@ class Contacts extends Component {
 
     render() {
         return (
-            <section className="my-5 py-5">
-                <div className="container">
+            <section className="my- pt-5 py-5">
+                <div className="container pt-5">
                     {this.state.warnEmail ? <div class="alert alert-warning" role="alert">Please provide a valid email address.</div> : ""}
                     {this.state.warn ? <div class="alert alert-warning" role="alert">Please fill out all of the fields.</div> : ""}
                     {this.state.success ? <div class="alert alert-success" role="alert">Thank you for contacting us!</div> : ""}

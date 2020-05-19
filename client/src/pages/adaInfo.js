@@ -107,21 +107,21 @@ class AdaA extends Component {
 
                                         {/* <h5 className="card-title">lalal</h5> */}
 
-                                        <p className="card-text mb-5">The speed of Transactions are currently at 1000 tps this will increase over time. Being faster then Bitcoin and having low fees, ADA makes it possible to have control over your money and to transfer value anywhere in the world. Its cryptography makes it so that nobody can take your money or make a payment on your behalf. ADA can provide you with high security and financial freedom as long as you take your wallet's security seriously.  </p>
+                                        <p className="card-text mb-5">The speed of Transactions are currently at 1000 tps this will increase over time. Being faster then Bitcoin, having low fees and staking, make ADA an important asset that you can use to transfer value any time and anywhere  in the world. Its cryptography makes it so that nobody can take your money or make a payment on your behalf. ADA can provide you with high security and financial freedom as long as you take your wallet's security seriously.  </p>
 
                                     </div>
                                 </div>
                             </div>
                             <div className="col-10 col-lg-4 mx-auto mt-1 mb-5">
                                 <div className="card" style={{ width: "18rem" }}>
-                                    <h3 className="card-title text-uppercase mt-3">participants</h3>
+                                    <h3 className="card-title text-uppercase mt-3 mb-3 ">participants</h3>
                                     {/* <img src={bdp} alt='halving' className="card-img-top" style={{width:"200px" }} /> */}
-                                    <p id="wan">176.0008067 ADA</p>
-                                    <div className="card-body">
+                                    <p id="wan">3176.0008067 ADA</p>
+                                    <div className="card-body mb-3">
 
                                         {/* <h5 className="card-title">lalal</h5> */}
 
-                                        <p className="card-text mb-5">   ADA is a deflationary cryptocurrencie that has a fixed supply of 45b. ADA can be divided down to 8 decimal places. The smallest fraction is called a Lovelace. After getting your funds of the exchanges and secure your wallet, you will be able to earn ADA via Staking. Choosing one or multiple Staking Pools will be available to you in your Wallet.  You can start with a small amount before you get used to a wallet and exchanges.</p>
+                                        <p className="card-text mb-5">   ADA is a deflationary cryptocurrency that has a fixed supply and can be divided down to 8 decimal places. The smallest fraction is called a Lovelace.  Getting your funds of the exchanges and creating your wallet, will put you in control. Choosing one or multiple Staking Pools will be available to you in your Wallet.  You can start with a small amount before you get used to a wallet and exchanges.</p>
 
                                     </div>
                                 </div>
@@ -247,6 +247,7 @@ height: 100%;
 /* text-transform: uppercase; */
 color: var(--mainWhite);
 text-align: center;
+padding-left:0px;
 
 h1 {
     padding-top: 3%;

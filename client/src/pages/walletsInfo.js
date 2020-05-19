@@ -64,7 +64,7 @@ class Wallets extends Component {
                         {/* About Place Tab */}
                         <div id="aboutPlace" className="tab-pane in active text-center" role="tabpanel">
                             <h2 className="mb-3">dsadas</h2>
-                            <p>hellou</p>
+                            <p>The Byron era also saw the delivery of the Daedalus wallet, IOHK's official desktop wallet for ada, as well as Yoroi, a light wallet from IOHK's sister company Emurgo designed for quick transactions and day-to-day use.</p>
                             <img src="" alt="" className="img-thumbnail img-fluid" />
                         </div>
                         {/* reviews */}

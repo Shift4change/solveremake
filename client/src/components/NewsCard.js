@@ -7,13 +7,16 @@ import { Link } from "react-router-dom"
         return (
             <InfoConsumer>
                 {value => (
-                    <div className="card container mt-2 mb-3 p-5">
+                    <div className="container  pt-5">
+
+                    <div className="card container pt-5 mb-3 p-5">
                         <div className="card-body">
                             <h5 key={id} className ="card-title">{newsTitle}</h5>
                             <p className="card-text">{newsText}</p>
                        <Link className ="card-link">Learn More</Link>
                         </div>
                     </div>
+                  </div>
         )}
             </InfoConsumer>
         )
