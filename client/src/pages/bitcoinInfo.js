@@ -14,6 +14,7 @@ import hp from "../components/assets/img/hlvingprice.png"
 import wa from "../components/assets/img/wa.png"
 import wa1 from "../components/assets/img/wa1.png"
 import bdp from "../components/assets/img/bdp.png"
+import blogo from "../components/assets/img/blogo.png"
 import ledger from "../components/assets/img/ledger.svg"
 import miners from "../components/assets/img/miners.svg"
 import dg from "../components/assets/img/dg.svg"
@@ -22,6 +23,9 @@ import ob from "../components/assets/img/ob.svg"
 import ep from "../components/assets/img/ep.svg"
 // https://www.youtube.com/watch?v=_nBlN9yp9R8
 // https://youtu.be/_nBlN9yp9R8
+
+
+ 
 
 class BitcoinD extends Component {
     render() {
@@ -33,7 +37,7 @@ class BitcoinD extends Component {
             <div>
                 {/* // <React.Fragment> */}
                 <HeaderDetails className="container-fluid align-items-center">
-                <h1 className="display-2 font-weight-bold " id="front" >Bitcoin <img src={front} alt='Front'  className="card-img-top mt-2  mb-5"style={{width:"150px", height:"150px"}}  /></h1>
+                <h1 className="display-2 font-weight-bold " id="front" > <img src={blogo} alt='Front'  className="card-img-top    mb-5"style={{width:"150px", height:"150px",marginTop:"-1px",marginRight:"-20px" ,paddingLeft:"2px",paddingRight:"2px"}}/>itcoin</h1>
                
                  
                    
@@ -124,7 +128,7 @@ class BitcoinD extends Component {
                             </div>
                             <div className="col-10 col-lg-4 mx-auto mt-1 mb-5">
                                 <div className="card" style={{ width: "18rem" }}>
-                                    <h3 className="card-title text-uppercase mt-3">Part of the 1%</h3>
+                                    <h3 className="card-title text-uppercase mt-3">Be part of the 1%</h3>
                                     <img src={bdp} alt='halving' className="card-img-top" style={{width:"200px" }} />
                                     <div className="card-body">
 
@@ -139,7 +143,7 @@ class BitcoinD extends Component {
                                 <div className="card" style={{ width: "18rem" }}>
                                     <h3 className="card-title text-uppercase mt-3">Easy payments</h3>
                                    
-                                    <p id="wan">Wallet address: 3E9jdx5TmpGwPvV6M7itiAd33NBuJgXtoZ</p>
+                                    <p id="wan">Bitcoin address: 3E9jdx5TmpGwPvV6M7itiAd33NBuJgXtoZ</p>
                                     {/* <img src={wa1} alt='Bitcoin' className="card-img-top" style={{width:"250px", height:"100%"}} /> */}
                                     <div className="card-body">
 
@@ -226,6 +230,8 @@ text-align: center;
 
 h1 {
     padding-top: 3%;
+    padding-right:14px;
+    margin-left:3px;
     color: var(--mainDark);
 }
 h2{
@@ -282,11 +288,17 @@ i:hover {
 .nav-item {
     height: 18.75rem;
 }
+.front{
+    padding-left:5px;
+}
 
 
 
 @media(max-width: 760px) {
-    h1,h4{
+    h1{
+        font-size:0;
+    }
+    h4{
         color:var(--mainWhite)
     }
     p{
@@ -294,7 +306,7 @@ i:hover {
         display: table;
     }
     #front{
-      padding-top:42px;
+      padding-top:52px;
       padding-bottom:-15px;
       
     }
