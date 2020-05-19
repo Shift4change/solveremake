@@ -31,7 +31,7 @@ class AdaA extends Component {
             <div>
                 {/* // <React.Fragment> */}
                 <HeaderDetails className="container-fluid align-items-center">
-                <h1 className="display-2 font-weight-bold pt-5 " id="front" > <img src={ada} alt='Front' id="ada" className="card-img-top mt-2  mb-5"style={{width:"150px", height:"150px"}}  />DA</h1>
+                <h1 className="display-2 font-weight-bold pt- " id="front" > <img src={ada} alt='Front' id="ada" className="card-img-top mt-2  mb-5"style={{width:"150px", height:"150px"}}  />DA</h1>
                    
                 <br></br>
                 <div className="container ">
@@ -251,6 +251,7 @@ padding-left:0px;
 
 h1 {
     padding-top: 3%;
+    margin-bottom: -2%;
     padding-right:14px;
     margin-left:3px;
     color: var(--mainBlack);
@@ -285,7 +286,7 @@ p {
      margin-right:-16px;
  }
  #front{
-     padding-top:2px;
+     padding-top:6%;
  }
 img {
     align-self:center;
