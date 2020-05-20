@@ -263,7 +263,8 @@ text-align: center;
 padding-left:0px;
 
 h1 {
-    padding-top: 3%;
+    padding-top: 6%;
+    margin-bottom: -1%;
     padding-right:14px;
     margin-left:3px;
     color: var(--mainDark);
