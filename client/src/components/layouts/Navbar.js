@@ -25,10 +25,16 @@ class Navbar extends Component {
     console.log(this.state.search)
   }
 
+  handleFormSubmit(e) {
+    e.preventDefault();
+    // window.location.href="/" + this.state.search;
+
+  }
+
   render() {
     return (
       <nav id="navsol" className="navbar navbar-expand-lg navbar-light bg-dark">
-        <a  className="navbar-brand mx-5" href='#'><img src={logo} alt="logo" style={{ width: "98px" }} /> </a>
+        <a className="navbar-brand mx-5" href='#'><img src={logo} alt="logo" style={{ width: "98px" }} /> </a>
         <button
           className="navbar-toggler"
           type="button"
@@ -61,9 +67,11 @@ class Navbar extends Component {
             </li>
 
           </ul>
-          <form className="form-inline my-2 my-lg-0   nav-search">
-            <input onChange={(e) => this.handleInputChange(e)} className="form-control mr-sm-2 " type="search" name="search" placeholder="Search" aria-label="Search" value={this.state.search} />
-            <Link className="nav-link text-white text-uppercase bg-primary nav-search-btn" to={"/" + this.state.search}>Search</Link>
+          <form className="form-inline my-2 my-lg-0 nav-search">
+            <input onChange={(e) => this.handleInputChange(e)} className="form-control mr-sm-2" type="search" name="search" placeholder="Search" aria-label="Search" value={this.state.search} />
+            <Link className="nav-link text-white text-uppercase bg-primary nav-search-btn" to={"/" + this.state.search}>
+              <button type="submit" className="btn btn-primary">Search</button>
+            </Link>
             {/* <button className="btn btn-outline-primary my-2 my-sm-0" type="submit"></button> */}
           </form>
         </div>
