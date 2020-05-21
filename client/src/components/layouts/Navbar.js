@@ -44,7 +44,7 @@ class Navbar extends Component {
 
         </button>
 
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <div className="collapse navbar-collapse " id="navbarSupportedContent">
           <ul className="navbar-nav m-auto">
             <li className="nav-item active">
               <Link className="nav-link text-white text-uppercase ml-5" to="/">
@@ -56,13 +56,13 @@ class Navbar extends Component {
         </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link text-white text-uppercase ml-5" to="/contacts"><img src={shop} alt="home" style={{ width: "25px", marginTop: "-7px" }} />Shop
+              <Link className="nav-link text-white text-uppercase ml-5 " to="/contacts"><img src={shop} alt="home" style={{ width: "25px", marginTop: "-7px" }} />Shop
         </Link>
             </li>
 
           </ul>
-          <form className="form-inline my-2 my-lg-0 nav-search">
-            <input onChange={(e) => this.handleInputChange(e)} className="form-control mr-sm-2" type="search" name="search" placeholder="Search" aria-label="Search" value={this.state.search} />
+          <form className="form-inline my-2 my-lg-0   nav-search">
+            <input onChange={(e) => this.handleInputChange(e)} className="form-control mr-sm-2 " type="search" name="search" placeholder="Search" aria-label="Search" value={this.state.search} />
             <Link className="nav-link text-white text-uppercase bg-primary nav-search-btn" to={"/" + this.state.search}>Search</Link>
             {/* <button className="btn btn-outline-primary my-2 my-sm-0" type="submit"></button> */}
           </form>
