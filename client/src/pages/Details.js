@@ -6,93 +6,99 @@ import YouTube from "react-youtube";
 class Details extends Component {
     render() {
         return (
-            <InfoConsumer>
-                {data => {
-                    const {
-                        id,
-                        headerTitle,
-                        headerSubtitle,
-                        headerText,
-                        img,
-                        title,
-                        maps,
-                        description
+            <>
+                <InfoConsumer>
+                    {data => {
+                        const {
+                            id,
+                            headerTitle,
+                            headerSubtitle,
+                            headerText,
+                            img,
+                            title,
+                            maps,
+                            description
 
-                    } = data.detailInfo;
+                        } = data.detailInfo;
 
 
-                    return (
-                        <div>
-                        {/* // <React.Fragment> */}
-                            <HeaderDetails className="container-fluid align-items-center">
-                                <h1 className="display-1 font-weight-bold">{headerTitle}</h1>
-                                <h4 className="display-5">{headerSubtitle}</h4>
-                                <p>{headerText}</p>
-                                {/* Social Icons */}
-                                <div className="container mt-5">
-                                    <div className="row justify-content-center">
-                                        <div className="col-2">
-                                            <i className="fab fa-facebook"></i>
-
+                        return (
+                            <div>
+                                {/* // <React.Fragment> */}
+                                <HeaderDetails className="container-fluid align-items-center">
+                                    <h1 className="display-1 font-weight-bold">{headerTitle}</h1>
+                                    <h4 className="display-5">{headerSubtitle}</h4>
+                                    <p>{headerText}</p>
+                                    {/* Social Icons */}
+                                    <div className="container mt-5">
+                                        <div className="row justify-content-center">
+                                            <div className="col-2">
+                                                <i className="fab fa-facebook"></i>
+                                            </div>
+                                            <div className="col-2">
+                                                <i className="fab fa-twitter"></i>
+                                            </div>
+                                            <div className="col-2">
+                                                <i className="fab fa-google-plus-g" />
+                                            </div>
+                                            <div className="col-2">
+                                                <i className="fab fa-reddit" />
+                                            </div>
+                                            <div className="col-2">
+                                                <i className="fab fa-whatsapp" />
+                                            </div>
+                                            <div className="col-2">
+                                                <i className="fab fa-facebook-messenger" />
+                                            </div>
                                         </div>
-                                        <div className="col-2">
-                                            <i className="fab fa-twitter"></i>
+                                    </div>
+                                </HeaderDetails>
+                                {/* {Navlinks} */}
+                                <div className="container">
+                                    <ul className="nav nav-tabs">
+                                        {/* About Place Link */}
+                                        <li className="nav-item">
+                                            <a href="#aboutPlace" className="nav-link active" role="tab" data-toggle="tab">About</a>
+                                        </li>
+                                        {/* Reviews link */}
+                                        <li className="nav-item">
+                                            <a href="#reviews" className="nav-link" role="tab" data-toggle="tab">Reviews</a>
+                                        </li>
+                                        {/* Map link */}
+                                        <li className="nav-item">
+                                            <a href="#map" className="nav-link" role="tab" data-toggle="tab">videos</a>
+                                        </li>
+                                    </ul>
+                                    {/* Tab Pane */}
+                                    <div className="tab-content mb-5">
+                                        {/* About Place Tab */}
+                                        <div id="aboutPlace" className="tab-pane in active text-center" role="tabpanel">
+                                            <h2 className="mb-3">{title}</h2>
+                                            <p>{description}</p>
+                                            <img src={img} alt={title} className="img-thumbnail img-fluid" />
                                         </div>
-                                        <div className="col-2">
-                                            <i className="fab fa-google-plus-g" />
+                                        {/* reviews */}
+                                        <div className="tab-pane" id="reviews" role="tabpanel">
+                                            <Reviews />
                                         </div>
-                                        <div className="col-2">
-                                            <i className="fab fa-reddit" />
-                                        </div>
-                                        <div className="col-2">
-                                            <i className="fab fa-whatsapp" />
-                                        </div>
-                                        <div className="col-2">
-                                            <i className="fab fa-facebook-messenger" />
+                                        {/* Map */}
+                                        <div className="tab-pane" id="map" role="tabpanel">
+                                            {/* <iframe src={maps} style={{ border: '0', height: '28.125rem', width: "100%", frameborder: '0' }}></iframe> */}
+                                            <div className="container d-flex justify-content-center mt-5">
+                                                <iframe width="420" height="315"
+                                                    src="https://www.youtube.com/embed/8UVNT4wvIGY">
+                                                </iframe>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </HeaderDetails>
-                            {/* {Navlinks} */}
-                            <div className="container">
-                                <ul className="nav nav-tabs">
-                                    {/* About Place Link */}
-                                    <li className="nav-item">
-                                        <a href="#aboutPlace" className="nav-link active" role="tab" data-toggle="tab">About</a>
-                                    </li>
-                                    {/* Reviews link */}
-                                    <li className="nav-item">
-                                        <a href="#reviews" className="nav-link" role="tab" data-toggle="tab">Reviews</a>
-                                    </li>
-                                    {/* Map link */}
-                                    <li className="nav-item">
-                                        <a href="#map" className="nav-link" role="tab" data-toggle="tab">videos</a>
-                                    </li>
-                                </ul>
-                                {/* Tab Pane */}
-                                <div className="tab-content mb-5">
-                                    {/* About Place Tab */}
-                                    <div id="aboutPlace" className="tab-pane in active text-center" role="tabpanel">
-                                        <h2 className="mb-3">{title}</h2>
-                                        <p>{description}</p>
-                                        <img src={img} alt={title} className="img-thumbnail img-fluid" />
-                                    </div>
-                                    {/* reviews */}
-                                    <div className="tab-pane" id="reviews" role="tabpanel">
-                                        <Reviews />
-                                    </div>
-                                    {/* Map */}
-                                    <div className="tab-pane" id="map" role="tabpanel">
-                                        <iframe src={maps} style={{ border: '0', height: '28.125rem', width: "100%", frameborder: '0' }}></iframe>
-                                    </div>
-                                </div>
                             </div>
-                            </div>
-                        // </React.Fragment>
-                    );
+                            // </React.Fragment>
+                        );
 
-                }}
-            </InfoConsumer>
+                    }}
+                </InfoConsumer>
+            </>
         )
     }
 }
