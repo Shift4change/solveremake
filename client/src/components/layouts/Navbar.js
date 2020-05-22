@@ -67,10 +67,10 @@ class Navbar extends Component {
             </li>
 
           </ul>
-          <form className="form-inline my-2 my-lg-0 nav-search">
+          <form className="form-inline my-2 my-lg-0 nav-search ">
             <input onChange={(e) => this.handleInputChange(e)} className="form-control mr-sm-2" type="search" name="search" placeholder="Search" aria-label="Search" value={this.state.search} />
             <Link to={"/" + this.state.search}> 
-              <button type="submit" className="btn text-white bg-primary my-2 my-sm-0 nav-search-btn ">Search</button>
+              <button type="submit" className="btn text-white bg-primary my-2 my-sm-0  nav-search-btn ">Search</button>
             </Link>
             {/* <button className="btn btn-outline-primary my-2 my-sm-0" type="submit"></button> */}
           </form>
