@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import { InfoConsumer } from "../components/context";
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import Reviews from "../components/Reviews";
 import YouTube from "react-youtube"
 import Led from "../components/assets/img/LedgerNanoS.jpg"
-import Da from "../components/assets/img/daedalus.png"
+import Da from "../components/assets/img/Daedalus.png"
 import yoroi from "../components/assets/img/yoroi.png"
 class Wallets extends Component {
     render() {
@@ -20,12 +21,12 @@ class Wallets extends Component {
                     <div className="container mt-5">
                         <div className="row justify-content-center">
                             <div className="col-2">
-                            <a  href="/exchanges">
-                            <i id="left" class="fas fa-arrow-left"> </i> </a>
+                            <Link to="/exchanges">
+                            <i id="left" class="fas fa-arrow-left"> </i> </Link>
                                 </div>
                                 <div className="col-2">
-                                    <a href="/staking">
-                            <i id="right" class="fas fa-arrow-right"></i></a>
+                                    <Link to="/staking">
+                            <i id="right" class="fas fa-arrow-right"></i></Link>
                                 </div>
                                 </div>
                                 </div>

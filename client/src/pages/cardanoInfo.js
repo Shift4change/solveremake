@@ -29,12 +29,12 @@ class CardanoC extends Component {
                     <div className="container mt-2">
                         <div className="row justify-content-center">
                             <div className="col-2">
-                            <a  href="/ada">
-                            <i id="left" class="fas fa-arrow-left"> </i> </a>
+                            <Link to="/ada">
+                            <i id="left" class="fas fa-arrow-left"> </i> </Link>
                                 </div>
                                 <div className="col-2">
-                                    <a href="/exchanges">
-                            <i id="right" class="fas fa-arrow-right"></i></a>
+                                    <Link to="/exchanges">
+                            <i id="right" class="fas fa-arrow-right"></i></Link>
                                 </div>
                                 </div>
                                 </div>
@@ -261,7 +261,7 @@ following the voting process.</p>
                         </li>
                         {/* Map link */}
                         <li className="nav-item">
-                            <a href="#map" className="nav-link" role="tab" data-toggle="tab">videos</a>
+                            <a href="#video" className="nav-link" role="tab" data-toggle="tab">Videos</a>
                         </li>
                     </ul>
                     {/* Tab Pane */}
@@ -279,8 +279,13 @@ A major innovation of Cardano is that it will balance the needs of users with th
                             <Reviews />
                         </div>
                         {/* Map */}
-                        <div className="tab-pane" id="map" role="tabpanel">
-                            <iframe src="" style={{ border: '0', height: '28.125rem', width: "100%", frameborder: '0' }}></iframe>
+                        <div className="tab-pane" id="video" role="tabpanel">
+                            {/* <iframe src="" style={{ border: '0', height: '28.125rem', width: "100%", frameborder: '0' }}></iframe> */}
+                            <div className="container d-flex justify-content-center mt-5">
+                                <iframe width="420" height="315"
+                                    src="https://www.youtube.com/embed/M1EocqtPDVE">
+                                </iframe>
+                            </div>
                         </div>
                     </div>
                 </div>

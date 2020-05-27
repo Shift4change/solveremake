@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { InfoConsumer } from "../components/context";
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import Reviews from "../components/Reviews";
 import YouTube from "react-youtube";
@@ -22,12 +23,12 @@ class ExchangesE extends Component {
                       <div className="container mt-2">
                         <div className="row justify-content-center">
                             <div className="col-2">
-                            <a  href="/cardano">
-                            <i id="left" class="fas fa-arrow-left"> </i> </a>
+                            <Link to="/cardano">
+                            <i id="left" class="fas fa-arrow-left"> </i> </Link>
                                 </div>
                                 <div className="col-2">
-                                    <a href="/wallets">
-                            <i id="right" class="fas fa-arrow-right"></i></a>
+                                    <Link to="/wallets">
+                            <i id="right" class="fas fa-arrow-right"></i></Link>
                                 </div>
                                 </div>
                                 </div>
