@@ -5,7 +5,7 @@ import styled from 'styled-components';
 import Reviews from "../components/Reviews";
 import YouTube from "react-youtube"
 import Led from "../components/assets/img/LedgerNanoS.jpg"
-import Da from "../components/assets/img/daedalus.png"
+import Da from "../components/assets/img/Daedalus.png"
 import yoroi from "../components/assets/img/yoroi.png"
 class Wallets extends Component {
     render() {

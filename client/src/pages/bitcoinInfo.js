@@ -218,7 +218,7 @@ class BitcoinD extends Component {
                     <ul className="nav nav-tabs">
                         {/* About Place Link */}
                         <li className="nav-item">
-                            <a href="#aboutPlace" className="nav-link active " role="tab" data-toggle="tab">Videos</a>
+                            <a href="#video" className="nav-link active " role="tab" data-toggle="tab">Videos</a>
                         </li>
                         {/* Reviews link */}
                         <li className="nav-item">
@@ -226,13 +226,13 @@ class BitcoinD extends Component {
                         </li>
                         {/* Map link */}
                         <li className="nav-item">
-                            <a href="#video" className="nav-link" role="tab" data-toggle="tab">About</a>
+                            <a href="#about" className="nav-link" role="tab" data-toggle="tab">About</a>
                         </li>
                     </ul>
                     {/* Tab Pane */}
                     <div className="tab-content mb-5">
                         {/* About Place Tab */}
-                        <div id="aboutPlace" className="tab-pane in active text-center" role="tabpanel">
+                        <div id="video" className="tab-pane in active text-center" role="tabpanel">
                         <div className="container">
                                 <div className="row">
                                     <div className="container col-10 col-lg-6 d-flex justify-content-center mt-5">
@@ -254,7 +254,7 @@ class BitcoinD extends Component {
                             <Reviews />
                         </div>
                         {/* Map */}
-                        <div className="tab-pane" id="video" role="tabpanel">
+                        <div className="tab-pane" id="about" role="tabpanel">
                             {/* <iframe src="" style={{ border: '0', height: '28.125rem', width: "100%", frameborder: '0' }}></iframe>
                      */}
                             <h2 className="mb-3">PROOF OF WORK AND MINING</h2>
