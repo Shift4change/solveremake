@@ -37,10 +37,17 @@ class BitcoinD extends Component {
             <div>
                 {/* // <React.Fragment> */}
                 <HeaderDetails className="container-fluid align-items-center">
-                    <h1 className="display-2 font-weight-bold " id="front" > <img src={blogo} alt='Front' className="card-img-top    mb-5" style={{ width: "150px", height: "150px", marginTop: "-1px", marginRight: "-20px", paddingLeft: "2px", paddingRight: "2px" }} />itcoin</h1>
+                    <h1 className="display-2 font-weight-bold  " id="front" > <img src={blogo} alt='Front' className="card-img-top    mb-2" style={{ width: "150px", height: "150px", marginTop: "-45px", marginRight: "-20px", paddingLeft: "2px", paddingRight: "2px" }} />itcoin</h1>
 
 
 
+                    <div className="row justify-content-center">
+
+                        <div className="col-2">
+                            <Link to="/ada">
+                                <i id="right" class="fas fa-arrow-right"></i></Link>
+                        </div>
+                    </div>
 
                     {/* <h4 className="display-6 mb-2">Digital Gold /  Public Ledger</h4> */}
                     <br></br>
@@ -196,11 +203,10 @@ class BitcoinD extends Component {
                             <div className="col-2">
                                 <i className="fab fa-reddit" />
                             </div>
-                            <div className="col-2">
-                                <i className="fab fa-whatsapp" />
-                            </div>
-                            <div className="col-2">
-                                <i className="fab fa-facebook-messenger" />
+                            {/* Map */}
+                            <div className="tab-pane" id="map" role="tabpanel">
+                                {/* <iframe src="" style={{ border: '0', height: '28.125rem', width: "100%", frameborder: '0' }}></iframe>
+                             */}
                             </div>
                         </div>
                     </div>
@@ -220,7 +226,7 @@ class BitcoinD extends Component {
                         </li>
                         {/* Map link */}
                         <li className="nav-item">
-                            <a href="#map" className="nav-link" role="tab" data-toggle="tab">videos</a>
+                            <a href="#video" className="nav-link" role="tab" data-toggle="tab">Videos</a>
                         </li>
                     </ul>
                     {/* Tab Pane */}
@@ -236,18 +242,18 @@ class BitcoinD extends Component {
                             <Reviews />
                         </div>
                         {/* Map */}
-                        <div className="tab-pane" id="map" role="tabpanel">
+                        <div className="tab-pane" id="video" role="tabpanel">
                             {/* <iframe src="" style={{ border: '0', height: '28.125rem', width: "100%", frameborder: '0' }}></iframe>
-                             */}
+                     */}
                             <div className="container d-flex justify-content-center mt-5">
                                 <iframe width="420" height="315"
-                                    src="https://www.youtube.com/embed/8UVNT4wvIGY">
+                                    src="https://www.youtube.com/embed/EDyQEUZ0PlY">
                                 </iframe>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div >
             // </React.Fragment>
         );
 
@@ -325,12 +331,30 @@ i:hover {
    color: var(--mainBlue);
    cursor:pointer;
 }
+#right{
+    font-size:45px;
+    margin-top:-76px;
+    padding-left: -16px;
+    margin-left: 488px;
+    position:fixed;
+}
+#left{
+    font-size:45px;
+    margin-left:-440px;
+    margin-top:-85px;
+    padding-left:12px;
+    position:fixed;
+}
 
 .nav-item {
     height: 18.75rem;
 }
 .front{
     padding-left:5px;
+}
+#front{
+    padding-top:89px;
+    margin-top:px;
 }
 
 

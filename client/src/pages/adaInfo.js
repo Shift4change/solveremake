@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { InfoConsumer } from "../components/context";
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import Reviews from "../components/Reviews";
 import YouTube from "react-youtube"
@@ -32,10 +33,21 @@ class AdaA extends Component {
                 {/* // <React.Fragment> */}
                 <HeaderDetails className="container-fluid align-items-center">
                 <h1 className="display-2 font-weight-bold pt- " id="front" > <img src={ada} alt='Front' id="ada" className="card-img-top mt-2  mb-5"style={{width:"150px", height:"150px"}}  />DA</h1>
-                   
+                <div className="container mt-2">
+                        <div className="row justify-content-center">
+                            <div className="col-2">
+                            <Link to="/bitcoin">
+                            <i id="left" class="fas fa-arrow-left"> </i> </Link>
+                                </div>
+                                <div className="col-2">
+                                    <Link to="/cardano">
+                            <i id="right" class="fas fa-arrow-right"></i></Link>
+                                </div>
+                                </div>
+                                </div>
                 <br></br>
                 <div className="container ">
-                        <div className="row mt-2">
+                        <div className="row mt-">
                             <div className="col-10 col-lg-4 mx-auto mt-4 mb-5">
                                 <div className="card" style={{ width: "18rem" }}>
                                     <h3 className="card-title text-uppercase mt-3">Blockchain</h3>
@@ -254,7 +266,7 @@ h1 {
     margin-bottom: -2%;
     padding-right:14px;
     margin-left:3px;
-    color: var(--mainBlack);
+    color: var(--mainDark);
     
 }
 h2{
@@ -311,6 +323,20 @@ i {
 i:hover {
    color: var(--mainBlue);
    cursor:pointer;
+}
+#right{
+    font-size:45px;
+    margin-top:-100px;
+    padding-left: -16px;
+    margin-left: 413px;
+    position:fixed;
+}
+#left{
+    font-size:45px;
+    margin-left:-450px;
+    margin-top:-100px;
+    padding-left:12px;
+    position:fixed;
 }
 
 .nav-item {
