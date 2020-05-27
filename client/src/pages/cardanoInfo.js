@@ -283,7 +283,7 @@ A major innovation of Cardano is that it will balance the needs of users with th
                             {/* <iframe src="" style={{ border: '0', height: '28.125rem', width: "100%", frameborder: '0' }}></iframe> */}
                             <div className="container d-flex justify-content-center mt-5">
                                 <iframe width="420" height="315"
-                                    src="https://www.youtube.com/embed/M1EocqtPDVE">
+                                    src="https://www.youtube.com/embed/M1EocqtPDVE" allowfullscreen="true">
                                 </iframe>
                             </div>
                         </div>

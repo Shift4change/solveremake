@@ -247,7 +247,7 @@ class BitcoinD extends Component {
                      */}
                             <div className="container d-flex justify-content-center mt-5">
                                 <iframe width="420" height="315"
-                                    src="https://www.youtube.com/embed/EDyQEUZ0PlY">
+                                    src="https://www.youtube.com/embed/EDyQEUZ0PlY" allowfullscreen="true">
                                 </iframe>
                             </div>
                         </div>
