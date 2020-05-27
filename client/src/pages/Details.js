@@ -84,11 +84,11 @@ class Details extends Component {
                                         {/* Map */}
                                         <div className="tab-pane" id="map" role="tabpanel">
                                             {/* <iframe src={maps} style={{ border: '0', height: '28.125rem', width: "100%", frameborder: '0' }}></iframe> */}
-                                            <div className="container d-flex justify-content-center mt-5">
+                                            {/* <div className="container d-flex justify-content-center mt-5">
                                                 <iframe width="420" height="315"
                                                     src="https://www.youtube.com/embed/8UVNT4wvIGY">
                                                 </iframe>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 </div>

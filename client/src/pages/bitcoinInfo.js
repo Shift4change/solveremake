@@ -25,7 +25,7 @@ import ep from "../components/assets/img/ep.svg"
 // https://youtu.be/_nBlN9yp9R8
 
 
- 
+
 
 class BitcoinD extends Component {
     render() {
@@ -37,10 +37,10 @@ class BitcoinD extends Component {
             <div>
                 {/* // <React.Fragment> */}
                 <HeaderDetails className="container-fluid align-items-center">
-                <h1 className="display-2 font-weight-bold " id="front" > <img src={blogo} alt='Front'  className="card-img-top    mb-5"style={{width:"150px", height:"150px",marginTop:"-1px",marginRight:"-20px" ,paddingLeft:"2px",paddingRight:"2px"}}/>itcoin</h1>
-               
-                 
-                   
+                    <h1 className="display-2 font-weight-bold " id="front" > <img src={blogo} alt='Front' className="card-img-top    mb-5" style={{ width: "150px", height: "150px", marginTop: "-1px", marginRight: "-20px", paddingLeft: "2px", paddingRight: "2px" }} />itcoin</h1>
+
+
+
 
                     {/* <h4 className="display-6 mb-2">Digital Gold /  Public Ledger</h4> */}
                     <br></br>
@@ -72,7 +72,7 @@ class BitcoinD extends Component {
                                         {/* <h5 className="card-title">lalal</h5> */}
 
                                         <p className="card-text">Powerful machines and mining pools are used for mining. On average, the time it takes for all miner's computational power in the world to solve and obtain one new block is 10 minutes. Each block will give the miners a reward. This hard process is know as "Proof of Work" </p>
-                                       
+
 
                                     </div>
                                 </div>
@@ -105,10 +105,10 @@ class BitcoinD extends Component {
                             </div>
                             <div className="col-10 col-lg-4 mx-auto mt-1 mb-5">
                                 <div className="card" style={{ width: "18rem" }}>
-                                   
-                                    
+
+
                                     <div className="card-body">
-                                    <img src={hp} alt='halving' style={{ width: "260px", height: "385px" }} className="card-img-top mb-3" />
+                                        <img src={hp} alt='halving' style={{ width: "260px", height: "385px" }} className="card-img-top mb-3" />
 
                                     </div>
                                 </div>
@@ -129,7 +129,7 @@ class BitcoinD extends Component {
                             <div className="col-10 col-lg-4 mx-auto mt-1 mb-5">
                                 <div className="card" style={{ width: "18rem" }}>
                                     <h3 className="card-title text-uppercase mt-3">Be part of the 1%</h3>
-                                    <img src={bdp} alt='halving' className="card-img-top" style={{width:"200px" }} />
+                                    <img src={bdp} alt='halving' className="card-img-top" style={{ width: "200px" }} />
                                     <div className="card-body">
 
                                         {/* <h5 className="card-title">lalal</h5> */}
@@ -142,7 +142,7 @@ class BitcoinD extends Component {
                             <div className="col-10 col-lg-4 mx-auto mt-1 ">
                                 <div className="card" style={{ width: "18rem" }}>
                                     <h3 className="card-title text-uppercase mt-3">Easy payments</h3>
-                                   
+
                                     <p id="wan">Bitcoin address: 3E9jdx5TmpGwPvV6M7itiAd33NBuJgXtoZ</p>
                                     {/* <img src={wa1} alt='Bitcoin' className="card-img-top" style={{width:"250px", height:"100%"}} /> */}
                                     <div className="card-body">
@@ -150,23 +150,23 @@ class BitcoinD extends Component {
                                         {/* <h5 className="card-title">lalal</h5> */}
 
                                         <p id="wap" className="card-text mb-2 ">Using Bitcoin for big transaction is very easy. No need for a credit card, e-mail or in some cases to reveal your identity. There are no banks to make you wait 3-7 business days for the transaction to be compleat. You just need a address or a QR code to send or receive funds.</p>
-                                        <img src={wa} alt='wallet address' id="wa" className="card-img-top" style={{width:"78px", height:"100%"}} />
+                                        <img src={wa} alt='wallet address' id="wa" className="card-img-top" style={{ width: "78px", height: "100%" }} />
                                     </div>
                                 </div>
                             </div>
                             <div className="col-10 col-lg-4 mx-auto mt-1 mb-4">
                                 <div className="card" style={{ width: "18rem" }}>
                                     <h3 className="card-title text-uppercase mt-5">Getting Started</h3>
-                                  <p>Having control over your money is a great responsibility. </p>
+                                    <p>Having control over your money is a great responsibility. </p>
                                     <div className="card-body mb-4">
-                                    <ul className="list-unstyled">
-                                        <li >First you will need a <a href="/wallets">wallet</a> </li>
-                                        
-                                    <li>Second choose an <a href="/exchanges">exchange</a> </li>
-                                    
-                                </ul>
-                          
-                                
+                                        <ul className="list-unstyled">
+                                            <li >First you will need a <a href="/wallets">wallet</a> </li>
+
+                                            <li>Second choose an <a href="/exchanges">exchange</a> </li>
+
+                                        </ul>
+
+
 
                                         {/* <h5 className="card-title">lalal</h5> */}
 
@@ -175,7 +175,7 @@ class BitcoinD extends Component {
                                     </div>
                                 </div>
                             </div>
-                            
+
 
                         </div>
 
@@ -207,8 +207,8 @@ class BitcoinD extends Component {
                     <br></br>
                 </HeaderDetails>
                 <br></br>
-                 {/* {Navlinks} */}
-                 <div className="container">
+                {/* {Navlinks} */}
+                <div className="container">
                     <ul className="nav nav-tabs">
                         {/* About Place Link */}
                         <li className="nav-item">
@@ -237,7 +237,13 @@ class BitcoinD extends Component {
                         </div>
                         {/* Map */}
                         <div className="tab-pane" id="map" role="tabpanel">
-                            <iframe src="" style={{ border: '0', height: '28.125rem', width: "100%", frameborder: '0' }}></iframe>
+                            {/* <iframe src="" style={{ border: '0', height: '28.125rem', width: "100%", frameborder: '0' }}></iframe>
+                             */}
+                            <div className="container d-flex justify-content-center mt-5">
+                                <iframe width="420" height="315"
+                                    src="https://www.youtube.com/embed/8UVNT4wvIGY">
+                                </iframe>
+                            </div>
                         </div>
                     </div>
                 </div>
