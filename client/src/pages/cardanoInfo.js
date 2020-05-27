@@ -3,6 +3,7 @@ import { InfoConsumer } from "../components/context";
 import styled from 'styled-components';
 import Reviews from "../components/Reviews";
 import YouTube from "react-youtube"
+import { Link } from 'react-router-dom';
 import logo from "../components/assets/img/cardanologo.svg"
 import carwall from "../components/assets/img/cardano-wall.jpg"
 import carwall2 from "../components/assets/img/cardano-wall2.jpg"
@@ -22,10 +23,21 @@ class CardanoC extends Component {
             <div>
                 {/* // <React.Fragment> */}
                 <HeaderDetails className="container-fluid align-items-center pt-5">
-                    <h1 className="display-2 font-weight-bold pt-5 " id="front" > <img src={logo} alt='Front' id="logo" className="card-img-top mt-2  mb-5" style={{ width: "150px", height: "150px" }} />Cardano</h1>
+                    <h1 className="display-2 font-weight-bold pt-5 " id="front" > <img src={logo} alt='Front' id="logo" className="card-img-top mt-2  mb-" style={{ width: "150px", height: "150px" }} />Cardano</h1>
                     {/* <h4 className="display-5 align-left" >Eras of Cardano</h4> */}
                     {/* <hr></hr> */}
-
+                    <div className="container mt-2">
+                        <div className="row justify-content-center">
+                            <div className="col-2">
+                            <a  href="/ada">
+                            <i id="left" class="fas fa-arrow-left"> </i> </a>
+                                </div>
+                                <div className="col-2">
+                                    <a href="/exchanges">
+                            <i id="right" class="fas fa-arrow-right"></i></a>
+                                </div>
+                                </div>
+                                </div>
                     <br></br>
                     <div className="container ">
                         <div className="row mt-">
@@ -104,7 +116,7 @@ class CardanoC extends Component {
                                             decentralized than other large blockchain networks and enjoy greater security as a result.
 
                                             Shelley will also see the introduction of a delegation and incentives scheme, a reward system to drive stake pools and community adoption, making
-Cardano more useful, rewarding, and valuable for all users.</p>
+Cardano more useful, more rewarding, and valuable for all users.</p>
                                     </div>
                                 </div>
                             </div>
@@ -347,12 +359,26 @@ i:hover {
    color: var(--mainBlue);
    cursor:pointer;
 }
+#right{
+    font-size:45px;
+    margin-top:-120px;
+    padding-left: -16px;
+    margin-left: 413px;
+    position:fixed;
+}
+#left{
+    font-size:45px;
+    margin-left:-450px;
+    margin-top:-120px;
+    padding-left:12px;
+    position:fixed;
+}
 #logo{
     margin-left: -85px;
     padding-left: 0px;
     padding-bottom: 17px;
     margin-right: -1px;
-    
+    color:black;
 }
 
 /* #logo{
