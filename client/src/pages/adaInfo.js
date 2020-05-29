@@ -32,8 +32,8 @@ class AdaA extends Component {
             <div>
                 {/* // <React.Fragment> */}
                 <HeaderDetails className="container-fluid align-items-center">
-                <h1 className="display-2 font-weight-bold pt- " id="front" > <img src={ada} alt='Front' id="ada" className="card-img-top mt-2  mb-5"style={{width:"150px", height:"150px"}}  />DA</h1>
-                <div className="container mt-2">
+                <h1 className="display-2 font-weight-bold " id="front" > <img src={ada} alt='Front' id="ada" className="card-img-top mt-2  mb-5"style={{width:"150px", height:"150px"}}  /></h1>
+                <div className="container ">
                         <div className="row justify-content-center">
                             <div className="col-2">
                             <Link to="/bitcoin">
@@ -196,14 +196,14 @@ class AdaA extends Component {
                             <div className="col-2">
                                 <i className="fab fa-reddit" />
                             </div>
-                            <div className="col-2">
-                                <i className="fab fa-whatsapp" />
-                            </div>
-                            <div className="col-2">
-                                <i className="fab fa-facebook-messenger" />
+                            {/* Map */}
+                            <div className="tab-pane" id="map" role="tabpanel">
+                                {/* <iframe src="" style={{ border: '0', height: '28.125rem', width: "100%", frameborder: '0' }}></iframe>
+                             */}
                             </div>
                         </div>
                     </div>
+                    <br></br>
                 </HeaderDetails>
                 <br></br>
                 {/* {Navlinks} */}
@@ -211,36 +211,53 @@ class AdaA extends Component {
                     <ul className="nav nav-tabs">
                         {/* About Place Link */}
                         <li className="nav-item">
-                            <a href="#aboutPlace" className="nav-link active" role="tab" data-toggle="tab">About</a>
+                            <a href="#video" className="nav-link active " role="tab" data-toggle="tab">Videos</a>
                         </li>
                         {/* Reviews link */}
                         <li className="nav-item">
-                            <a href="#reviews" className="nav-link" role="tab" data-toggle="tab">Reviews</a>
+                            <a href="#reviews" className="nav-link" role="tab" data-toggle="tab">Questions</a>
                         </li>
                         {/* Map link */}
                         <li className="nav-item">
-                            <a href="#map" className="nav-link" role="tab" data-toggle="tab">videos</a>
+                            <a href="#about" className="nav-link" role="tab" data-toggle="tab">About</a>
                         </li>
                     </ul>
                     {/* Tab Pane */}
                     <div className="tab-content mb-5">
                         {/* About Place Tab */}
-                        <div id="aboutPlace" className="tab-pane in active text-center" role="tabpanel">
-                            <h2 className="mb-3">videos</h2>
-                            <p>youtube</p>
-                            <img src="" alt="" className="img-thumbnail img-fluid" />
+                        <div id="video" className="tab-pane in active text-center" role="tabpanel">
+                        <div className="container">
+                                <div className="row">
+                                    <div className="container col-10 col-lg-6 d-flex justify-content-center mt-5">
+                                        <iframe width="420" height="315"
+                                            src="https://www.youtube.com/embed/EDyQEUZ0PlY" allowfullscreen="true">
+                                        </iframe>
+                                    </div>
+                                    <div className="container col-10 col-lg-6 d-flex justify-content-center mt-5">
+                                        <iframe width="420" height="315"
+                                            src="https://www.youtube.com/embed/UlKZ83REIkA" allowfullscreen="true">
+                                        </iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            
                         </div>
                         {/* reviews */}
                         <div className="tab-pane" id="reviews" role="tabpanel">
                             <Reviews />
                         </div>
                         {/* Map */}
-                        <div className="tab-pane" id="map" role="tabpanel">
-                            <iframe src="" style={{ border: '0', height: '28.125rem', width: "100%", frameborder: '0' }}></iframe>
+                        <div className="tab-pane" id="about" role="tabpanel">
+                            {/* <iframe src="" style={{ border: '0', height: '28.125rem', width: "100%", frameborder: '0' }}></iframe>
+                     */}
+                            <h2 className="mb-3">PROOF OF WORK AND MINING</h2>
+                            <p>Proof of work is the most common consensus algorithm type for cryptocurrencies. It originated in Bitcoin, and this is how this cryptocurrency works. To generate proof of work, a computer has to solve a challenge. The challenge is a computationally heavy problem which is hard to solve, but the solution is easy to verify. When a computer on a proof of work based network finds a solution, it publishes it along with the transactions that the computer has been observing while cracking the problem. The owner of this computer collects the transaction fees and a reward for generating a block. The entire process is called mining. Mining is very energy consuming, and the amount of energy needed is constantly increasing, which can lead to unsound competition.</p>
+                            <img src="" alt="" className="img-thumbnail img-fluid" />
+
                         </div>
                     </div>
                 </div>
-            </div>
+            </div >
             // </React.Fragment>
         );
 
@@ -254,7 +271,7 @@ export default AdaA;
 
 
 const HeaderDetails = styled.header`
-background: linear-gradient(rgba(109,109,109), rgba(255,255,255));
+background: linear-gradient(rgba(141,122,137), rgba(255,255,255));
 height: 100%;
 /* text-transform: uppercase; */
 color: var(--mainWhite);
@@ -304,7 +321,7 @@ img {
     align-self:center;
     width:50px;
     height:50px;
-    padding-top: 4%;
+    padding-top: 3%;
     padding-left: 2%;
     padding-right: 2%;
 }
@@ -338,6 +355,7 @@ i:hover {
     padding-left:12px;
     position:fixed;
 }
+
 
 .nav-item {
     height: 18.75rem;

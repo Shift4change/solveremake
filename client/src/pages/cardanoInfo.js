@@ -23,21 +23,21 @@ class CardanoC extends Component {
             <div>
                 {/* // <React.Fragment> */}
                 <HeaderDetails className="container-fluid align-items-center pt-5">
-                    <h1 className="display-2 font-weight-bold pt-5 " id="front" > <img src={logo} alt='Front' id="logo" className="card-img-top mt-2  mb-" style={{ width: "150px", height: "150px" }} />Cardano</h1>
+                    <h1 className=" display-2 font-weight-bold pt-5 " id="front" > <img src={logo} alt='Front' id="logo" className="card-img-top mt-2  mb-3" style={{ width: "150px", height: "150px" }} />Cardano</h1>
                     {/* <h4 className="display-5 align-left" >Eras of Cardano</h4> */}
                     {/* <hr></hr> */}
                     <div className="container mt-2">
                         <div className="row justify-content-center">
                             <div className="col-2">
-                            <Link to="/ada">
-                            <i id="left" class="fas fa-arrow-left"> </i> </Link>
-                                </div>
-                                <div className="col-2">
-                                    <Link to="/exchanges">
-                            <i id="right" class="fas fa-arrow-right"></i></Link>
-                                </div>
-                                </div>
-                                </div>
+                                <Link to="/ada">
+                                    <i id="left" class="fas fa-arrow-left"> </i> </Link>
+                            </div>
+                            <div className="col-2">
+                                <Link to="/exchanges">
+                                    <i id="right" class="fas fa-arrow-right"></i></Link>
+                            </div>
+                        </div>
+                    </div>
                     <br></br>
                     <div className="container ">
                         <div className="row mt-">
@@ -195,19 +195,19 @@ following the voting process.</p>
                                     <div className="card-body "  >
 
                                         <ul className="list-unstyled" id="aca"  >
-                                            <li style={{ margingTop:"-40px", paddingTop:"-40px"}} >IOHK Library  <a target="_blank" rel="noopener noreferrer" href="https://www.iohk.io/en/research/library/">Academic Research</a> </li>
+                                            <li style={{ margingTop: "-40px", paddingTop: "-40px" }} >IOHK Library  <a target="_blank" rel="noopener noreferrer" href="https://www.iohk.io/en/research/library/">Academic Research</a> </li>
 
                                         </ul>
                                         <h3 className="card-title text-uppercase mb-4 mt-3">developed</h3>
                                         <p>In collaboration with the research team, a technical prototyping team experiments with implementations of the functions and approach described in the research.</p>
 
-                                        
+
                                         <p>IOHK engineers make great use of formal development methods: rigorous, mathematical techniques for testing that software works exactly as intended. Functional programming languages are used, most notably Haskell, since they are easier to test and verify.</p>
                                         <ul className="list-unstyled" id=""  >
-                                            <li style={{ margingTop:"-40px", paddingTop:"-40px"}} > View  <a target="_blank" rel="noopener noreferrer" href="https://iohk.io/en/team/"> the IOHK Team</a> </li>
+                                            <li style={{ margingTop: "-40px", paddingTop: "-40px" }} > View  <a target="_blank" rel="noopener noreferrer" href="https://iohk.io/en/team/"> the IOHK Team</a> </li>
 
                                         </ul>
-                                        
+
 
 
                                         {/* <h5 className="card-title">lalal</h5> */}
@@ -236,12 +236,7 @@ following the voting process.</p>
                             <div className="col-2">
                                 <i className="fab fa-reddit" />
                             </div>
-                            <div className="col-2">
-                                <i className="fab fa-whatsapp" />
-                            </div>
-                            <div className="col-2">
-                                <i className="fab fa-facebook-messenger" />
-                            </div>
+
                         </div>
                     </div>
                 </HeaderDetails>
@@ -251,44 +246,85 @@ following the voting process.</p>
                     <ul className="nav nav-tabs">
                         {/* About Place Link */}
                         <li className="nav-item">
-                            <a href="#aboutPlace" className="nav-link active" role="tab" data-toggle="tab">About</a>
+                            <a href="video" className="nav-link active" role="tab" data-toggle="tab">Cardano</a>
                             <h1></h1>
 
                         </li>
                         {/* Reviews link */}
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <a href="#reviews" className="nav-link" role="tab" data-toggle="tab">Reviews</a>
-                        </li>
+                        </li> */}
                         {/* Map link */}
                         <li className="nav-item">
-                            <a href="#video" className="nav-link" role="tab" data-toggle="tab">Videos</a>
+                            <a href="#aboutPlace" className="nav-link" role="tab" data-toggle="tab">About</a>
+                        </li>
+                        <li className="nav-item">
+                            <a href="#academic" className="nav-link" role="tab" data-toggle="tab">Academic </a>
                         </li>
                     </ul>
                     {/* Tab Pane */}
                     <div className="tab-content mb-5">
                         {/* About Place Tab */}
-                        <div id="aboutPlace" className="tab-pane in active text-center" role="tabpanel">
-                            <h2 className="mb-3">Cardano</h2>
-                            <p>This is the first blockchain project to be developed from a scientific philosophy, and the only one to be designed and built by a global team of leading academics and engineers. It is essential that the technology is secure, flexible and scalable for use by many millions of users. Consequently, considerable thought and care from some of the leading experts in their fields has been devoted to the project and informed design decisions. The scientific rigour applied to mission-critical systems such as aerospace and banking has been brought to the field of cryptocurrencies, with a high assurance implementation. We believe this is the first time that this has been done.
-
-A major innovation of Cardano is that it will balance the needs of users with those of regulators, and in doing so combine privacy with regulation. The vision for Cardano is that its new style of regulated computing will bring greater financial inclusion by providing open access for all to fair financial services.</p>
-                            <img src="" alt="" className="img-thumbnail img-fluid" />
+                        <div className="tab-pane" id="video" className="tab-pane in active text-center" role="tabpanel">
+                            {/* <iframe src="" style={{ border: '0', height: '28.125rem', width: "100%", frameborder: '0' }}></iframe> */}
+                            <div className="container">
+                                <div className="row">
+                                    <div className="container col-10 col-lg-6 d-flex justify-content-center mt-5">
+                                        <iframe width="420" height="315"
+                                            src="https://www.youtube.com/embed/M1EocqtPDVE" allowfullscreen="true">
+                                        </iframe>
+                                    </div>
+                                    <div className="container col-10 col-lg-6 d-flex justify-content-center mt-5">
+                                        <iframe width="420" height="315"
+                                            src="https://www.youtube.com/embed/Ja9D0kpksxw" allowfullscreen="true">
+                                        </iframe>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         {/* reviews */}
                         <div className="tab-pane" id="reviews" role="tabpanel">
                             <Reviews />
                         </div>
                         {/* Map */}
-                        <div className="tab-pane" id="video" role="tabpanel">
-                            {/* <iframe src="" style={{ border: '0', height: '28.125rem', width: "100%", frameborder: '0' }}></iframe> */}
-                            <div className="container d-flex justify-content-center mt-5">
-                                <iframe width="420" height="315"
-                                    src="https://www.youtube.com/embed/M1EocqtPDVE" allowfullscreen="true">
-                                </iframe>
+                        <div id="aboutPlace" className="tab-pane in  text-center" role="tabpanel">
+                            <h2 className="mb-3">Cardano</h2>
+                            <p>This is the first blockchain project to be developed from a scientific philosophy, and the only one to be designed and built by a global team of leading academics and engineers. It is essential that the technology is secure, flexible and scalable for use by many millions of users. Consequently, considerable thought and care from some of the leading experts in their fields has been devoted to the project and informed design decisions. The scientific rigour applied to mission-critical systems such as aerospace and banking has been brought to the field of cryptocurrencies, with a high assurance implementation. We believe this is the first time that this has been done.
+
+A major innovation of Cardano is that it will balance the needs of users with those of regulators, and in doing so combine privacy with regulation. The vision for Cardano is that its new style of regulated computing will bring greater financial inclusion by providing open access for all to fair financial services.</p>
+                            <img src="" alt="" className="img-thumbnail img-fluid" />
+                        </div>
+
+                        {/* {/*Academic*?}} */}
+                        <div className="tab-pane" id="academic" role="tabpanel">
+                            <div className="container">
+                                <div className="row">
+                                    {/* <iframe src="" style={{ border: '0', height: '28.125rem', width: "100%", frameborder: '0' }}></iframe> */}
+                                    <div className="container col-10 col-lg-4 d-flex justify-content-center mt-5">
+                                        <iframe width="420" height="315"
+                                            src="https://www.youtube.com/embed/wsBBog2rCzY" allowfullscreen="true">
+                                        </iframe>
+                                    </div>
+                                    <div className="container col-10 col-lg-4 d-flex justify-content-center mt-5">
+                                        <iframe width="420" height="315"
+                                            src="https://www.youtube.com/embed/nB6eDbnkAk8" allowfullscreen="true">
+                                        </iframe>
+                                    </div>
+                                    <div className="container col-10 col-lg-4 d-flex justify-content-center mt-5">
+                                        <iframe width="420" height="315"
+                                            src="https://www.youtube.com/embed/PoNaw-Mtxgo" allowfullscreen="true">
+                                        </iframe>
+                                    </div>
+                                   
+                                </div>
                             </div>
                         </div>
+                     
+
                     </div>
+
                 </div>
+
             </div>
             // </React.Fragment>
         );
@@ -303,7 +339,7 @@ export default CardanoC;
 
 
 const HeaderDetails = styled.header`
-background: linear-gradient(rgba(109,109,109), rgba(255,255,255));
+background: linear-gradient(rgba(109,161,179), rgba(255,255,255));
 height: 100%;
 /* text-transform: uppercase; */
 color: var(--mainWhite);
@@ -379,11 +415,14 @@ i:hover {
     position:fixed;
 }
 #logo{
-    margin-left: -85px;
+    margin-left: -122px;
     padding-left: 0px;
     padding-bottom: 17px;
     margin-right: -1px;
-    color:black;
+   
+}
+.fill{
+    color:#555;
 }
 
 /* #logo{

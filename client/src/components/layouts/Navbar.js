@@ -57,12 +57,12 @@ class Navbar extends Component {
                 <img src={home} alt="home" style={{ width: "25px", marginTop: "-7px" }} /> Home <span className="sr-only">(current)</span>
               </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link className="nav-link text-white text-uppercase ml-5" to="/altmedia">Alt. Media
         </Link>
-            </li>
+            </li> */}
             <li className="nav-item">
-              <Link className="nav-link text-white text-uppercase ml-5 " to="/contacts"><img src={shop} alt="home" style={{ width: "25px", marginTop: "-7px" }} />Shop
+              <Link className="nav-link text-white text-uppercase ml-5 " to="/contacts"><img src={shop} alt="home" style={{ width: "25px", marginTop: "-7px" }} />Contact us
         </Link>
             </li>
 

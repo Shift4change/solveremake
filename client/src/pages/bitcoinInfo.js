@@ -37,7 +37,7 @@ class BitcoinD extends Component {
             <div>
                 {/* // <React.Fragment> */}
                 <HeaderDetails className="container-fluid align-items-center">
-                    <h1 className="display-2 font-weight-bold  " id="front" > <img src={blogo} alt='Front' className="card-img-top    mb-2" style={{ width: "150px", height: "150px", marginTop: "-45px", marginRight: "-20px", paddingLeft: "2px", paddingRight: "2px" }} />itcoin</h1>
+                    <h1 className="display-2 font-weight-bold  " id="front" > <img src={blogo} alt='Front' className="card-img-top mt-2   mb-" style={{ width: "150px", height: "150px", marginTop: "-45px", marginRight: "-20px", paddingLeft: "2px", paddingRight: "2px", paddingTop:"0px" }} /></h1>
 
 
 
@@ -54,7 +54,7 @@ class BitcoinD extends Component {
                     {/* <br></br> */}
 
 
-                    <div className="container ">
+                    <div className="container pt-2 ">
                         <div className="row mt-2">
                             <div className="col-10 col-lg-4 mx-auto mt-4 mb-5">
                                 <div className="card" style={{ width: "18rem" }}>
@@ -344,7 +344,7 @@ i:hover {
 }
 #right{
     font-size:45px;
-    margin-top:-76px;
+    margin-top:-100px;
     padding-left: -16px;
     margin-left: 488px;
     position:fixed;

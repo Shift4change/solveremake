@@ -6,7 +6,7 @@ import Reviews from "../components/Reviews";
 import YouTube from "react-youtube";
 import block from "../components/assets/img/exchanges.png"
 import carda from "../components/assets/img/crypto-exchanges-cardano.png"
-
+import hall from "../components/assets/img/hall.png"
 class ExchangesE extends Component {
     render() {
 
@@ -16,8 +16,8 @@ class ExchangesE extends Component {
         return (
             <div>
                 {/* // <React.Fragment> */}
-                <HeaderDetails className="container-fluid align-items-center pt-3">
-                    <h1 className="display-2 text-center  font-weight-bold"> exchanges</h1>
+                <HeaderDetails className="container-fluid align-items-center pt-">
+                    <h1 className="display-3 text-center  font-weight-bold  "><img src={hall} alt='Front' id="ada" className="card-img-top   "style={{width:"150px", height:"150px", paddingTop: "29px", marginTop:"-60px"}}  /> Exchanges</h1>
                     {/* <h4 className="display-5">dadasd</h4>
                     <p>hellou</p> */}
                       <div className="container mt-2">
@@ -35,7 +35,7 @@ class ExchangesE extends Component {
                     <div className="container-fluid mt-3 pt-5">
                         <div className="row">
 
-                            <div id="cont" className="card container col-10 col-lg-10 mx-auto mt-1 pt-2 mb-1 p-1">
+                            <div id="cont" className="card container col-10 col-lg-10 mx-auto mt-1 pt-2 mb-1 p-1" >
 
                                 <div className="card-body">
                                     {/* <h5 className="card-title text-center">Exchanges</h5> */}
@@ -123,12 +123,7 @@ class ExchangesE extends Component {
                             <div className="col-2">
                                 <i className="fab fa-reddit" />
                             </div>
-                            <div className="col-2">
-                                <i className="fab fa-whatsapp" />
-                            </div>
-                            <div className="col-2">
-                                <i className="fab fa-facebook-messenger" />
-                            </div>
+                            
                         </div>
                     </div>
                     <br></br>
@@ -149,15 +144,15 @@ export default ExchangesE;
 
 
 const HeaderDetails = styled.header`
-background: linear-gradient(rgba(109,109,109), rgba(255,255,255));
+background: linear-gradient(rgba(94,96,197), rgba(255,255,255));
 height: 100%;
-text-transform: uppercase;
+/* text-transform: uppercase; */
 color: var(--mainWhite);
 text-align: center;
 padding-left:12px;
 
 h1 {
-    padding-top: 10%;
+    padding-top: 11%;
     color: var(--mainDark);
 }
 h3{
@@ -171,6 +166,10 @@ h4 {padding-right:2px;
 h5{vertical-align: left;
     color: var(--mainDark);
 }
+/* #cont{
+   
+    background-color: #F86;
+} */
 img{
     height:100%;
 }
