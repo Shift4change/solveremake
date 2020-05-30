@@ -43,10 +43,11 @@ class BitcoinD extends Component {
 
                     <div className="row justify-content-center">
 
-                        <div className="col-2">
+                        <div className="col-2 col-lg-2">
                             <Link to="/ada">
                                 <i id="right" class="fas fa-arrow-right"></i></Link>
                         </div>
+                      
                     </div>
 
                     {/* <h4 className="display-6 mb-2">Digital Gold /  Public Ledger</h4> */}
@@ -57,7 +58,7 @@ class BitcoinD extends Component {
                     <div className="container pt-2 ">
                         <div className="row mt-2">
                             <div className="col-10 col-lg-4 mx-auto mt-4 mb-5">
-                                <div className="card" style={{ width: "18rem" }}>
+                                <div className="card" >
                                     <h3 className="card-title text-uppercase mt-3">Public Ledger</h3>
                                     <img src={ledger} alt='Bitcoin' className="card-img-top" />
                                     <div className="card-body">
@@ -71,21 +72,21 @@ class BitcoinD extends Component {
                             </div>
 
                             <div className="col-10 col-lg-4 mx-auto mt-4 mb-5">
-                                <div className="card" style={{ width: "18rem" }}>
+                                <div className="card">
                                     <h3 className="card-title text-uppercase mt-3">Miners</h3>
                                     <img src={miners} alt='Bitcoin' className="card-img-top" />
                                     <div className="card-body">
 
                                         {/* <h5 className="card-title">lalal</h5> */}
 
-                                        <p className="card-text">Powerful machines and mining pools are used for mining. On average, the time it takes for all miner's computational power in the world to solve and obtain one new block is 10 minutes. Each block will give the miners a reward. This hard process is know as "Proof of Work" </p>
+                                        <p id="2" className="card-text">Powerful machines and mining pools are used for mining. On average, the time it takes for all miner's computational power in the world to solve and obtain one new block is 10 minutes. Each block will give the miners a reward. This hard process is know as "Proof of Work" </p>
 
 
                                     </div>
                                 </div>
                             </div>
                             <div className="col-10 col-lg-4 mx-auto mt-4 mb-5">
-                                <div className="card" style={{ width: "18rem" }}>
+                                <div className="card" >
                                     <h3 className="card-title text-uppercase mt-3">Digital Gold</h3>
                                     <img src={dg} alt='Bitcoin' className="card-img-top" />
                                     <div className="card-body">
@@ -98,7 +99,7 @@ class BitcoinD extends Component {
                                 </div>
                             </div>
                             <div className="col-10 col-lg-4 mx-auto mt-1 mb-5">
-                                <div className="card" style={{ width: "18rem" }}>
+                                <div className="card" >
                                     <h3 className="card-title text-uppercase mt-3">Halving</h3>
                                     <img src={bh} alt='Bitcoin' className="card-img-top" />
                                     <div className="card-body">
@@ -111,7 +112,7 @@ class BitcoinD extends Component {
                                 </div>
                             </div>
                             <div className="col-10 col-lg-4 mx-auto mt-1 mb-5">
-                                <div className="card" style={{ width: "18rem" }}>
+                                <div className="card" >
 
 
                                     <div className="card-body">
@@ -121,7 +122,7 @@ class BitcoinD extends Component {
                                 </div>
                             </div>
                             <div className="col-10 col-lg-4 mx-auto mt-1 mb-5">
-                                <div className="card" style={{ width: "18rem" }}>
+                                <div className="card" >
                                     <h3 className="card-title text-uppercase mt-3">Be your own Bank</h3>
                                     <img src={ob} alt='Bitcoin' className="card-img-top" />
                                     <div className="card-body">
@@ -134,7 +135,7 @@ class BitcoinD extends Component {
                                 </div>
                             </div>
                             <div className="col-10 col-lg-4 mx-auto mt-1 mb-5">
-                                <div className="card" style={{ width: "18rem" }}>
+                                <div className="card" >
                                     <h3 className="card-title text-uppercase mt-3">Be part of the 1%</h3>
                                     <img src={bdp} alt='halving' className="card-img-top" style={{ width: "200px" }} />
                                     <div className="card-body">
@@ -147,7 +148,7 @@ class BitcoinD extends Component {
                                 </div>
                             </div>
                             <div className="col-10 col-lg-4 mx-auto mt-1 ">
-                                <div className="card" style={{ width: "18rem" }}>
+                                <div className="card" >
                                     <h3 className="card-title text-uppercase mt-3">Easy payments</h3>
 
                                     <p id="wan">Bitcoin address: 3E9jdx5TmpGwPvV6M7itiAd33NBuJgXtoZ</p>
@@ -162,7 +163,7 @@ class BitcoinD extends Component {
                                 </div>
                             </div>
                             <div className="col-10 col-lg-4 mx-auto mt-1 mb-4">
-                                <div className="card" style={{ width: "18rem" }}>
+                                <div id="card" className="card" >
                                     <h3 className="card-title text-uppercase mt-5">Getting Started</h3>
                                     <p>Having control over your money is a great responsibility. </p>
                                     <div className="card-body mb-4">
@@ -346,7 +347,7 @@ i:hover {
     font-size:45px;
     margin-top:-100px;
     padding-left: -16px;
-    margin-left: 488px;
+    margin-left: 471px;
     position:fixed;
 }
 #left{
@@ -388,4 +389,41 @@ i:hover {
     }
    
 }
+
+
+
+
+
+
+
+
+
+
+@media(width: 1440px) {
+
+#right{
+font-size:45px;
+margin-top:-100px;
+padding-left: -16px;
+margin-left: 590px;
+position:fixed;
+}
+#front{margin-left:-50px;
+    
+}
+
+.card{
+    width:21rem;
+}
+
+#2{ margin-bottom:22px;
+   
+
+}
+
+}
+
+
+
+
 `;

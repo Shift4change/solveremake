@@ -27,7 +27,7 @@ class Home extends Component {
                             })
                         }}
                     </InfoConsumer> */}
-                    <div className="col-10 col-lg-4 mx-auto mb-5">
+                    <div className="col-10 col-lg-4 col-xl-3 col-md-3 mx-auto mb-5">
                         <div className="card" style={{ width: "18rem" }}>
                         <Link  
                                 to="/bitcoin"
@@ -49,7 +49,7 @@ class Home extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="col-10 col-lg-4 mx-auto mb-5">
+                    <div className="col-10 col-lg-4 col-xl-3 mx-auto mb-5">
                         <div className="card" style={{ width: "18rem" }}>
                         <Link  
                                 to="/ada"
@@ -69,7 +69,7 @@ class Home extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="col-10 col-lg-4 mx-auto mb-5">
+                    <div className="col-10 col-lg-4 col-xl-3 mx-auto mb-5">
                         <div className="card" style={{ width: "18rem" }}>
                         <Link  
                                 to="/cardano"

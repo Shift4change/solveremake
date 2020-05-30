@@ -450,5 +450,38 @@ i:hover {
     margin-right: 0px;
     
 }
+
 }
+
+
+
+@media(max-width: 1440px) {
+    #right{
+    font-size:45px;
+    margin-top:-119px;
+    padding-left: -16px;
+    margin-left: 513px;
+    position:fixed;
+    }
+    #left {
+    font-size: 45px;
+    margin-left: -562px;
+    margin-top: -119px;
+    padding-left: 12px;
+    position: fixed;
+}
+    
+    #front{
+        margin-left:-86px;
+    }
+    #logo{
+        padding-right:10px;
+        margin-right:10px;
+
+    }
+}
+
+
+
+
 `;

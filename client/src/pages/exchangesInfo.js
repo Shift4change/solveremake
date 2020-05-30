@@ -321,4 +321,39 @@ i:hover {
     padding-right: 0px;
    
 }
+}
+
+@media(max-width: 1440px) {
+    #right{
+        color:black;
+    font-size:45px;
+    margin-top:-119px;
+    padding-left: -16px;
+    margin-left: 300px;
+    position:fixed;
+    }
+    #left {
+    font-size: 45px;
+    margin-left: -562px;
+    margin-top: -119px;
+    padding-left: 12px;
+    position: fixed;
+}
+@media(max-width: 1024px) {
+    #right{
+    font-size:45px;
+    margin-top:-119px;
+    padding-left: -16px;
+    margin-left: 40px;
+    position:fixed;
+    }
+    #left {
+        font-size: 41px;
+    margin-left: -438px;
+    margin-top: -119px;
+    padding-left: 12px;
+    position: fixed;
+}
+}
+}
 `;

@@ -369,4 +369,20 @@ i:hover {
         color:var(--mainWhite)
     }
 }
+@media(max-width: 1440px) {
+    #right{
+    font-size:45px;
+    margin-top:-119px;
+    padding-left: -16px;
+    margin-left: 513px;
+    position:fixed;
+    }
+    #left {
+    font-size: 45px;
+    margin-left: -562px;
+    margin-top: -119px;
+    padding-left: 12px;
+    position: fixed;
+}
+}
 `;
