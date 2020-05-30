@@ -14,9 +14,9 @@ class StakingS extends Component {
             <div>
                 {/* // <React.Fragment> */}
                 <HeaderDetails className="container-fluid align-items-center">
-                    <h1 className="display-1 font-weight-bold">dadsfd</h1>
-                    <h4 className="display-5">dadasd</h4>
-                    <p>hellou</p>
+                    <h1 className="display-1 font-weight-bold">Staking will be available August 18</h1>
+                    {/* <h4 className="display-5">dadasd</h4> */}
+                    {/* <p>hellou</p> */}
                     {/* Social Icons */}
                     <div className="container mt-5">
                         <div className="row justify-content-center">
@@ -62,8 +62,8 @@ class StakingS extends Component {
                     <div className="tab-content mb-5">
                         {/* About Place Tab */}
                         <div id="aboutPlace" className="tab-pane in active text-center" role="tabpanel">
-                            <h2 className="mb-3">dsadas</h2>
-                            <p>hellou</p>
+                            <h2 className="mb-3">Welcome to the new financial operation system. Taking control over your funds and earning rewards by staking is only one of the many benefits of a decentralized system like Cardano.  </h2>
+                            <p></p>
                             <img src="" alt="" className="img-thumbnail img-fluid" />
                         </div>
                         {/* reviews */}
