@@ -13,6 +13,7 @@ import shelly from "../components/assets/img/Shelley001.jpg"
 import goguen from "../components/assets/img/goguen2.jpeg"
 import basho from "../components/assets/img/matsuo-basho11.jpg"
 import voltaire from "../components/assets/img/voltaire.jpg"
+import "./cardanoInfo.css"
 class CardanoC extends Component {
     render() {
 
@@ -39,10 +40,10 @@ class CardanoC extends Component {
                         </div>
                     </div>
                     <br></br>
-                    <div className="container ">
+                    <div id="cc" className="container ">
                         <div className="row mt-">
-                            <div className="col-10 col-lg-4 mx-auto mt- mb-5">
-                                <div className="card" style={{ width: "19rem" }}>
+                            <div className="col-10 col-lg-4 mx-auto mt- mb-">
+                                <div className="card" >
                                     {/* <h3 className="card-title text-uppercase mt-3"> HOME</h3> */}
                                     <img src={adahome} alt='Bitcoin' className="card-img-top " />
                                     <h3 className="card-title text-uppercase mt-4 mb-3">Intro</h3>
@@ -50,14 +51,14 @@ class CardanoC extends Component {
                                         <h3 className="card-title text-uppercase"></h3>
                                         {/* <h5 className="card-title">lalal</h5> */}
 
-                                        <p className="card-text mt-4 mb-5">Cardano is Home to the Ada cryprocurrency, which can be used to send and recivie digital funds.  Cardano is more then just a cryptocurrency, it is a tehnological platform capable of running financial applications currently used every day by individuals, organisations and governments all around the world.</p>
+                                        <p id="ch" className="card-text mt-4 mb-2">Cardano is Home to the Ada cryprocurrency, which can be used to send and recivie digital funds.  Cardano is more then just a cryptocurrency, it is a tehnological platform capable of running financial applications currently used every day by individuals, organisations and governments all around the world.</p>
 
                                     </div>
                                 </div>
                             </div>
 
                             <div className="col-10 col-lg-4 mx-auto mt-0 mb-">
-                                <div className="card" style={{ width: "19rem", height: "644px" }}>
+                                <div className="card" >
                                     {/* <h3 className="card-title text-uppercase mt-3">Cardano</h3> */}
                                     <img src={carwall} alt='Bitcoin' className="card-img-top " />
                                     <h3 className="card-title text-uppercase mb-0 mt-4">platform</h3>
@@ -65,14 +66,14 @@ class CardanoC extends Component {
 
                                         {/* <h5 className="card-title">lalal</h5> */}
 
-                                        <p className="card-text mt-">Cardano is constructed in layers, which gives the system flexibility to be maintained and allow for upgrades. After the layer that runs Ada is complete, a separate layer is built to handle smart contracts, the digital legal agreements that underpin future commerce and business. Cardano will also run decentralised applications, not controlled by any single party but instead operate on a blockchain.</p>
+                                        <p id="cp" className="card-text mt-">Cardano is constructed in layers, which gives the system flexibility to be maintained and allow for upgrades. After the layer that runs Ada is complete, a separate layer is built to handle smart contracts, the digital legal agreements that underpin future commerce and business. Cardano will also run decentralised applications, not controlled by any single party but instead operate on a blockchain.</p>
 
 
                                     </div>
                                 </div>
                             </div>
                             <div className="col-10 col-lg-4 mx-auto mt- mb-5">
-                                <div className="card" style={{ width: "19rem", height: "644px" }}>
+                                <div className="card" >
                                     {/* <h3 className="card-title text-uppercase mt-3">Staking vs mining</h3> */}
                                     <img src={carwall2} alt='Bitcoin' className="card-img-top" />
                                     <h3 className="card-title text-uppercase mt-4">Phases</h3>
@@ -80,7 +81,7 @@ class CardanoC extends Component {
 
                                         {/* <h5 className="card-title">lalal</h5> */}
 
-                                        <p className="card-text mb-">Cardano is a third-generation blockchain, created from the ground up using research, peer-review, and a rigorous formal development model. Cardano's story began in 2015, with a vision of addressing the three challenges facing all blockchain networks: scalability, interoperability, and sustainability. The first version of Cardano was shipped in 2017 and the first Era began.</p>
+                                        <p id="pc" className="card-text mb-">Cardano is a third-generation blockchain, created from the ground up using research, peer-review, and a rigorous formal development model. Cardano's story began in 2015, with a vision of addressing the three challenges facing all blockchain networks: scalability, interoperability, and sustainability. The first version of Cardano was shipped in 2017 and the first Era began.</p>
 
                                     </div>
                                 </div>
@@ -90,15 +91,15 @@ class CardanoC extends Component {
                                 <h3> Byron Era</h3>
                                 <hr></hr>
 
-                                <div className="card" style={{ width: "19rem" }}>
+                                <div className="card" >
                                     {/* <h3 className="card-title text-uppercase mt-3">Byron</h3> */}
-                                    <a id="byron" className="btn  text-uppercase" target="_blank" rel="noopener noreferrer" href="https://roadmap.cardano.org/en/byron/">  <img src={byron} alt='Bitcoin' style={{ width: "260px", height: "200px" }} className="card-img-top" /></a>
+                                    <a id="byron" className="btn  text-uppercase" target="_blank" rel="noopener noreferrer" href="https://roadmap.cardano.org/en/byron/">  <img id="bi" src={byron} alt='Bitcoin' style={{ width: "260px", height: "200px" }} className="card-img-top" /></a>
                                     <h3 className="card-title text-uppercase mt-3">Foundation</h3>
                                     <div className="card-body">
 
                                         {/* <h5 className="card-title">lalal</h5> */}
 
-                                        <p className="card-text mb-3">The Byron era was about the first crucial technology developments and about building a community to get people involved in creating the blockchain of the future. This first era of Cardano allowed users to buy and sell the Ada currency, running the Ouroboros consensus protocol. The heart of the Cardano network, Ouroboros is the first proof-of-stake protocol created on the basis of academic research, with a mathematically-proven level of security. </p>
+                                        <p id="bc" className="card-text mb-3">The Byron era was about the first crucial technology developments and about building a community to get people involved in creating the blockchain of the future. This first era of Cardano allowed users to buy and sell the Ada currency, running the Ouroboros consensus protocol. The heart of the Cardano network, Ouroboros is the first proof-of-stake protocol created on the basis of academic research, with a mathematically-proven level of security. </p>
 
                                     </div>
                                 </div>
@@ -106,12 +107,12 @@ class CardanoC extends Component {
                             <div className="col-10 col-lg-4 mx-auto mt-1 mb-5">
                                 <h3>Shelley Era</h3>
                                 <hr></hr>
-                                <div className="card" style={{ width: "19rem" }}>
+                                <div className="card" >
                                     {/* <h3 className="card-title text-uppercase mt-3">shelly</h3> */}
-                                    <a id="shell" className="btn  text-uppercase" target="_blank" rel="noopener noreferrer" href="https://roadmap.cardano.org/en/shelley/"><img src={shelly} alt='Bitcoin' style={{ width: "260px", height: "200px" }} className="card-img-top" /></a>
+                                    <a id="shell" className="btn  text-uppercase" target="_blank" rel="noopener noreferrer" href="https://roadmap.cardano.org/en/shelley/"><img id="sc" src={shelly} alt='Bitcoin' style={{ width: "260px", height: "200px" }} className="card-img-top" /></a>
                                     <h3 className="card-title text-uppercase mt-3">Decentralization</h3>
                                     <div className="card-body">
-                                        <p className="card-text mb-3">
+                                        <p id="dc" className="card-text mb-3">
                                             As the Shelley era progresses more nodes will shift towards being run by the Cardano community, which allows Cardano to be 50-100 times more
                                             decentralized than other large blockchain networks and enjoy greater security as a result.
 
@@ -123,9 +124,9 @@ Cardano more useful, more rewarding, and valuable for all users.</p>
                             <div className="col-10 col-lg-4 mx-auto mt-1 mb-5">
                                 <h3>Goguen Era</h3>
                                 <hr></hr>
-                                <div className="card" style={{ width: "19rem" }}>
+                                <div className="card" >
                                     {/* <h3 className="card-title text-uppercase mt-3">goguen</h3> */}
-                                    <a id="goguen" className="btn  text-uppercase" target="_blank" rel="noopener noreferrer" href="https://roadmap.cardano.org/en/goguen/"><img src={goguen} style={{ width: "260px", height: "200px" }} alt='Bitcoin' className="card-img-top" /></a>
+                                    <a id="goguen" className="btn  text-uppercase" target="_blank" rel="noopener noreferrer" href="https://roadmap.cardano.org/en/goguen/"><img id="gc" src={goguen} style={{ width: "260px", height: "200px" }} alt='Bitcoin' className="card-img-top" /></a>
                                     <h3 className="card-title text-uppercase mt-3">Smart contracts</h3>
                                     <div className="card-body">
 
@@ -144,8 +145,8 @@ Cardano more useful, more rewarding, and valuable for all users.</p>
                             <div className="col-10 col-lg-4 mx-auto mt-1 mb-5">
                                 <h3>Basho Era</h3>
                                 <hr></hr>
-                                <div className="card" style={{ width: "19rem" }}>
-                                    <a id="basho" className="btn  text-uppercase" target="_blank" rel="noopener noreferrer" href="https://roadmap.cardano.org/en/basho/"><img src={basho} style={{ width: "260px", height: "200px" }} alt='Bitcoin' className="card-img-top" /></a>
+                                <div className="card" >
+                                    <a id="basho" className="btn  text-uppercase" target="_blank" rel="noopener noreferrer" href="https://roadmap.cardano.org/en/basho/"><img id="bbc" src={basho} style={{ width: "260px", height: "200px" }} alt='Bitcoin' className="card-img-top" /></a>
                                     <h3 className="card-title text-uppercase mt-3">Scaling</h3>
                                     {/* <img src={bdp} alt='halving' className="card-img-top" style={{width:"200px" }} /> */}
                                     {/* <p id="wan">3176.0008067 ADA</p> */}
@@ -153,7 +154,7 @@ Cardano more useful, more rewarding, and valuable for all users.</p>
 
                                         {/* <h5 className="card-title">lalal</h5> */}
 
-                                        <p className="card-text mb-4">  One of the core developments of Basho will be the introduction of sidechains:
+                                        <p className="card-text mb-2">  One of the core developments of Basho will be the introduction of sidechains:
                                         new blockchains, interoperable with the main Cardano chain, with immense potential to extend the capabilities of the network.
                                         Overall, the Basho era will see Cardano become one of the most high performance, resilient, and flexible blockchain platforms in the industry.
                                         This will provide a network infrastructure with the capability to scale in a sustainable, secure way,
@@ -165,8 +166,8 @@ Cardano more useful, more rewarding, and valuable for all users.</p>
                             <div className="col-10 col-lg-4 mx-auto mt-1 ">
                                 <h3>Voltaire Era</h3>
                                 <hr></hr>
-                                <div className="card" style={{ width: "19rem" }}>
-                                    <a id="voltaire" className="btn  text-uppercase" target="_blank" rel="noopener noreferrer" href="https://roadmap.cardano.org/en/voltaire/"><img src={voltaire} style={{ width: "260px", height: "200px" }} alt='Bitcoin' className="card-img-top" /></a>
+                                <div className="card" >
+                                    <a id="voltaire" className="btn  text-uppercase" target="_blank" rel="noopener noreferrer" href="https://roadmap.cardano.org/en/voltaire/"><img id="vc" src={voltaire} style={{ width: "260px", height: "200px" }} alt='Bitcoin' className="card-img-top" /></a>
                                     <h3 className="card-title text-uppercase mt-3">Governance</h3>
 
 
@@ -189,7 +190,7 @@ following the voting process.</p>
                             <div className="col-10 col-lg-4 mx-auto mt-1 mb-">
                                 <h3>Academic Research</h3>
                                 <hr></hr>
-                                <div className="card" style={{ width: "19rem" }}>
+                                <div className="card" >
                                     <h3 className="card-title text-uppercase mb-3 mt-3">Papers</h3>
                                     <p> IOHK works with world-leading academics on fundamental research, most of which is subject to academic peer review, with papers presented at top-tier international conferences. </p>
                                     <div className="card-body "  >
@@ -204,7 +205,7 @@ following the voting process.</p>
 
                                         <p>IOHK engineers make great use of formal development methods: rigorous, mathematical techniques for testing that software works exactly as intended. Functional programming languages are used, most notably Haskell, since they are easier to test and verify.</p>
                                         <ul className="list-unstyled" id=""  >
-                                            <li style={{ margingTop: "-40px", paddingTop: "-40px" }} > View  <a target="_blank" rel="noopener noreferrer" href="https://iohk.io/en/team/"> the IOHK Team</a> </li>
+                                            <li id="wc" style={{ margingTop: "-40px", paddingTop: "-40px" }} > View  <a target="_blank" rel="noopener noreferrer" href="https://iohk.io/en/team/"> the IOHK Team</a> </li>
 
                                         </ul>
 
@@ -315,11 +316,11 @@ A major innovation of Cardano is that it will balance the needs of users with th
                                             src="https://www.youtube.com/embed/PoNaw-Mtxgo" allowfullscreen="true">
                                         </iframe>
                                     </div>
-                                   
+
                                 </div>
                             </div>
                         </div>
-                     
+
 
                     </div>
 
@@ -436,7 +437,9 @@ i:hover {
     height: 18.75rem;
 }
 
-@media(max-width: 760px) {
+
+
+@media(width: 760px) {
     h1{
         font-size:0;
     }
@@ -444,12 +447,71 @@ i:hover {
         color:var(--mainWhite)
     }
     #logo{
-    margin-left: 0;
+    margin-left: 19px;
     padding-left: 0px;
     padding-bottom: 0px;
     margin-right: 0px;
-    
+    }
+    #bi{
+        
+        width: 234px;
+        height: 229px;
+    }
+    #right{
+    font-size:45px;
+    margin-top:-138px;
+    padding-left: -16px;
+    margin-left: 392px;
+    position:fixed;
+    }
+    #left {
+    font-size: 45px;
+    margin-left: -437px;
+    margin-top: -138px;
+    padding-left: 12px;
+    position: fixed;
+
 }
+
+
+}
+@media(width: 1024px){
+    #bc{
+padding-bottom:24px;
+    }
+    #right{
+    font-size:45px;
+    margin-top:-138px;
+    padding-left: -16px;
+    margin-left: 392px;
+    position:fixed;
+    }
+    #left {
+    font-size: 45px;
+    margin-left: -437px;
+    margin-top: -138px;
+    padding-left: 12px;
+    position: fixed;
+}
+}
+@media(width: 1326px){
+    #right{
+        font-size:45px;
+        margin-top:-139px;
+        padding-left: -16px;
+        margin-left: 479px;
+        position:fixed;
+        }
+        #left {
+        font-size: 45px;
+        margin-left: -570px;
+        margin-top: -139px;
+        padding-left: 49px;
+        position: fixed;
+    }
+    #bc{
+padding-bottom:11px;
+    }
 
 }
 
@@ -460,12 +522,12 @@ i:hover {
     font-size:45px;
     margin-top:-138px;
     padding-left: -16px;
-    margin-left: 511px;
+    margin-left: 489px;
     position:fixed;
     }
     #left {
     font-size: 45px;
-    margin-left: -578px;
+    margin-left: -533px;
     margin-top: -138px;
     padding-left: 12px;
     position: fixed;
@@ -479,6 +541,55 @@ i:hover {
         margin-right:10px;
 
     }
+    #bc{
+padding-bottom:11px;
+    }
+
+}
+@media(max-width: 375px){
+    #bi{
+        margin-left:-13px;
+        width: 230px;
+    height: 200px;
+    }
+    #sc{
+        margin-left:-13px;
+    }
+    #gc{
+        margin-left:-13px;
+    }
+    #bbc{
+        margin-left:-13px;
+    }
+    #vc{
+        margin-left:-13px;
+    }
+    #right{
+    font-size:45px;
+        padding-top:-5px;
+    padding-left:76px;
+    margin-left: 0px;
+    position:static
+}
+
+    #left {
+        font-size: 45px;
+        padding-top: -5px;
+        padding-left: 53px;
+    margin-left: -161px;
+    position: static;
+}
+#logo{
+    margin-left: 35px;
+    padding-left: 0px;
+    padding-bottom: 17px;
+    margin-right: -1px;
+   margin-bottom:-30px
+}
+h1{
+    font-size:0px;
+}
+
 }
 
 
