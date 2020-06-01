@@ -1,0 +1,50 @@
+/* #bit{
+    
+    padding-left: 0px;
+
+}
+#ada{
+    padding-left: 0px
+} */
+#marlowe{
+    padding-bottom:23px;
+}
+#plutus{
+    padding-bottom:6px;
+}
+#adai{
+     height:215px;
+}
+#tres{
+    height:163px;
+}
+#bp{
+    padding-bottom:3px;
+}
+
+@media(width: 1440px){
+    #bit{
+        width: "22rem"
+    }
+    #adai{
+        height:259px;
+   }
+   #trystaking{
+       height:250px;
+   }
+   #tres{
+    height: 200px;
+   }
+   #wallets{
+       height:260px
+   }
+   #bp{
+       padding-bottom: 2px;
+   }
+   #ep{
+       padding-bottom:12px;
+   }
+   #wp{
+       padding-bottom:13px;
+   }
+}

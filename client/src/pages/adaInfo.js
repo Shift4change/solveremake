@@ -343,9 +343,9 @@ i:hover {
 }
 #right{
     font-size:45px;
-    margin-top:-100px;
+    margin-top:-112px;
     padding-left: -16px;
-    margin-left: 413px;
+    margin-left: 390px;
     position:fixed;
 }
 #left{
@@ -369,20 +369,21 @@ i:hover {
         color:var(--mainWhite)
     }
 }
-@media(max-width: 1440px) {
+@media(width: 1440px) {
     #right{
     font-size:45px;
-    margin-top:-119px;
+    margin-top:-122px;
     padding-left: -16px;
-    margin-left: 513px;
+    margin-left: 511px;
     position:fixed;
     }
     #left {
     font-size: 45px;
-    margin-left: -562px;
-    margin-top: -119px;
+    margin-left: -570px;
+    margin-top: -122px;
     padding-left: 12px;
     position: fixed;
 }
+
 }
 `;

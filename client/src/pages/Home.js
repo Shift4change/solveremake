@@ -11,7 +11,7 @@ import exchanges from "../components/assets/img/cryptoex.jpeg"
 import wallets from "../components/assets/img/wallet1.png"
 import staking from "../components/assets/img/blockchain.png"
 import treasury from "../components/assets/img/treasury1.png"
-
+import "./home.css"
 
 
 class Home extends Component {
@@ -27,20 +27,20 @@ class Home extends Component {
                             })
                         }}
                     </InfoConsumer> */}
-                    <div className="col-10 col-lg-4 col-xl-3 col-md-3 mx-auto mb-5">
-                        <div className="card" style={{ width: "18rem" }}>
+                    <div id="bit" className="col-10 col-lg-4 col-xl-4 col-md-4  mx-auto mb-5">
+                        <div id="bit" className="card" >
                         <Link  
                                 to="/bitcoin"
                                 className="hover"
                                 >  <img src={bitcoin}  alt='Bitcoin'  className="card-img-top" /> </Link>
-                            <div className="card-body mb-4">
+                            <div className="card-body ">
                                 <h3 className="card-title text-uppercase">Bitcoin</h3>
                                 {/* <h5 className="card-title">lalal</h5> */}
-                                <p className="card-text">Emerged after the 2008 financial crash. It has proven to it's skeptics not only to be a secure public Ledger but to be the best-performing asset in the last Decade. Being up as much as 9.000.000% </p>
+                                <p id="bp" className="card-text mt-3">Emerged after the 2008 financial crash. It has proven to it's skeptics not only to be a secure public Ledger but to be the best-performing asset in the last Decade. Being up as much as 9.000.000% </p>
 
                                 <Link  
                                 to="/bitcoin"
-                                className="btn btn-outline-primary text-uppercase"
+                                className="btn btn-outline-primary text-uppercase mt-3 "
                                 >
                                 More Info
                                 </Link>
@@ -49,13 +49,13 @@ class Home extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="col-10 col-lg-4 col-xl-3 mx-auto mb-5">
-                        <div className="card" style={{ width: "18rem" }}>
+                    <div id="ada" className="col-10 col-lg-4 col-xl-4 mx-auto mb-5">
+                        <div className="card" >
                         <Link  
                                 to="/ada"
                                 className="hover"
-                                > <img src={ada} alt='ADA' className="card-img-top" /></Link>
-                            <div className="card-body mb-3">
+                                > <img src={ada} id="adai"  alt='ADA' className="card-img-top" /></Link>
+                            <div className="card-body mb-">
                                 <h3 className="card-title text-uppercase">ADA</h3>
                                 {/* <h5 className="card-title">lalal</h5> */}
                                 <p className="card-text">Named after Ada Lovelace the famous mathematician and writer. ADA is a deflationary digital currency as it has a fixed supply. ADA is provably secure, smart money that is powering the Cardano Blockchain. </p>
@@ -69,8 +69,8 @@ class Home extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="col-10 col-lg-4 col-xl-3 mx-auto mb-5">
-                        <div className="card" style={{ width: "18rem" }}>
+                    <div className="col-10 col-lg-4 col-xl-4 mx-auto mb-5">
+                        <div className="card" >
                         <Link  
                                 to="/cardano"
                                 className="hover"
@@ -91,7 +91,7 @@ class Home extends Component {
                         </div>
                     </div>
                     <div className="col-10 col-lg-4 mx-auto mb-5">
-                        <div className="card" style={{ width: "18rem" }}>
+                        <div className="card">
                         <Link  
                                 to="/exchanges"
                                 className="hover"
@@ -99,7 +99,7 @@ class Home extends Component {
                             <div className="card-body">
                                 <h3 className="card-title text-uppercase">EXCHANGES</h3>
                                 {/* <h5 className="card-title">lalal</h5> */}
-                                <p className="card-text">Learn where to Buy, Sell and Trade your Favorite Cryptocurrency </p>
+                                <p id="ep" className="card-text">Learn where to Buy, Sell and Trade your Favorite Cryptocurrency </p>
 
 
                                 <Link  
@@ -112,15 +112,15 @@ class Home extends Component {
                         </div>
                     </div>
                     <div className="col-10 col-lg-4 mx-auto mb-5">
-                        <div className="card" style={{ width: "18rem" }}>
+                        <div className="card" >
                         <Link  
                                 to="/wallets"
                                 className="hover"
-                                ><img src={wallets} alt='Plutus' className="card-img-top" /></Link>
+                                ><img src={wallets} id="wallets" alt='Plutus' className="card-img-top" /></Link>
                             <div className="card-body">
                                 <h3 className="card-title text-uppercase">WALLETS</h3>
                                 {/* <h5 className="card-title">lalal</h5> */}
-                                <p className="card-text">Keep your Coins off Exchanges. Learn to use and secure your coins! </p>
+                                <p id="wp" className="card-text">Keep your Coins off Exchanges. Learn to use and secure your coins! </p>
 
 
                                 <Link  
@@ -133,11 +133,11 @@ class Home extends Component {
                         </div>
                     </div>
                     <div className="col-10 col-lg-4 mx-auto mb-5">
-                        <div className="card" style={{ width: "18rem" }}>
+                        <div className="card" >
                         <Link  
                                 to="/staking"
                                 className="hover">
-                                <img src={staking} alt='Staking' className="card-img-top" /></Link>
+                                <img src={staking} id="trystaking" alt='Staking' className="card-img-top" /></Link>
                             <div className="card-body">
                                 <h3 className="card-title text-uppercase">TRY STAKING</h3>
                                 {/* <h5 className="card-title">lalal</h5> */}
@@ -153,12 +153,12 @@ class Home extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="col-10 col-lg-4 mx-auto mb-5">
-                        <div className="card" style={{ width: "18rem" }}>
+                    <div id="treasury" className="col-10 col-lg-4  mx-auto mb-5">
+                        <div className="card" >
                         <Link  
                                 to="/treasury"
                                 className="hover"
-                                ><img src={treasury} alt='Treasury' className="card-img-top" /></Link>
+                                ><img src={treasury} id="tres"  alt='Treasury' className="card-img-top" /></Link>
                             <div className="card-body">
                                 <h3 className="card-title text-uppercase">TREASURY</h3>
                                 {/* <h5 className="card-title">lalal</h5> */}
@@ -174,13 +174,13 @@ class Home extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="col-10 col-lg-4 mx-auto mb-5">
-                        <div className="card" style={{ width: "18rem" }}>
+                    <div  className="col-10 col-lg-4  ml-4 mx-auto mb-5">
+                        <div className="card" >
                             <img src={marlowe} alt='Plutus' className="card-img-top" />
                             <div className="card-body mb-3">
                                 <h3 className="card-title text-uppercase">Marlowe</h3>
                                 {/* <h5 className="card-title">lalal</h5> */}
-                                <p className="card-text">Is a domain-specific language (DSL) which is designed to be usable by someone who is expert in a particular field: in the case of Marlowe, financial contracts, rather than requiring programming skills to use it. Using a DSL has many advantages beyond its use by non-programmers </p>
+                                <p id="marlowe" className="card-text mb-2">Is a domain-specific language (DSL) which is designed to be usable by someone who is expert in a particular field: in the case of Marlowe, financial contracts, rather than requiring programming skills to use it. Using a DSL has many advantages beyond its use by non-programmers </p>
 
 
                                 <a className="btn btn-outline-primary text-uppercase" target="_blank" rel="noopener noreferrer" href="https://iohk.io/en/blog/posts/2018/12/11/marlowe-financial-contracts-on-blockchain/">More Info</a>
@@ -192,13 +192,13 @@ class Home extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="col-10 col-lg-4 mx-auto mb-5">
-                        <div className="card" style={{ width: "18rem" }}>
+                    <div className="col-10 col-lg-4  mx-auto mb-5">
+                        <div className="card" >
                             <img src={plutus} alt='Plutus' className="card-img-top" />
                             <div className="card-body mb-3">
                                 <h3 className="card-title text-uppercase">PLUTUS</h3>
                                 {/* <h5 className="card-title">lalal</h5> */}
-                                <p className="card-text">Plutus is a pure functional programming language used for writing smart contracts for the Cardano blockchain. The syntax is fairly Haskell-like, but unlike Haskell, the language is eagerly evaluated. You can try out Plutus online, with no need to download or install anything, via: </p>
+                                <p id="plutus" className="card-text mb-4">Plutus is a pure functional programming language used for writing smart contracts for the Cardano blockchain. The syntax is fairly Haskell-like, but unlike Haskell, the language is eagerly evaluated. You can try out Plutus online, with no need to download or install anything, via: </p>
 
 
                                 <a className="btn btn-outline-primary text-uppercase" target="_blank" rel="noopener noreferrer" href="https://prod.playground.plutus.iohkdev.io/">Plutus Playground</a>

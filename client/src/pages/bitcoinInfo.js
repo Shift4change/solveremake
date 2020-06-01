@@ -21,9 +21,7 @@ import dg from "../components/assets/img/dg.svg"
 import bh from "../components/assets/img/bh.svg"
 import ob from "../components/assets/img/ob.svg"
 import ep from "../components/assets/img/ep.svg"
-// https://www.youtube.com/watch?v=_nBlN9yp9R8
-// https://youtu.be/_nBlN9yp9R8
-
+import "./bitcoinInfo.css"
 
 
 
@@ -56,37 +54,37 @@ class BitcoinD extends Component {
 
 
                     <div className="container pt-2 ">
-                        <div className="row mt-2">
-                            <div className="col-10 col-lg-4 mx-auto mt-4 mb-5">
-                                <div className="card" >
+                        <div id="row" className="row mt-2">
+                            <div  className="col-10 col-lg-4 mx-auto mt-4 mb-5">
+                                <div id="1" className="card" >
                                     <h3 className="card-title text-uppercase mt-3">Public Ledger</h3>
-                                    <img src={ledger} alt='Bitcoin' className="card-img-top" />
+                                    <img src={ledger} id="bi" alt='Bitcoin' className="card-img-top" />
                                     <div className="card-body">
 
                                         {/* <h5 className="card-title">lalal</h5> */}
 
-                                        <p className="card-text mb-4">Being a public ledger, the Bitcoin blockchain works similar to a bank database system.  As blocks are filled to capacity with transaction details, new blocks are mined and added to the blockchain by the network participants called miners.  </p>
+                                        <p id="bp" className="card-text mb-4">Being a public ledger, the Bitcoin blockchain works similar to a bank database system.  As blocks are filled to capacity with transaction details, new blocks are mined and added to the blockchain by the network participants called miners.  </p>
 
                                     </div>
                                 </div>
                             </div>
 
-                            <div className="col-10 col-lg-4 mx-auto mt-4 mb-5">
-                                <div className="card">
+                            <div  className="col-10 col-lg-4 col-xl-4 mx-auto mt-4 mb-5">
+                                <div   className="card">
                                     <h3 className="card-title text-uppercase mt-3">Miners</h3>
                                     <img src={miners} alt='Bitcoin' className="card-img-top" />
                                     <div className="card-body">
 
                                         {/* <h5 className="card-title">lalal</h5> */}
 
-                                        <p id="2" className="card-text">Powerful machines and mining pools are used for mining. On average, the time it takes for all miner's computational power in the world to solve and obtain one new block is 10 minutes. Each block will give the miners a reward. This hard process is know as "Proof of Work" </p>
+                                        <p id="two"  className="card-text">Powerful machines and mining pools are used for mining. On average, the time it takes for all miner's computational power in the world to solve and obtain one new block is 10 minutes. Each block will give the miners a reward. This hard process is know as "Proof of Work" </p>
 
 
                                     </div>
                                 </div>
                             </div>
                             <div className="col-10 col-lg-4 mx-auto mt-4 mb-5">
-                                <div className="card" >
+                                <div id="4" className="card" >
                                     <h3 className="card-title text-uppercase mt-3">Digital Gold</h3>
                                     <img src={dg} alt='Bitcoin' className="card-img-top" />
                                     <div className="card-body">
@@ -99,30 +97,30 @@ class BitcoinD extends Component {
                                 </div>
                             </div>
                             <div className="col-10 col-lg-4 mx-auto mt-1 mb-5">
-                                <div className="card" >
+                                <div id="5" className="card" >
                                     <h3 className="card-title text-uppercase mt-3">Halving</h3>
-                                    <img src={bh} alt='Bitcoin' className="card-img-top" />
+                                    <img src={bh} id="bh" alt='Bitcoin' className="card-img-top" />
                                     <div className="card-body">
 
                                         {/* <h5 className="card-title">lalal</h5> */}
 
-                                        <p className="card-text mb-4"> When the "halving" occurs miners receive 50% fewer bitcoins for verifying transactions and creating new blocks. This "Halving" cycle is very important for speculators since the number of bitcoin produced are reduce and if the demand remains the same this means the price will increase substantially.</p>
+                                        <p id="bhp" className="card-text mb-4"> When the "halving" occurs miners receive 50% fewer bitcoins for verifying transactions and creating new blocks. This "Halving" cycle is very important for speculators since the number of bitcoin produced are reduce and if the demand remains the same this means the price will increase substantially.</p>
 
                                     </div>
                                 </div>
                             </div>
                             <div className="col-10 col-lg-4 mx-auto mt-1 mb-5">
-                                <div className="card" >
+                                <div id="6" className="card" >
 
 
                                     <div className="card-body">
-                                        <img src={hp} alt='halving' style={{ width: "260px", height: "385px" }} className="card-img-top mb-3" />
+                                        <img src={hp} id="pi" alt='halving'  className="card-img-top mb-3" />
 
                                     </div>
                                 </div>
                             </div>
                             <div className="col-10 col-lg-4 mx-auto mt-1 mb-5">
-                                <div className="card" >
+                                <div id="7" className="card" >
                                     <h3 className="card-title text-uppercase mt-3">Be your own Bank</h3>
                                     <img src={ob} alt='Bitcoin' className="card-img-top" />
                                     <div className="card-body">
@@ -135,20 +133,20 @@ class BitcoinD extends Component {
                                 </div>
                             </div>
                             <div className="col-10 col-lg-4 mx-auto mt-1 mb-5">
-                                <div className="card" >
-                                    <h3 className="card-title text-uppercase mt-3">Be part of the 1%</h3>
-                                    <img src={bdp} alt='halving' className="card-img-top" style={{ width: "200px" }} />
+                                <div id="8" className="card" >
+                                    <h3 className="card-title text-uppercase mb- mt-3">Be part of the 1%</h3>
+                                    <img src={bdp} alt='halving' className="card-img-top mb-2" style={{ width: "200px" }} />
                                     <div className="card-body">
 
                                         {/* <h5 className="card-title">lalal</h5> */}
 
-                                        <p className="card-text mb-5"> Owning 0.28 BTC makes you part of the 1% because of its fixed supply. A Bitcoin can be divided down to 8 decimal places. The smallest fraction is called a Satoshi. You don't have to buy, sell or transfer a whole bitcoin. You can start with a small amount before you get used to a wallet and exchanges.</p>
+                                        <p id="ob" className="card-text mb-4 mt-2"> Owning 0.28 BTC makes you part of the 1% because of its fixed supply. A Bitcoin can be divided down to 8 decimal places. The smallest fraction is called a Satoshi. You don't have to buy, sell or transfer a whole bitcoin. You can start with a small amount before you get used to a wallet and exchanges.</p>
 
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-10 col-lg-4 mx-auto mt-1 ">
-                                <div className="card" >
+                            <div className="col-10 col-lg-4 col-xl-4 mx-auto mt-1 ">
+                                <div id="9" className="card" >
                                     <h3 className="card-title text-uppercase mt-3">Easy payments</h3>
 
                                     <p id="wan">Bitcoin address: 3E9jdx5TmpGwPvV6M7itiAd33NBuJgXtoZ</p>
@@ -157,20 +155,20 @@ class BitcoinD extends Component {
 
                                         {/* <h5 className="card-title">lalal</h5> */}
 
-                                        <p id="wap" className="card-text mb-2 ">Using Bitcoin for big transaction is very easy. No need for a credit card, e-mail or in some cases to reveal your identity. There are no banks to make you wait 3-7 business days for the transaction to be compleat. You just need a address or a QR code to send or receive funds.</p>
+                                        <p id="wap" className="card-text mb-1 ">Using Bitcoin for big transaction is very easy. No need for a credit card, e-mail or in some cases to reveal your identity. There are no banks to make you wait 3-7 business days for the transaction to be compleat. You just need a address or a QR code to send or receive funds.</p>
                                         <img src={wa} alt='wallet address' id="wa" className="card-img-top" style={{ width: "78px", height: "100%" }} />
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-10 col-lg-4 mx-auto mt-1 mb-4">
-                                <div id="card" className="card" >
-                                    <h3 className="card-title text-uppercase mt-5">Getting Started</h3>
-                                    <p>Having control over your money is a great responsibility. </p>
-                                    <div className="card-body mb-4">
+                            <div  className="col-10 col-lg-4 col-xl-4 mx-auto mt-1">
+                                <div id="10"  className="card" >
+                                    <h3 className="card-title text-uppercase mt-3">Getting Started</h3>
+                                    <p className="mt-2 mb-3">Having control over your money is a great responsibility. </p>
+                                    <div className="card-body mb-">
                                         <ul className="list-unstyled">
-                                            <li >First you will need a <a href="/wallets">wallet</a> </li>
+                                            <li className="mb-2" >First you will need a <a href="/wallets">wallet</a> </li>
 
-                                            <li>Second choose an <a href="/exchanges">exchange</a> </li>
+                                            <li className="mb-2" >Second choose an <a href="/exchanges">exchange</a> </li>
 
                                         </ul>
 
@@ -178,7 +176,7 @@ class BitcoinD extends Component {
 
                                         {/* <h5 className="card-title">lalal</h5> */}
 
-                                        <p className="card-text mb-4">After acquiring BTC create a new address in your wallet and send yourself or to a friend/family member a small portion of Bitcoin so you can get used to the simplicity of cryptocurrencies. </p>
+                                        <p className="card-text mt-5 mb-3">After acquiring BTC create a new address in your wallet and send yourself or to a friend/family member a small portion of Bitcoin so you can get used to the simplicity of cryptocurrencies. </p>
 
                                     </div>
                                 </div>
@@ -383,10 +381,17 @@ i:hover {
         display: table;
     }
     #front{
-      padding-top:52px;
+      padding-top:66px;
       padding-bottom:-15px;
       
     }
+    #right{
+    font-size:45px;
+        padding-top:100px;
+    padding-left:116px;
+    margin-left: 0px;
+    position:static
+}
    
 }
 
@@ -415,10 +420,16 @@ position:fixed;
 .card{
     width:21rem;
 }
+#card{
+    padding-bottom:-5px;
+}
 
-#2{ margin-bottom:22px;
+#two{ margin-bottom:2px;
+padding-bottom:22px;
    
-
+}
+# one{
+    padding-bottom:2px;
 }
 
 }
