@@ -1,0 +1,41 @@
+
+
+
+
+
+
+
+@media(width: 1326px){
+    .hd{
+        padding-left:45px;
+    }
+    #po{
+        padding-bottom: 46px;
+    }
+    #pap{
+        padding-bottom:13px;
+    }
+    #dp{
+        padding-bottom: 21px;
+    }
+}
+@media(width: 1440px){
+    #sa{
+        margin-bottom:9px;
+    }
+    #ac{
+        margin-bottom:10px;
+    }
+    #acp{
+        padding-bottom:13px;
+    }
+    #sap{
+        padding-bottom:12px;
+    }
+    #dp{
+        padding-bottom:22px;
+    }
+    #dsp{
+        padding-bottom:16px;
+    }
+}

@@ -22,6 +22,7 @@ import power from "../components/assets/img/powering.svg"
 import networking from "../components/assets/img/networking.png"
 import aw from "../components/assets/img/aw.png"
 import adabank from "../components/assets/img/adabank.png"
+import "./adaInfo.css"
 class AdaA extends Component {
     render() {
 
@@ -31,27 +32,27 @@ class AdaA extends Component {
         return (
             <div>
                 {/* // <React.Fragment> */}
-                <HeaderDetails className="container-fluid align-items-center">
-                <h1 className="display-2 font-weight-bold " id="front" > <img src={ada} alt='Front' id="ada" className="card-img-top mt-2  mb-5"style={{width:"150px", height:"150px"}}  /></h1>
-                <div className="container ">
+                <HeaderDetails id="hd" className="container-fluid align-items-center">
+                    <h1 className="display-2 font-weight-bold " id="front" > <img src={ada} alt='Front' id="ada" className="card-img-top mt-2  mb-5" style={{ width: "150px", height: "150px" }} /></h1>
+                    <div className="container ">
                         <div className="row justify-content-center">
                             <div className="col-2">
-                            <Link to="/bitcoin">
-                            <i id="left" class="fas fa-arrow-left"> </i> </Link>
-                                </div>
-                                <div className="col-2">
-                                    <Link to="/cardano">
-                            <i id="right" class="fas fa-arrow-right"></i></Link>
-                                </div>
-                                </div>
-                                </div>
-                <br></br>
-                <div className="container ">
+                                <Link to="/bitcoin">
+                                    <i id="left" class="fas fa-arrow-left"> </i> </Link>
+                            </div>
+                            <div className="col-2">
+                                <Link to="/cardano">
+                                    <i id="right" class="fas fa-arrow-right"></i></Link>
+                            </div>
+                        </div>
+                    </div>
+                    <br></br>
+                    <div id="adaa" className="container ">
                         <div className="row mt-">
-                            <div className="col-10 col-lg-4 mx-auto mt-4 mb-5">
-                                <div className="card" style={{ width: "18rem" }}>
+                            <div className="col-10 col-lg-4 col-xl-4 mx-auto mt-4 mb-5">
+                                <div className="card" >
                                     <h3 className="card-title text-uppercase mt-3">Blockchain</h3>
-                                    <img src={power} alt='Bitcoin' className="card-img-top" />
+                                    <img  src={power} alt='Bitcoin' className="card-img-top" />
                                     <div className="card-body">
 
                                         {/* <h5 className="card-title">lalal</h5> */}
@@ -62,119 +63,124 @@ class AdaA extends Component {
                                 </div>
                             </div>
 
-                            <div className="col-10 col-lg-4 mx-auto mt-4 mb-5">
-                                <div className="card" style={{ width: "18rem" }}>
+                            <div className="col-10 col-lg-4 col-xl-4 mx-auto mt-4 mb-5">
+                                <div className="card" >
                                     <h3 className="card-title text-uppercase mt-3">currency</h3>
-                                    <img src={ac} alt='Bitcoin' className="card-img-top" />
+                                    <img id="ac" src={ac} alt='Bitcoin' className="card-img-top" />
                                     <div className="card-body">
 
                                         {/* <h5 className="card-title">lalal</h5> */}
 
-                                        <p className="card-text mb-5">ADA is the currency that powers the Cardano Blockchain. Using ADA, you will be able to interact with Cardano. Whether you will stake, create smart contracts or send value through the Blockchain you will do so trusting that ADA provides fast and secure transactions . </p>
-                                       
+                                        <p id="acp" className="card-text mb-5">ADA is the currency that powers the Cardano Blockchain. Using ADA, you will be able to interact with Cardano. Whether you will stake, create smart contracts or send value through the Blockchain you will do so trusting that ADA provides fast and secure transactions . </p>
+
 
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-10 col-lg-4 mx-auto mt-4 mb-5">
-                                <div className="card" style={{ width: "18rem" }}>
+                            <div className="col-10 col-lg-4 col-xl-4 mx-auto mt-4 mb-5">
+                                <div className="card" >
                                     <h3 className="card-title text-uppercase mt-3">Staking vs mining</h3>
-                                    <img src={sa} alt='Bitcoin' className="card-img-top" />
+                                    <img id="sa" src={sa} alt='Bitcoin' className="card-img-top" />
                                     <div className="card-body">
 
                                         {/* <h5 className="card-title">lalal</h5> */}
 
-                                        <p className="card-text mb-4">Staking pools compete to validate transactions and to generate new blocks. This process decentralizes the network, is highly efficient and inexpansive compared to mining pools, which are using expensive machines, a high amount of electricity and the network participants are not rewarded in this process.  </p>
+                                        <p id="sap" className="card-text mb-4">Staking pools compete to validate transactions and to generate new blocks. This process decentralizes the network, is highly efficient and inexpansive compared to mining pools, which are using expensive machines, a high amount of electricity and the network participants are not rewarded in this process.  </p>
 
                                     </div>
                                 </div>
                             </div>
                             <div className="col-10 col-lg-4 mx-auto mt-1 mb-5">
-                                <div className="card" style={{ width: "18rem" }}>
+                                <div className="card" >
                                     <h3 className="card-title text-uppercase mt-3">Staking ADA</h3>
                                     <img src={networking} alt='Bitcoin' className="card-img-top" />
                                     <div className="card-body">
 
                                         {/* <h5 className="card-title">lalal</h5> */}
 
-                                        <p className="card-text mb-4">Delegating ADA to a Staking Pool increases the chances for the Pool to find a new Block and therefore to generate rewards. A Staking Pool is a highly competitive business that has to be on 24/7 to generate Blocks and create trust with its delegators (You). The rewards are distributed automatically by the network not by the Stake Pool Operators. Staking rewards are the incentive for delegating your ADA and participating in the network.  </p>
+                                        <p id="dp" className="card-text mb-4">Delegating ADA to a Staking Pool increases the chances for the Pool to find a new Block and therefore to generate rewards. A Staking Pool is a highly competitive business that has to be on 24/7 to generate Blocks and create trust with its delegators (You). The rewards are distributed automatically by the network not by the Stake Pool Operators. Staking rewards are the incentive for delegating your ADA and participating in the network.  </p>
 
                                     </div>
                                 </div>
                             </div>
                             <div className="col-10 col-lg-4 mx-auto mt-1 mb-5">
-                                <div className="card" style={{ width: "18rem" }}>
+                                <div className="card">
                                     <h3 className="card-title text-uppercase mt-3">Pool Operators</h3>
                                     <img src={bank} alt='Bitcoin' className="card-img-top" />
-                                      <div className="card-body">
-                                    <p className="card-text mb-4">Anyone can become a Stakepool owner/operator. You will need some Devops knowledge and a lot of time but anyone can do it. To decentralize the network it is encouraged to create a Staking pool if you have the skills. In order to provide trust with the delegators (You), the Pool owners/operators have to pledge a significant amount of ADA before successfully running a Staking Pool, generating blocks and getting rewards. </p>
+                                    <div className="card-body">
+                                        <p id="po" className="card-text mb-4">Anyone can become a Stakepool owner/operator. You will need some Devops knowledge and a lot of time but anyone can do it. To decentralize the network it is encouraged to create a Staking pool if you have the skills. In order to provide trust with the delegators (You), the Pool owners/operators have to pledge a significant amount of ADA before successfully running a Staking Pool, generating blocks and getting rewards. </p>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-10 col-lg-4 mx-auto mt-1 mb-5">
-                                <div className="card" style={{ width: "18rem" }}>
+                                <div className="card">
                                     <h3 className="card-title text-uppercase mt-3">Be your own Bank</h3>
                                     <img src={adabank} alt='Bitcoin' className="card-img-top" />
                                     <div className="card-body">
 
                                         {/* <h5 className="card-title">lalal</h5> */}
 
-                                        <p className="card-text mb-5">The speed of Transactions are currently at 1000 tps this will increase over time. Being faster then Bitcoin, having low fees and staking, make ADA an important asset that you can use to transfer value any time and anywhere  in the world. Its cryptography makes it so that nobody can take your money or make a payment on your behalf. ADA can provide you with high security and financial freedom as long as you take your wallet's security seriously.  </p>
+                                        <p id="ab" className="card-text mb-5">The speed of Transactions are currently at 1000 tps this will increase over time. Being faster then Bitcoin, having low fees and staking, make ADA an important asset that you can use to transfer value any time and anywhere  in the world. Its cryptography makes it so that nobody can take your money or make a payment on your behalf. ADA can provide you with high security and financial freedom as long as you take your wallet's security seriously.  </p>
 
                                     </div>
                                 </div>
                             </div>
                             <div className="col-10 col-lg-4 mx-auto mt-1 mb-5">
-                                <div className="card" style={{ width: "18rem" }}>
+                                <div className="card" >
                                     <h3 className="card-title text-uppercase mt-3 mb-3 ">participants</h3>
                                     {/* <img src={bdp} alt='halving' className="card-img-top" style={{width:"200px" }} /> */}
-                                    <p id="wan">3176.0008067 ADA</p>
+                                    <p  id="wan">3176.0008067 ADA</p>
                                     <div className="card-body mb-3">
 
                                         {/* <h5 className="card-title">lalal</h5> */}
 
-                                        <p className="card-text mb-5">   ADA is a deflationary cryptocurrency that has a fixed supply and can be divided down to 8 decimal places. The smallest fraction is called a Lovelace.  Getting your funds of the exchanges and creating your wallet, will put you in control. Choosing one or multiple Staking Pools will be available to you in your Wallet.  You can start with a small amount before you get used to a wallet and exchanges.</p>
+                                        <p id="pap" className="card-text mb-5">   ADA is a deflationary cryptocurrency that has a fixed supply and can be divided down to 8 decimal places. The smallest fraction is called a Lovelace.  Getting your funds of the exchanges and creating your wallet, will put you in control. Choosing one or multiple Staking Pools will be available to you in your Wallet.  You can start with a small amount before you get used to a wallet and exchanges.</p>
 
                                     </div>
                                 </div>
                             </div>
                             <div className="col-10 col-lg-4 mx-auto mt-1 ">
-                                <div className="card" style={{ width: "18rem" }}>
+                                <div className="card" >
                                     <h3 className="card-title text-uppercase mt-3">Easy payments</h3>
-                                   
-                                    <p id="add">ADA address: DdzFFzCqrht8AKqAywbC8Wins2B2BJXyziuqb8Y1VFECC6giTyWhr5CjMrRgneaARPbtEWPDf9gHiCTGFaWaRZosVTrvuhYEEK9mzPt4</p>
-                                    {/* <img src={wa1} alt='Bitcoin' className="card-img-top" style={{width:"250px", height:"100%"}} /> */}
+                                    <div className="cardbody">
+                                        <p id="add" className="card-text">ADA address:
+                                        DdzFFzCqrht8AKqAywbC8Wins2B2BJXyz
+                                        iuqb8Y1VFECC6giTyWhr5CjMrRgn
+                                        eaARPbtEWPDf9gHiCTGFaWaRZosV
+                                    TrvuhYEEK9mzPt4</p>
+                                        {/* <img src={wa1} alt='Bitcoin' className="card-img-top" style={{width:"250px", height:"100%"}} /> */}
+                                    </div>
                                     <div className="card-body">
 
                                         {/* <h5 className="card-title">lalal</h5> */}
 
                                         <p id="wap" className="card-text mb-2 ">Using ADA for transaction is very easy. No need for a credit card, e-mail or in some cases to reveal your identity. There are no banks to make you wait 3-7 business days for the transaction to be compleat. You just need an address or a QR code to send or receive funds.</p>
-                                        <img src={aw} alt='wallet address' id="wa" className="card-img-top" style={{width:"78px", height:"100%"}} />
+                                        <img src={aw} alt='wallet address' id="wa" className="card-img-top" style={{ width: "78px", height: "100%" }} />
                                     </div>
                                 </div>
                             </div>
                             <div className="col-10 col-lg-4 mx-auto mt-1 mb-">
-                                <div className="card" style={{ width: "18rem" }}>
+                                <div className="card" >
                                     <h3 className="card-title text-uppercase mt-3">Getting Started</h3>
-                                  <p>Having control over your money is a great responsibility. </p>
+                                    <p>Having control over your money is a great responsibility. </p>
                                     <div className="card-body mb-">
-                                    <ul className="list-unstyled">
-                                        <li >First you will need a <a href="/wallets">wallet</a> </li>
-                                        
-                                    <li>Second choose an <a href="/exchanges">exchange</a> </li>
-                                    
-                                </ul>
-                          
-                                
+                                        <ul className="list-unstyled">
+                                            <li >First you will need a <a href="/wallets">wallet</a> </li>
+
+                                            <li>Second choose an <a href="/exchanges">exchange</a> </li>
+
+                                        </ul>
+
+
 
                                         {/* <h5 className="card-title">lalal</h5> */}
 
-                                        <p className="card-text mb-">After acquiring ADA create a new address in your wallet and send yourself or to a friend/family member a small portion of ADA so you can get used to the simplicity of cryptocurrencies. </p>
-                                        <p>Delegating/Staking your ADA doesn't mean your funds will be locked. You are able to move funds between Staking Pools and to transfer funds as you please!</p>
+                                        <p  className="card-text mb-">After acquiring ADA create a new address in your wallet and send yourself or to a friend/family member a small portion of ADA so you can get used to the simplicity of cryptocurrencies. </p>
+                                        <p id="dsp">Delegating/Staking your ADA doesn't mean your funds will be locked. You are able to move funds between Staking Pools and to transfer funds as you please!</p>
                                     </div>
                                 </div>
                             </div>
-                            
+
 
                         </div>
 
@@ -226,7 +232,7 @@ class AdaA extends Component {
                     <div className="tab-content mb-5">
                         {/* About Place Tab */}
                         <div id="video" className="tab-pane in active text-center" role="tabpanel">
-                        <div className="container">
+                            <div className="container">
                                 <div className="row">
                                     <div className="container col-10 col-lg-6 d-flex justify-content-center mt-5">
                                         <iframe width="420" height="315"
@@ -240,7 +246,7 @@ class AdaA extends Component {
                                     </div>
                                 </div>
                             </div>
-                            
+
                         </div>
                         {/* reviews */}
                         <div className="tab-pane" id="reviews" role="tabpanel">
@@ -263,10 +269,10 @@ class AdaA extends Component {
 
     }
 }
-        
-        
-         
-    
+
+
+
+
 export default AdaA;
 
 
@@ -345,15 +351,18 @@ i:hover {
     font-size:45px;
     margin-top:-112px;
     padding-left: -16px;
-    margin-left: 390px;
+    margin-left: 397px;
     position:fixed;
 }
 #left{
     font-size:45px;
     margin-left:-450px;
-    margin-top:-100px;
+    margin-top:-112px;
     padding-left:12px;
     position:fixed;
+}
+#wap{
+    padding-bottom:5px;
 }
 
 
@@ -368,13 +377,113 @@ i:hover {
    h4{
         color:var(--mainWhite)
     }
+    /* #add{
+        margin-left:3%;
+        
+       align-items:center;
+       weight:100%;
+       position: relative;
+    } */
+    #wan{
+        padding-left:94px;
+    }
+    .container{
+        
+        width:26rem;
+        margin-left: -26px;
+    padding-right: 3px;
+    }
+    
+    #hd{
+        margin-right:15px;
+    }
+    #ada{
+        padding-top:27px;
+       margin-right:-20px;
+    }
+    p{
+        align-self:start;
+        display: table;
+    }
+    
+    #front{
+        padding-top:12%;
+        
+    }
+    #right{
+    font-size:45px;
+        padding-top:92px;
+    padding-left:76px;
+    margin-left: 0px;
+    position:static
 }
-@media(width: 1440px) {
+
+    #left {
+        font-size: 45px;
+        padding-top: 80px;
+    padding-left: 31px;
+    margin-left: -166px;
+    position: static;
+}
+
+}
+@media(width: 1326px){
+    .hd{
+        padding-left:45px;
+    }
+    .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -10px;
+    margin-left: -19px
+}
+#ada {
+    padding-left: 17px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right: 22px;
+}
+#po{
+    padding-bottom:46px;
+}
+
     #right{
     font-size:45px;
     margin-top:-122px;
     padding-left: -16px;
-    margin-left: 511px;
+    margin-left: 479px;
+    position:fixed;
+    }
+    #left {
+    font-size: 45px;
+    margin-left: -570px;
+    margin-top: -122px;
+    padding-left: 49px;
+    position: fixed;
+}
+}
+
+
+
+@media(width: 1440px) {
+    .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -58px;
+    margin-right: -67px;
+}
+#ada{
+    margin-right:-14px;
+}
+#po{
+    padding-bottom:24px;
+}
+
+    #right{
+    font-size:45px;
+    margin-top:-122px;
+    padding-left: -16px;
+    margin-left: 515px;
     position:fixed;
     }
     #left {
@@ -383,7 +492,13 @@ i:hover {
     margin-top: -122px;
     padding-left: 12px;
     position: fixed;
+    }
 }
 
-}
+
+
+
+
+
+
 `;

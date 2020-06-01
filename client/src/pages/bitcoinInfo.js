@@ -382,6 +382,12 @@ i:hover {
     h4{
         color:var(--mainWhite)
     }
+    .container{
+        
+        width:26rem;
+        margin-left: -28px;
+    padding-right: 17px;
+    }
     p{
         align-self:start;
         display: table;
