@@ -58,8 +58,8 @@ class Wallets extends Component {
                                     </div>
                                 </div>
                             </div> <div  className="col-10 col-lg-4 mx-auto mb-5">
-                                <div   className="card" style={{ width: "19rem", backgroundColor:"#F86" }}>
-                                    <a id="h" className="btn-sm"
+                                <div   className="card" style={{ width: "19rem", }}>
+                                    <a 
                                         href="https://yoroi-wallet.com/" target="_blank" rel="noopener noreferrer nofollow"
                                         
                                     >  <img  src={yoroi} style={{ height: "170px" }} alt='Bitcoin' className="card-img-top" /> </a>
@@ -80,8 +80,8 @@ class Wallets extends Component {
                                 </div>
                             </div>
                             <div className="col-10 col-lg-4 mx-auto mb-5">
-                                <div  className="card" style={{ width: "19rem", backgroundColor:"#F86" }}>
-                                    <a id="h" className="btn-sm"
+                                <div  className="card" style={{ width: "19rem",  }}>
+                                    <a 
                                         href="https://www.ledger.com/" target="_blank" rel="noopener noreferrer nofollow"
                                         
                                     >  <img  src={Led} alt='Bitcoin' className="card-img-top" style={{    height: "169px"}}/> </a>
@@ -91,7 +91,7 @@ class Wallets extends Component {
                                         <p className="card-text mt-4"> For securing your coins safe offline you can use a Hardware wallet. The ledger wallet can be used to store many cryptocurrencies including Cardano(ADA) and Bitcoin.  </p>
 
                                         <a
-                                          id="h"  href="https://www.ledger.com/" target="_blank" rel="noopener noreferrer nofollow"
+                                            href="https://www.ledger.com/" target="_blank" rel="noopener noreferrer nofollow"
                                             className="btn btn-outline-primary text-uppercase mt-4"
                                         >
                                             Order Here
@@ -198,7 +198,8 @@ export default Wallets;
 const HeaderDetails = styled.header`
 background: linear-gradient(rgba(109,155,109), rgba(255,255,255));
 height: 100%;
-text-transform: uppercase;
+font-family:  Helvetica;
+/* text-transform: uppercase; */
 color: var(--mainWhite);
 text-align: center;
 
@@ -246,10 +247,11 @@ i:hover {
     padding-left:12px;
     position:fixed;
 }
-#h:hover{
-    
-    background-color:rgb(235, 34, 86);
-}
+ /* #h:hover{
+    background-color:black;
+    background-color:rgb(235, 34, 86); 
+ } */
+ 
 #logo{
     margin-left: -79px;
     padding-left: 0px;
@@ -264,6 +266,11 @@ i:hover {
     height: 18.75rem;
 }
 
+
+#social{
+    padding-left:40px;
+}
+
 @media(max-width: 760px) {
     h1,h4{
         color:var(--mainWhite)
@@ -276,9 +283,28 @@ i:hover {
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -40px;
+    }
 }
-#social{
-    padding-left:40px;
+
+
+@media(width: 1440px) {
+    #right{
+       
+    font-size:45px;
+    margin-top:-223px;
+    padding-left: -16px;
+    margin-left: 509px;
+    position:fixed;
+    }
+    #left {
+    font-size: 45px;
+    margin-left: -579px;
+    margin-top: -223px;
+    padding-left: 12px;
+    position: fixed;
+    }
 }
-}
+
+
+
 `;

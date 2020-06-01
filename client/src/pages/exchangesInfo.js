@@ -73,7 +73,7 @@ class ExchangesE extends Component {
 </div>
                                     <div class="exchange-button">
 
-                                        <p id="bi">binance  <a href="https://www.binance.com/en/register?ref=16336880 " target="_blank" rel="noopener noreferrer nofollow" class="exchange-button__a">
+                                        <p id="bi">Binance  <a href="https://www.binance.com/en/register?ref=16336880 " target="_blank" rel="noopener noreferrer nofollow" class="exchange-button__a">
                                             <span class="exchange-button__content">
                                                 Go to Binance
       <svg xmlns="http://www.w3.org/2000/svg" width="8px" height="13" viewBox="0 0 9 13" class="exchange-button__next-icon">
@@ -195,7 +195,7 @@ img{
 }
 #pv{
     font-size:12px;
-    margin-top:25px;
+    margin-top:29px;
     padding-left:11px;
     vertical-align:middle;
 }
@@ -219,9 +219,9 @@ p {
     background-color: #126bff;
     display: block;
     border-radius: 50px;
-    padding: 16px 25px 16px;
+    padding: 20px 36px 20px;
     color: #fff;
-    font-size: 11px;
+    font-size: 13px;
     font-weight: 700;
     letter-spacing: .04em;
     transition: background-color .1s ease-out;
@@ -261,7 +261,7 @@ i:hover {
     font-size:45px;
     margin-top:-80px;
     padding-left: -16px;
-    margin-left: 413px;
+    margin-left: 407px;
     position:fixed;
 }
 #left{
@@ -323,37 +323,39 @@ i:hover {
 }
 }
 
-@media(max-width: 1440px) {
+@media(width: 1440px) {
     #right{
-        color:black;
+       
     font-size:45px;
-    margin-top:-119px;
+    margin-top:-122px;
     padding-left: -16px;
-    margin-left: 300px;
+    margin-left: 510px;
     position:fixed;
     }
     #left {
     font-size: 45px;
-    margin-left: -562px;
-    margin-top: -119px;
+    margin-left: -579px;
+    margin-top: -122px;
     padding-left: 12px;
     position: fixed;
-}
-@media(max-width: 1024px) {
-    #right{
-    font-size:45px;
-    margin-top:-119px;
-    padding-left: -16px;
-    margin-left: 40px;
-    position:fixed;
     }
-    #left {
-        font-size: 41px;
-    margin-left: -438px;
-    margin-top: -119px;
-    padding-left: 12px;
-    position: fixed;
+    .exchange-button__content {
+    background-color: #126bff;
+    display: block;
+    border-radius: 50px;
+    padding: 23px 27px 25px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    }
+    #pv {
+    font-size: 12px;
+    margin-top: 54px;
+    padding-left: 11px;
+    vertical-align: middle;
 }
 }
-}
+
+
+
 `;
