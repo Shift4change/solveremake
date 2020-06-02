@@ -514,6 +514,47 @@ padding-bottom:11px;
     }
 
 }
+@media(width: 1366px){
+    #right {
+        font-size: 55px;
+    margin-top: 46px;
+    padding-left: -16px;
+    margin-left: 165px;
+    padding-bottom: 38px;
+    position: static;
+        }
+        #left{
+        font-size: 55px;
+    margin-left: -62px;
+    margin-right: 116px;
+    margin-top: 46px;
+    padding-left: 12px;
+    padding-bottom: 23px;
+    position: static;
+        }
+        #logo {
+    margin-left: 8px;
+    padding-left: 0px;
+    padding-bottom: 17px;
+    margin-right: -1px;
+    width: 190px;
+    height: 156px;
+}
+#ch {
+    padding-bottom: 13px;
+}
+#dc {
+    padding-bottom: -1px;
+}
+#bc{
+    padding-bottom:23px;
+}
+#wc {
+    padding-bottom: 17px;
+}
+}
+    }
+
 
 
 
