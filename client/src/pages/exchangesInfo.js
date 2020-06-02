@@ -7,6 +7,7 @@ import YouTube from "react-youtube";
 import block from "../components/assets/img/exchanges.png"
 import carda from "../components/assets/img/crypto-exchanges-cardano.png"
 import hall from "../components/assets/img/hall.png"
+import "./exchanges.css"
 class ExchangesE extends Component {
     render() {
 
@@ -17,7 +18,7 @@ class ExchangesE extends Component {
             <div>
                 {/* // <React.Fragment> */}
                 <HeaderDetails className="container-fluid align-items-center pt-">
-                    <h1 className="display-3 text-center  font-weight-bold  "><img src={hall} alt='Front' id="ada" className="card-img-top   "style={{width:"150px", height:"150px", paddingTop: "29px", marginTop:"-60px"}}  /> Exchanges</h1>
+                    <h1 className="display-3 text-center  font-weight-bold  "><img  src={hall} alt='Front' id="ada" className="card-img-top   "style={{width:"150px", height:"150px", paddingTop: "29px", marginTop:"-60px"}}  /> Exchanges</h1>
                     {/* <h4 className="display-5">dadasd</h4>
                     <p>hellou</p> */}
                       <div className="container mt-2">
@@ -32,7 +33,7 @@ class ExchangesE extends Component {
                                 </div>
                                 </div>
                                 </div>
-                    <div className="container-fluid mt-3 pt-5">
+                    <div className="container-fluid mt-  pt-5">
                         <div className="row">
 
                             <div id="cont" className="card container col-10 col-lg-10 mx-auto mt-1 pt-2 mb-1 p-1" >
@@ -73,7 +74,7 @@ class ExchangesE extends Component {
 </div>
                                     <div class="exchange-button">
 
-                                        <p id="bi">Binance  <a href="https://www.binance.com/en/register?ref=16336880 " target="_blank" rel="noopener noreferrer nofollow" class="exchange-button__a">
+                                        <p id="eb">Binance  <a href="https://www.binance.com/en/register?ref=16336880 " target="_blank" rel="noopener noreferrer nofollow" class="exchange-button__a">
                                             <span class="exchange-button__content">
                                                 Go to Binance
       <svg xmlns="http://www.w3.org/2000/svg" width="8px" height="13" viewBox="0 0 9 13" class="exchange-button__next-icon">
@@ -173,11 +174,11 @@ h5{vertical-align: left;
 img{
     height:100%;
 }
-#bi{
+/* #bi{
     margin-top: -10px;
     padding-top: 25px;
     margin-left: -91px;
-}
+} */
 #ke{
     margin-top: -20px;
     padding-top: 25px;
@@ -205,6 +206,7 @@ p {
     margin-bottom: 1%;
     color: var(--mainDark);
 }
+
 .exchange-button{
     padding-top:-50px;
   margin-top:0px;
@@ -215,17 +217,7 @@ p {
     display: inline-block;
     text-decoration: none;
 }
-.exchange-button__content {
-    background-color: #126bff;
-    display: block;
-    border-radius: 50px;
-    padding: 20px 36px 20px;
-    color: #fff;
-    font-size: 13px;
-    font-weight: 700;
-    letter-spacing: .04em;
-    transition: background-color .1s ease-out;
-}
+
 .trade__label {
     background-color: #002889;
     display: inline-block;
@@ -237,16 +229,7 @@ p {
     letter-spacing: .05em;
     padding: 7px 13px 8px;
 }
-#ex{
-    margin-top:20px;
-    margin-right:-115px;
-    width:474px;
-    height:526px;
-    padding-left:0px;
 
-    
-   
-}
 
 i {
     font-size: 1.875rem;
@@ -257,7 +240,7 @@ i:hover {
    color: var(--mainBlue);
    cursor:pointer;
 }
-#right{
+/* #right{
     font-size:45px;
     margin-top:-80px;
     padding-left: -16px;
@@ -270,7 +253,7 @@ i:hover {
     margin-top:-80px;
     padding-left:12px;
     position:fixed;
-}
+} */
 
 .nav-item {
     height: 18.75rem;
@@ -286,13 +269,7 @@ i:hover {
     font-size: 48px;
     padding-top: 86px;
     }
-    #ex{
-        margin-left: -1px;
-    margin-right: -50px;
-    margin-top: -12px;
-    width: 283px;
-    height: 250px;
-    }
+
     #cont{
         margin-top:5px;
         padding-left:5px;
@@ -343,9 +320,9 @@ i:hover {
     background-color: #126bff;
     display: block;
     border-radius: 50px;
-    padding: 23px 27px 25px;
+    padding: 35px 52px 44px;
     color: #fff;
-    font-size: 13px;
+    font-size: 20px;
     font-weight: 700;
     }
     #pv {
@@ -354,6 +331,12 @@ i:hover {
     padding-left: 11px;
     vertical-align: middle;
 }
+
+    #eb{
+       
+        margin-left: -90px;
+    }
+
 }
 
 

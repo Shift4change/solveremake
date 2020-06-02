@@ -58,7 +58,7 @@ class BitcoinD extends Component {
                             <div  className="col-10 col-lg-4 mx-auto mt-4 mb-5">
                                 <div id="1" className="card" >
                                     <h3 className="card-title text-uppercase mt-3">Public Ledger</h3>
-                                    <img src={ledger} id="bi" alt='Bitcoin' className="card-img-top" />
+                                    <img src={ledger}  alt='Bitcoin' className="card-img-top" />
                                     <div className="card-body">
 
                                         {/* <h5 className="card-title">lalal</h5> */}
@@ -122,12 +122,12 @@ class BitcoinD extends Component {
                             <div className="col-10 col-lg-4 mx-auto mt-1 mb-5">
                                 <div id="7" className="card" >
                                     <h3 className="card-title text-uppercase mt-3">Be your own Bank</h3>
-                                    <img src={ob} alt='Bitcoin' className="card-img-top" />
+                                    <img id="owb" src={ob} alt='Bitcoin' className="card-img-top" />
                                     <div className="card-body">
 
                                         {/* <h5 className="card-title">lalal</h5> */}
 
-                                        <p className="card-text mb-4"> Bitcoin makes it possible to have control over your money and to transfer value anywhere in the world. Its cryptography makes it so that nobody can take your money or make a payment on your behalf. Bitcoin can provide you with high security and financial freedom as long as you take your wallet's security seriously.  </p>
+                                        <p id="owp" className="card-text mb-4"> Bitcoin makes it possible to have control over your money and to transfer value anywhere in the world. Its cryptography makes it so that nobody can take your money or make a payment on your behalf. Bitcoin can provide you with high security and financial freedom as long as you take your wallet's security seriously.  </p>
 
                                     </div>
                                 </div>
@@ -176,7 +176,7 @@ class BitcoinD extends Component {
 
                                         {/* <h5 className="card-title">lalal</h5> */}
 
-                                        <p className="card-text mt-5 mb-3">After acquiring BTC create a new address in your wallet and send yourself or to a friend/family member a small portion of Bitcoin so you can get used to the simplicity of cryptocurrencies. </p>
+                                        <p id="lb" className="card-text mt-5 mb-3">After acquiring BTC create a new address in your wallet and send yourself or to a friend/family member a small portion of Bitcoin so you can get used to the simplicity of cryptocurrencies. </p>
 
                                     </div>
                                 </div>
@@ -367,6 +367,12 @@ i:hover {
     margin-top:px;
 }
 
+@media(width: 1326px){
+    #right{
+        margin-left: 578px;
+    }
+}
+
 
 
 @media(max-width: 760px) {
@@ -375,6 +381,12 @@ i:hover {
     }
     h4{
         color:var(--mainWhite)
+    }
+    .container{
+        
+        width:26rem;
+        margin-left: -28px;
+    padding-right: 17px;
     }
     p{
         align-self:start;
