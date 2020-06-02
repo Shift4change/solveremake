@@ -352,7 +352,7 @@ i:hover {
     margin-top:-112px;
     padding-left: -16px;
     margin-left: 397px;
-    position:fixed;
+    position:static;
 }
 #left{
     font-size:45px;
@@ -431,6 +431,25 @@ i:hover {
 }
 
 }
+@media (max-width: 375px){
+    #right{
+    font-size:45px;
+        padding-top:92px;
+        margin-top: -73px;
+    padding-left:76px;
+    margin-left: 0px;
+    position:static
+}
+
+    #left {
+        font-size: 45px;
+        margin-top: -61px;
+        padding-top: 80px;
+    padding-left: 31px;
+    margin-left: -166px;
+    position: static;
+}
+}
 @media(width: 1326px){
     .hd{
         padding-left:45px;
@@ -456,7 +475,7 @@ i:hover {
     margin-top:-122px;
     padding-left: -16px;
     margin-left: 479px;
-    position:fixed;
+    position:static;
     }
     #left {
     font-size: 45px;

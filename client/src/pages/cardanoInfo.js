@@ -547,6 +547,11 @@ padding-bottom:11px;
 
 }
 @media(max-width: 375px){
+    .container {
+        width: 26rem;
+    margin-left: -26px;
+    padding-right: 14px;
+}
     #bi{
         margin-left:-13px;
         width: 230px;
@@ -567,16 +572,17 @@ padding-bottom:11px;
     #right{
     font-size:45px;
         padding-top:-5px;
-    padding-left:76px;
+    padding-left:88px;
     margin-left: 0px;
     position:static
 }
 
     #left {
         font-size: 45px;
-        padding-top: -5px;
-        padding-left: 53px;
-    margin-left: -161px;
+    padding-top: -80px;
+    padding-left: 53px;
+    margin-left: -215px;
+    padding-bottom: 27px;
     position: static;
 }
 #logo{
@@ -584,7 +590,9 @@ padding-bottom:11px;
     padding-left: 0px;
     padding-bottom: 17px;
     margin-right: -1px;
-   margin-bottom:-30px
+   margin-bottom:-30px;
+   width: 225px;
+    height: 169px;
 }
 h1{
     font-size:0px;

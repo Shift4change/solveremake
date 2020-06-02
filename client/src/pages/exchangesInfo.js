@@ -18,10 +18,10 @@ class ExchangesE extends Component {
             <div>
                 {/* // <React.Fragment> */}
                 <HeaderDetails className="container-fluid align-items-center pt-">
-                    <h1 className="display-3 text-center  font-weight-bold  "><img  src={hall} alt='Front' id="ada" className="card-img-top   "style={{width:"150px", height:"150px", paddingTop: "29px", marginTop:"-60px"}}  /> Exchanges</h1>
+                    <h1 className="display-3 text-center  font-weight-bold mb-5 "><img  src={hall} alt='Front' id="ada" className="card-img-top   "style={{width:"150px", height:"150px", paddingTop: "29px", marginTop:"-60px"}}  /> Exchanges</h1>
                     {/* <h4 className="display-5">dadasd</h4>
                     <p>hellou</p> */}
-                      <div className="container mt-2">
+                      <div className="container  ">
                         <div className="row justify-content-center">
                             <div className="col-2">
                             <Link to="/cardano">
@@ -33,7 +33,7 @@ class ExchangesE extends Component {
                                 </div>
                                 </div>
                                 </div>
-                    <div className="container-fluid mt-  pt-5">
+                    <div className="container-fluid mt-  pt-2">
                         <div className="row">
 
                             <div id="cont" className="card container col-10 col-lg-10 mx-auto mt-1 pt-2 mb-1 p-1" >
@@ -259,7 +259,7 @@ i:hover {
     height: 18.75rem;
 }
 
-@media(max-width: 760px) {
+@media(width: 760px) {
     h1,h3,h4{
         color:var(--mainDark)
     }

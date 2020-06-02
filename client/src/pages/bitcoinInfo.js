@@ -34,10 +34,19 @@ class BitcoinD extends Component {
         return (
             <div>
                 {/* // <React.Fragment> */}
+      
                 <HeaderDetails className="container-fluid align-items-center">
                     <h1 className="display-2 font-weight-bold  " id="front" > <img src={blogo} alt='Front' className="card-img-top mt-2   mb-" style={{ width: "150px", height: "150px", marginTop: "-45px", marginRight: "-20px", paddingLeft: "2px", paddingRight: "2px", paddingTop:"0px" }} /></h1>
-
-
+{/* 
+                    <ul class="pagination justify-content-center">
+    <li class="page-item disabled">
+      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+    </li>
+    
+    <li class="page-item">
+      <a class="page-link" href="#">Next</a>
+    </li>
+  </ul> */}
 
                     <div className="row justify-content-center">
 
@@ -342,11 +351,11 @@ i:hover {
    cursor:pointer;
 }
 #right{
-    font-size:45px;
-    margin-top:-100px;
+    font-size: 45px;
+    margin-top: -5px;
     padding-left: -16px;
-    margin-left: 471px;
-    position:fixed;
+    margin-left: 488px;
+    position: static;
 }
 #left{
     font-size:45px;
@@ -399,7 +408,7 @@ i:hover {
     }
     #right{
     font-size:45px;
-        padding-top:100px;
+        padding-top:0px;
     padding-left:116px;
     margin-left: 0px;
     position:static

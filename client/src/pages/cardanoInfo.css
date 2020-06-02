@@ -19,7 +19,11 @@ padding-bottom:36px;
 @media(width: 375px){
     #cc{
         
-        margin-left: 15px;
+        margin-left: -24px;
+    }
+    #logo{
+        width: 225px;
+        height: 169px;
     }
 }
 /* @media(width:760px){
