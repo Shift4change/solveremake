@@ -393,6 +393,9 @@ i:hover {
             padding-bottom: 65px;
             position: static;
         }
+        #lp{
+            padding-bottom:11px;
+        }
 }
 
 @media(width: 1024px){
