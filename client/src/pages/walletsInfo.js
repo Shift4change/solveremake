@@ -8,6 +8,7 @@ import Led from "../components/assets/img/LedgerNanoS.jpg"
 import Da from "../components/assets/img/Daedalus.png"
 import yoroi from "../components/assets/img/yoroi.png"
 import wallet from "../components/assets/img/wallets.svg"
+import "./walletsInfo.css"
 class Wallets extends Component {
     render() {
 
@@ -37,7 +38,7 @@ class Wallets extends Component {
                             <div className="col-10 col-lg-4 mx-auto mb-5" >
                                 {/* <h3>cardano</h3>
                    <hr></hr> */}
-                                <div  className="card" style={{ width: "19rem", }}>
+                                <div  className="card" >
                                     <a id="h" 
                                         href="https://daedaluswallet.io/en/download/" target="_blank" rel="noopener noreferrer nofollow"
                                         
@@ -58,13 +59,13 @@ class Wallets extends Component {
                                     </div>
                                 </div>
                             </div> <div  className="col-10 col-lg-4 mx-auto mb-5">
-                                <div   className="card" style={{ width: "19rem", }}>
+                                <div   className="card" >
                                     <a 
                                         href="https://yoroi-wallet.com/" target="_blank" rel="noopener noreferrer nofollow"
                                         
                                     >  <img  src={yoroi} style={{ height: "170px" }} alt='Bitcoin' className="card-img-top" /> </a>
                                     <div className="card-body mb-4">
-                                        <h3 className="card-title text-uppercase">Light wallet</h3>
+                                        <h3 id="lgt" className="card-title text-uppercase">Light wallet</h3>
                                         {/* <h5 className="card-title">lalal</h5> */}
                                         <p className="card-text"> Developed by Emergo, yoroi is a light wallet. You can use it as a chrom extension or on your phone for easy payments. Although with this wallet you won't download the whole Blockchain, it is secure, easy to use and you can stake your ADA. </p>
 
@@ -80,7 +81,7 @@ class Wallets extends Component {
                                 </div>
                             </div>
                             <div className="col-10 col-lg-4 mx-auto mb-5">
-                                <div  className="card" style={{ width: "19rem",  }}>
+                                <div  className="card" >
                                     <a 
                                         href="https://www.ledger.com/" target="_blank" rel="noopener noreferrer nofollow"
                                         
@@ -88,7 +89,7 @@ class Wallets extends Component {
                                     <div className="card-body mb-4">
                                         <h3 className="card-title text-uppercase ">Hardware wallet</h3>
                                         {/* <h5 className="card-title">lalal</h5> */}
-                                        <p className="card-text mt-4"> For securing your coins safe offline you can use a Hardware wallet. The ledger wallet can be used to store many cryptocurrencies including Cardano(ADA) and Bitcoin.  </p>
+                                        <p id="lp" className="card-text mt-4"> For securing your coins safe offline, you can use a Hardware wallet. The ledger wallet can be used to store many cryptocurrencies including Cardano(ADA) and Bitcoin.  </p>
 
                                         <a
                                             href="https://www.ledger.com/" target="_blank" rel="noopener noreferrer nofollow"
@@ -233,7 +234,7 @@ i:hover {
    color: var(--mainBlue);
    cursor:pointer;
 }
-#right{
+/* #right{
     font-size:45px;
     margin-top:-177px;
     padding-left: -16px;
@@ -246,7 +247,7 @@ i:hover {
     margin-top:-177px;
     padding-left:12px;
     position:fixed;
-}
+} */
  /* #h:hover{
     background-color:black;
     background-color:rgb(235, 34, 86); 
@@ -271,7 +272,43 @@ i:hover {
     padding-left:40px;
 }
 
-@media(max-width: 760px) {
+@media(width: 375px){
+    .container {
+        width: 100%;
+        padding-right: 2px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #logo {
+    margin-left: -11px;
+    padding-left: 0px;
+    padding-bottom: 12px;
+    margin-right: -1px;
+    padding-top:50px;
+}
+#right {
+    font-size: 45px;
+    margin-top: -209px;
+    padding-left: -16px;
+    margin-left: 80px;
+    position: static;
+    padding-bottom: 50px;
+}
+#left {
+    font-size: 45px;
+    margin-left: -195px;
+    margin-top: -240px;
+    padding-left: 27px;
+    position: static;
+}
+}
+
+@media(width: 768px) {
+    .container{
+        max-width: 585px
+    }
+    
     h1,h4{
         color:var(--mainWhite)
     }
@@ -284,6 +321,21 @@ i:hover {
     margin-right: -15px;
     margin-left: -40px;
     }
+    #left {
+        font-size: 45px;
+    margin-left: -342px;
+    margin-top: -240px;
+    padding-left: 27px;
+    position: static;
+    }
+        #right {
+            font-size: 45px;
+    margin-top: -209px;
+    padding-left: -16px;
+    margin-left: 177px;
+    position: static;
+    padding-bottom: 50px;
+        }
 }
 
 
@@ -303,6 +355,48 @@ i:hover {
     padding-left: 12px;
     position: fixed;
     }
+}
+@media(width: 1326px){
+    #left {
+        font-size: 45px;
+        margin-left: -581px;
+        margin-top: -209px;
+        padding-left: 49px;
+        position: fixed;
+    }
+        #right {
+            font-size: 45px;
+            margin-top: -209px;
+            padding-left: -16px;
+            margin-left: 468px;
+            position: fixed;
+        }
+        #lp{
+            padding-bottom:11px;
+        }
+}
+
+@media(width: 1024px){
+    #left {
+        font-size: 45px;
+        margin-left: -447px;
+        margin-top: -177px;
+        padding-left: 12px;
+        position: fixed;
+    }
+    #right {
+    font-size: 45px;
+    margin-top: -177px;
+    padding-left: -16px;
+    margin-left: 388px;
+    position: fixed;
+}
+#lgt{
+    margin-bottom:45px;
+}
+#lp{
+    padding-bottom:13px;
+}
 }
 
 
