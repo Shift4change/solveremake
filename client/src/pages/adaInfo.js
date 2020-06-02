@@ -369,7 +369,11 @@ i:hover {
 .nav-item {
     height: 18.75rem;
 }
-
+@media(width: 1024px){
+    #wap{
+        padding-bottom:29px;
+    }
+}
 @media(max-width: 760px) {
     h1{
         font-size:0;

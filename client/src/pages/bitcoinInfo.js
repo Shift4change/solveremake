@@ -58,7 +58,7 @@ class BitcoinD extends Component {
                             <div  className="col-10 col-lg-4 mx-auto mt-4 mb-5">
                                 <div id="1" className="card" >
                                     <h3 className="card-title text-uppercase mt-3">Public Ledger</h3>
-                                    <img src={ledger} id="bi" alt='Bitcoin' className="card-img-top" />
+                                    <img src={ledger}  alt='Bitcoin' className="card-img-top" />
                                     <div className="card-body">
 
                                         {/* <h5 className="card-title">lalal</h5> */}
@@ -176,7 +176,7 @@ class BitcoinD extends Component {
 
                                         {/* <h5 className="card-title">lalal</h5> */}
 
-                                        <p className="card-text mt-5 mb-3">After acquiring BTC create a new address in your wallet and send yourself or to a friend/family member a small portion of Bitcoin so you can get used to the simplicity of cryptocurrencies. </p>
+                                        <p id="lb" className="card-text mt-5 mb-3">After acquiring BTC create a new address in your wallet and send yourself or to a friend/family member a small portion of Bitcoin so you can get used to the simplicity of cryptocurrencies. </p>
 
                                     </div>
                                 </div>

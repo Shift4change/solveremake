@@ -4,7 +4,7 @@
     height: 385px;
 }
 #ob{
-    padding-bottom: 26px;
+    padding-bottom: 11px;
 }
 
 @media(max-width: 760px) {
@@ -13,6 +13,19 @@
     }
     #front{
         padding-top:5px;
+    }
+}
+@media (width: 1024px){
+    #ob{
+        padding-bottom: 28px;
+    }
+}
+@media (width: 992px){
+    #ob{
+        padding-bottom: 11px;
+    }
+    #lb{
+        padding-bottom: 6px;
     }
 }
 @media(width: 1326px){
@@ -59,7 +72,7 @@
         margin-bottom:15px;
     }
     #bp{
-        padding-bottom:9px
+        padding-bottom:23px
     }
     #pi{
         height: 359px;
