@@ -64,6 +64,19 @@
         font-size: 13px;
         font-weight: 700;
     }
+    #left {
+        font-size: 45px;
+        margin-left: -581px;
+        margin-top: -111px;
+        padding-left: 49px;
+        position: fixed;
+    }
+        #right {
+            font-size: 45px;
+            margin-top: -111px;
+            padding-left: -16px;
+            margin-left: 468px;
+            position: fixed;}
 }
 @media(width: 1440px){
     #ex{
