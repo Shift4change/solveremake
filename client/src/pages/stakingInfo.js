@@ -3,7 +3,7 @@ import { InfoConsumer } from "../components/context";
 import styled from 'styled-components';
 import Reviews from "../components/Reviews";
 import YouTube from "react-youtube"
-
+import { Link } from 'react-router-dom';
 class StakingS extends Component {
     render() {
 
@@ -18,7 +18,21 @@ class StakingS extends Component {
                     {/* <h4 className="display-5">dadasd</h4> */}
                     {/* <p>hellou</p> */}
                     {/* Social Icons */}
-                    <div className="container mt-5">
+                    <div className="container mt-2">
+                        <div className="row justify-content-center">
+                            <div className="col-2">
+                                <Link to="/wallets">
+                                    <i id="left" class="fas fa-arrow-left"> </i> </Link>
+                            </div>
+                            {/* <div className="col-2">
+                                <Link to="/exchanges">
+                                    <i id="right" class="fas fa-arrow-right"></i></Link>
+                            </div> */}
+                        </div>
+                    </div>
+                    <br></br>
+                    
+                    <div className="container  mt-5">
                         <div className="row justify-content-center">
                             <div className="col-2">
                                 <i className="fab fa-facebook"></i>
@@ -33,17 +47,16 @@ class StakingS extends Component {
                             <div className="col-2">
                                 <i className="fab fa-reddit" />
                             </div>
-                            <div className="col-2">
-                                <i className="fab fa-whatsapp" />
-                            </div>
-                            <div className="col-2">
-                                <i className="fab fa-facebook-messenger" />
-                            </div>
+                            
                         </div>
+                        
                     </div>
+                   
+               
                 </HeaderDetails>
+              
                 {/* {Navlinks} */}
-                <div className="container">
+                <div className="container mt-2">
                     <ul className="nav nav-tabs">
                         {/* About Place Link */}
                         <li className="nav-item">
@@ -124,10 +137,38 @@ i:hover {
 .nav-item {
     height: 18.75rem;
 }
+#left{
+   position:static;
+}
 
 @media(max-width: 760px) {
     h1,h4{
         color:var(--mainWhite)
     }
+    h1{
+        padding-top: 102px;
+    font-size: 58px;
+    }
+}
+@media(width: 1440px){
+
+#left {
+    font-size: 45px;
+    margin-left: -607px;
+    margin-right: 264px;
+    margin-top: -138px;
+    padding-left: 12px;
+    position: static;
+}
+}
+@media(width: 1366px){
+    #left {
+    font-size: 45px;
+    margin-left: -607px;
+    margin-right: 264px;
+    margin-top: -138px;
+    padding-left: 12px;
+    position: static;
+}
 }
 `;

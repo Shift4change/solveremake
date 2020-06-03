@@ -34,17 +34,30 @@ class BitcoinD extends Component {
         return (
             <div>
                 {/* // <React.Fragment> */}
+      
                 <HeaderDetails className="container-fluid align-items-center">
                     <h1 className="display-2 font-weight-bold  " id="front" > <img src={blogo} alt='Front' className="card-img-top mt-2   mb-" style={{ width: "150px", height: "150px", marginTop: "-45px", marginRight: "-20px", paddingLeft: "2px", paddingRight: "2px", paddingTop:"0px" }} /></h1>
-
-
+{/* 
+                    <ul class="pagination justify-content-center">
+    <li class="page-item disabled">
+      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+    </li>
+    
+    <li class="page-item">
+      <a class="page-link" href="#">Next</a>
+    </li>
+  </ul> */}
 
                     <div className="row justify-content-center">
-
+                    <div className="col-2">
+                                <Link to="/">
+                                    <i id="left" class="fas fa-arrow-left"> </i> </Link>
+                            </div>
                         <div className="col-2 col-lg-2">
                             <Link to="/ada">
                                 <i id="right" class="fas fa-arrow-right"></i></Link>
                         </div>
+                        
                       
                     </div>
 
@@ -341,20 +354,14 @@ i:hover {
    color: var(--mainBlue);
    cursor:pointer;
 }
-#right{
-    font-size:45px;
-    margin-top:-100px;
+/* #right{
+    font-size: 45px;
+    margin-top: -5px;
     padding-left: -16px;
-    margin-left: 471px;
-    position:fixed;
-}
-#left{
-    font-size:45px;
-    margin-left:-440px;
-    margin-top:-85px;
-    padding-left:12px;
-    position:fixed;
-}
+    margin-left: 488px;
+    position: static;
+} */
+
 
 .nav-item {
     height: 18.75rem;
@@ -368,14 +375,14 @@ i:hover {
 }
 
 @media(width: 1326px){
-    #right{
+    /* #right{
         margin-left: 578px;
-    }
+    } */
 }
 
 
 
-@media(max-width: 760px) {
+@media(width: 760px) {
     h1{
         font-size:0;
     }
@@ -397,12 +404,49 @@ i:hover {
       padding-bottom:-15px;
       
     }
-    #right{
+    /* #right{
     font-size:45px;
-        padding-top:100px;
+        padding-top:0px;
     padding-left:116px;
     margin-left: 0px;
-    position:static
+    position:static */
+}
+@media(width: 1366px){
+    #right {
+        font-size: 55px;
+    margin-top: 46px;
+    padding-left: -16px;
+    margin-left: 165px;
+    padding-bottom: 38px;
+    position: static;
+        }
+        #left{
+        font-size: 55px;
+    margin-left: -62px;
+    margin-right: 116px;
+    margin-top: 46px;
+    padding-left: 12px;
+    padding-bottom: 23px;
+    position: static;
+}
+#two{
+    padding-bottom:24px;
+}
+#bp{
+    padding-top:4px;
+    padding-bottom:20px;
+}
+#pi {
+    width: 236px;
+    height: 335px;
+}
+#wap {
+    padding-bottom: 21px;
+}
+#ob {
+    padding-bottom: 25px;
+    padding-top: 23px;
+}
 }
    
 }

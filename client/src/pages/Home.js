@@ -162,7 +162,7 @@ class Home extends Component {
                             <div className="card-body">
                                 <h3 className="card-title text-uppercase">TREASURY</h3>
                                 {/* <h5 className="card-title">lalal</h5> */}
-                                <p className="card-text">The fundamental purpose of the Cardano Treasury is to resolve the funding sustainability issue for long-term cryptocurrency development and maintenance. In Cardano's Treasury the voting power is proportional to the corresponding stake. Voting does not require identity. The system collects funding via three sources: minting new ADA, fees from staking rewards, and donations.</p>
+                                <p id="th" className="card-text">The fundamental purpose of the Cardano Treasury is to resolve the funding sustainability issue for long-term cryptocurrency development and maintenance. In Cardano's Treasury the voting power is proportional to the corresponding stake. Voting does not require identity. The system collects funding via three sources: minting new ADA, fees from staking rewards, and donations.</p>
 
 
                                 <Link  

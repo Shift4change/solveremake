@@ -289,7 +289,7 @@ i:hover {
 }
 #right {
     font-size: 45px;
-    margin-top: -209px;
+    margin-top: 0px;
     padding-left: -16px;
     margin-left: 80px;
     position: static;
@@ -298,7 +298,7 @@ i:hover {
 #left {
     font-size: 45px;
     margin-left: -195px;
-    margin-top: -240px;
+    margin-top: 0px;
     padding-left: 27px;
     position: static;
 }
@@ -370,6 +370,28 @@ i:hover {
             padding-left: -16px;
             margin-left: 468px;
             position: fixed;
+        }
+        #lp{
+            padding-bottom:11px;
+        }
+}
+@media(width: 1366px){
+    #left {
+        font-size: 55px;
+    margin-left: -62px;
+    margin-right: 154px;
+    margin-top: -138px;
+    padding-left: 12px;
+    padding-bottom: 65px;
+    position: static;
+}
+#right {
+            font-size: 55px;
+            margin-top: -209px;
+            padding-left: -16px;
+            margin-left: 155px;
+            padding-bottom: 65px;
+            position: static;
         }
         #lp{
             padding-bottom:11px;

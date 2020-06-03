@@ -12,9 +12,9 @@
 #plutus{
     padding-bottom:6px;
 }
-#adai{
+/* #adai{
      height:215px;
-}
+} */
 #tres{
     height:163px;
 }
@@ -33,6 +33,22 @@
     height: 197px;
    }
 
+
+}
+@media(width: 1366px){
+    #adai{
+        height:260px;
+ 
+    } 
+    #trystaking{
+        height:233px;
+    }
+    /* #th{
+        padding-bottom:15px;
+    } */
+    #tres{
+        height:197px;
+    }
 }
 
 @media(width: 1440px){

@@ -120,7 +120,7 @@ class AdaA extends Component {
 
                                         {/* <h5 className="card-title">lalal</h5> */}
 
-                                        <p id="ab" className="card-text mb-5">The speed of Transactions are currently at 1000 tps this will increase over time. Being faster then Bitcoin, having low fees and staking, make ADA an important asset that you can use to transfer value any time and anywhere  in the world. Its cryptography makes it so that nobody can take your money or make a payment on your behalf. ADA can provide you with high security and financial freedom as long as you take your wallet's security seriously.  </p>
+                                        <p id="ab" className="card-text mb-">The speed of Transactions are currently at 1000 tps this will increase over time. Being faster then Bitcoin, having low fees and staking, make ADA an important asset that you can use to transfer value any time and anywhere  in the world. Its cryptography makes it so that nobody can take your money or make a payment on your behalf. ADA can provide you with high security and financial freedom as long as you take your wallet's security seriously.  </p>
 
                                     </div>
                                 </div>
@@ -352,7 +352,7 @@ i:hover {
     margin-top:-112px;
     padding-left: -16px;
     margin-left: 397px;
-    position:fixed;
+    position:static;
 }
 #left{
     font-size:45px;
@@ -431,6 +431,25 @@ i:hover {
 }
 
 }
+@media (max-width: 375px){
+    #right{
+    font-size:45px;
+        padding-top:92px;
+        margin-top: -73px;
+    padding-left:76px;
+    margin-left: 0px;
+    position:static
+}
+
+    #left {
+        font-size: 45px;
+        margin-top: -61px;
+        padding-top: 80px;
+    padding-left: 31px;
+    margin-left: -166px;
+    position: static;
+}
+}
 @media(width: 1326px){
     .hd{
         padding-left:45px;
@@ -456,7 +475,7 @@ i:hover {
     margin-top:-122px;
     padding-left: -16px;
     margin-left: 479px;
-    position:fixed;
+    position:static;
     }
     #left {
     font-size: 45px;
@@ -464,6 +483,40 @@ i:hover {
     margin-top: -122px;
     padding-left: 49px;
     position: fixed;
+}
+}
+@media(width: 1366px){
+    #right {
+        font-size: 55px;
+    margin-top: 46px;
+    padding-left: -16px;
+    margin-left: 165px;
+    padding-bottom: 38px;
+    position: static;
+        }
+        #left{
+        font-size: 55px;
+    margin-left: -62px;
+    margin-right: 116px;
+    margin-top: 46px;
+    padding-left: 12px;
+    padding-bottom: 23px;
+    position: static;
+        }
+        #po{
+            padding-bottom:23px;
+        }
+        #ab{
+            padding-bottom:23px;
+        }
+        #wap {
+    padding-bottom: 9px;
+}
+#pap{
+    padding-top:15px;
+}
+#wan{
+    padding-top:11px;
 }
 }
 
