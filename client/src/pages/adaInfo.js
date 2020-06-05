@@ -235,12 +235,12 @@ class AdaA extends Component {
                             <div className="container">
                                 <div className="row">
                                     <div className="container col-10 col-lg-6 d-flex justify-content-center mt-5">
-                                        <iframe width="420" height="315"
+                                        <iframe width="575" height="315"
                                             src="https://www.youtube.com/embed/EDyQEUZ0PlY" allowfullscreen="true">
                                         </iframe>
                                     </div>
                                     <div className="container col-10 col-lg-6 d-flex justify-content-center mt-5">
-                                        <iframe width="420" height="315"
+                                        <iframe width="575" height="315"
                                             src="https://www.youtube.com/embed/UlKZ83REIkA" allowfullscreen="true">
                                         </iframe>
                                     </div>
@@ -315,18 +315,7 @@ p {
     color: var(--mainDark);
 }
 
-    /* #ada {
-    padding-left: 21px;
-    margin-top: 1px;
-    margin-bottom: 28px;
-    margin-right: -22px;
-    width: 151px;
-    height: 137px;
-    }
- } */
- /* #front{
-     padding-top:6%;
- } */
+   
 img {
     align-self:center;
     width:50px;
@@ -362,7 +351,18 @@ i:hover {
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
- 
+    .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -46px;
+    margin-left: -15px;
+}
+#ada {
+    padding-left: 21px;
+    margin-top: 66px;
+    margin-bottom: 28px;
+    margin-right: -32px;
+}
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     #right {
@@ -518,311 +518,7 @@ i:hover {
 
 
 
-/* @media(width: 1024px){
-    #wap{
-        padding-bottom:29px;
-    }
-    #right {
-        font-size: 40px;
-    margin-top: 46px;
-    padding-left: -16px;
-    margin-left: 135px;
-    padding-bottom: 38px;
-    position: static;
-        }
-        #left{
-        font-size: 40px;
-    margin-left: -62px;
-    margin-right: 116px;
-    margin-top: 46px;
-    padding-left: 12px;
-    padding-bottom: 23px;
-    position: static;
-        }
-        #ada {
-    padding-left: 21px;
-    margin-top: 1px;
-    margin-bottom: 28px;
-    margin-right: -22px;
-    width: 151px;
-    height: 137px;
-}
-#ab{
-    padding-bottom:48px;
-}
-}
-@media(max-width: 760px) {
-    h1{
-        font-size:0;
-    }
-   h4{
-        color:var(--mainWhite)
-    }
-   
-    #wan{
-        padding-left:94px;
-    }
-    .container{
-        
-        width:26rem;
-        margin-left: -26px;
-    padding-right: 3px;
-    }
-    
-    #hd{
-        margin-right:15px;
-    }
-    #ada{
-        padding-top:27px;
-       margin-right:-20px;
-    }
-    p{
-        align-self:start;
-        display: table;
-    }
-    
-    #front{
-        padding-top:12%;
-        
-    }
-    #right{
-    font-size:45px;
-        padding-top:92px;
-    padding-left:98px;
-    margin-left: 0px;
-    position:static
-}
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -29px;
-    margin-left: -15px;
-}
 
-    #left {
-        font-size: 45px;
-        padding-top: 80px;
-    padding-left: 31px;
-    margin-left: -166px;
-    position: static;
-}
-
-}
-@media (width:1768){
-
-}
-@media (max-width: 375px){
-    #right{
-    font-size:45px;
-        padding-top:92px;
-        margin-top: -73px;
-    padding-left:76px;
-    margin-left: 0px;
-    position:static
-}
-
-    #left {
-        font-size: 45px;
-        margin-top: -61px;
-        padding-top: 80px;
-    padding-left: 31px;
-    margin-left: -166px;
-    position: static;
-}
-}
-@media(width: 1326px){
-    .hd{
-        padding-left:45px;
-    }
-    .row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -10px;
-    margin-left: -19px
-}
-#ada {
-    padding-left: 21px;
-    margin-top: 1px;
-    margin-bottom: 39px;
-    margin-right: 22px;
-}
-#po{
-    padding-bottom:46px;
-}
-
-#right{
-    font-size: 40px;
-    margin-top: 0px;
-    padding-left: -16px;
-    margin-left: 150px;
-    position: static;
-}
-#left{
-    font-size: 40px;
-    margin-left: -62px;
-    margin-right: 126px;
-    margin-top: 0px;
-    padding-left: 12px;
-    padding-bottom: 25px;
-    position: static;
-}
-#ada{
-margin-left: 25px;
-}
-
-}
-
-@media(width: 1060px){
-    #right {
-        font-size: 35px;
-    margin-top: 46px;
-    padding-left: -16px;
-    margin-left: 165px;
-    padding-bottom: 38px;
-    position: static;
-        }
-        #left{
-        font-size: 35px;
-    margin-left: -62px;
-    margin-right: 116px;
-    margin-top: 46px;
-    padding-left: 12px;
-    padding-bottom: 23px;
-    position: static;
-        }
-        #ada{
-    width: 151px;
-    height: 137px;
-    margin-right: -14px;
-
-}
-    #ab{
-        padding-bottom:47px;
-    }
-    #wap{
-        padding-bottom:29px;
-    }
-}
-
-@media(width: 1366px){
-    #right {
-        font-size: 55px;
-    margin-top: 46px;
-    padding-left: -16px;
-    margin-left: 165px;
-    padding-bottom: 38px;
-    position: static;
-        }
-        #left{
-        font-size: 55px;
-    margin-left: -62px;
-    margin-right: 116px;
-    margin-top: 46px;
-    padding-left: 12px;
-    padding-bottom: 23px;
-    position: static;
-        }
-        #ada{
-    width: 151px;
-    height: 137px;
-    margin-right: -14px;
-
-        }
-        #po{
-            padding-bottom:23px;
-        }
-        #ab{
-            padding-bottom:23px;
-        }
-        #wap {
-    padding-bottom: 9px;
-}
-#pap{
-    padding-top:15px;
-}
-#wan{
-    padding-top:11px;
-}
-}
-
-
-
-@media(width: 1440px) {
-    .row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -58px;
-    margin-right: -67px;
-}
-#ada{
-    width: 151px;
-    height: 137px;
-    margin-right: -14px;
-
-}
-#po{
-    padding-bottom:4px;
-}
-#ab{
-    padding-bottom:24px;
-}
-
-#right{
-    font-size: 40px;
-    margin-top: 8px;
-    padding-left: -16px;
-    margin-left: 163px;
-    position: static;
-}
-#left{
-    font-size: 40px;
-    margin-left: -62px;
-    margin-right: 123px;
-    margin-top: 8px;
-    padding-left: 12px;
-    padding-bottom: 15px;
-    position: static;
-}
-}
-@media(width: 2560px){
-    #right{
-        font-size: 34px;
-    margin-top: 14px;
-    padding-left: -16px;
-    margin-left: 182px;
-    position: static;
-}
-#left{
-    font-size: 35px;
-    margin-left: -81px;
-    margin-right: 171px;
-    margin-top: 14px;
-    padding-left: 12px;
-    padding-bottom: 25px;
-    position: static;
-}
-#dp{
-    margin-bottom:-4px;
-}
-#ada{
-    width: 170px;
-    height: 115px;
-    padding-top: 0px;
-    margin-top:-20px;
-}
-#po{
-    padding-bottom:23px;
-}
-#ab{
-    padding-bottom:23px;
-}
-#pap{
-    margin-top:21px;
-}
-#dsp{
-    margin-top: -5px;
-}
-} */
 
 
 

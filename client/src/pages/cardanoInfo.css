@@ -1,7 +1,7 @@
 /* .container{
     width:26rem;
 } */
-#ch{
+/* #ch{
 padding-bottom:36px;
 }
 #cp{
@@ -10,7 +10,7 @@ padding-bottom:36px;
 /* #dc{
     padding-bottom: 24px;
 } */
-#wap{
+/* #wap{
     padding-bottom: 7px;
 }
 #wc{
@@ -25,7 +25,7 @@ padding-bottom:36px;
         width: 225px;
         height: 169px;
     }
-}
+} */
 /* @media(width:760px){
     #right{
         font-size:45px;
@@ -43,7 +43,7 @@ padding-bottom:36px;
         position: static;
     }
 } */
-@media(width: 760px) {
+/* @media(width: 760px) {
     h1{
         font-size:0;
     }
@@ -177,4 +177,4 @@ padding-bottom:24px;
         padding-left: 12px;
         position: fixed;
     }
-}
+} */
