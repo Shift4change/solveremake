@@ -47,7 +47,7 @@ class Navbar extends Component {
           aria-expanded="false"
           aria-label="Toggle navigation">
           <span id='nic' >
-            <i className="navbar-toggler-icon" style={{ color: '#fff' }} />
+            <i className="navbar-toggler-icon" id="cw" />
 
           </span>
 
@@ -56,7 +56,7 @@ class Navbar extends Component {
         <div className="collapse navbar-collapse " id="navbarSupportedContent">
           <ul className="navbar-nav m-auto">
             <li className="nav-item active">
-              <Link className="nav-link text-white text-uppercase ml-5" to="/">
+              <Link id="nvl" className="nav-link text-white text-uppercase ml-5" to="/">
                 <img src={home} alt="home" style={{ width: "25px", marginTop: "-7px" }} /> Home <span className="sr-only">(current)</span>
               </Link>
             </li>
@@ -70,7 +70,7 @@ class Navbar extends Component {
             </li>
 
           </ul>
-          <form className="form-inline my-2 my-lg-0 nav-search ">
+          <form id="nsm" className="form-inline my-2 my-lg-0 nav-search ">
             <input onChange={(e) => this.handleInputChange(e)} className="form-control mr-sm-2" type="search" name="search" placeholder="Search" aria-label="Search" value={this.state.search} />
             <Link to={"/" + this.state.search}> 
               <button type="submit" className="btn text-white bg-primary my-2 my-sm-0  nav-search-btn ">Search</button>

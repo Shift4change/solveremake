@@ -41,6 +41,13 @@
         }
    
 }
+@media(width: 375px){
+#exim{
+    padding-top: 29px;
+    margin-top: 5px;
+}
+}
+
 @media(width: 1326px){
     #ex{
         margin-top: 20px;

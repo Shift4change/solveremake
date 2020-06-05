@@ -1,4 +1,95 @@
 
+
+
+@media only screen  and (min-width : 1224px) {
+   
+    #right {
+        font-size: 40px;
+    margin-top: 16px;
+    padding-left: -16px;
+    margin-left: 126px;
+    padding-bottom: 24px;
+    position: static;
+}
+
+        #left{
+        font-size: 40px;
+    margin-left: -62px;
+    margin-right: 104px;
+    margin-top: 16px;
+    padding-left: 12px;
+    padding-bottom: 23px;
+    position: static;
+        } 
+
+
+    }
+
+
+    
+    
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+       
+    #right {
+        font-size: 40px;
+    margin-top: 16px;
+    padding-left: -16px;
+    margin-left: 126px;
+    padding-bottom: 24px;
+    position: static;
+}
+
+        #left{
+        font-size: 40px;
+    margin-left: -62px;
+    margin-right: 104px;
+    margin-top: 16px;
+    padding-left: 12px;
+    padding-bottom: 23px;
+    position: static;
+        } 
+        }
+@media only screen  and (min-width : 1824px) {
+    
+    #right {
+        font-size: 40px;
+    margin-top: 16px;
+    padding-left: -16px;
+    margin-left: 126px;
+    padding-bottom: 24px;
+    position: static;
+}
+
+        #left{
+        font-size: 40px;
+    margin-left: -62px;
+    margin-right: 104px;
+    margin-top: 16px;
+    padding-left: 12px;
+    padding-bottom: 23px;
+    position: static;
+        } 
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
 #pi{
     width: 236px;
     height: 385px;
@@ -19,6 +110,9 @@
     #ob{
         padding-bottom: 28px;
     }
+    #lb{padding-bottom:18px;
+    }
+   
 }
 @media (width: 992px){
     #ob{
@@ -35,15 +129,16 @@
     #bi{
         margin-bottom:15px;
     }
-    #bp{
+    #b1p{
         padding-bottom:10px
     }
     #two{
         padding-bottom:24px;
     }
     #ob{
-        padding-bottom: 48px;
+        padding-bottom: 38px;
     }
+    #lb{padding-bottom:5px;}
     #wan{
         margin-top:12px;
     }
@@ -71,7 +166,7 @@
     #bi{
         margin-bottom:15px;
     }
-    #bp{
+    #b1p{
         padding-bottom:23px
     }
     #pi{
@@ -89,4 +184,30 @@
     #ob{
         padding-bottom:22px;
     }
-    }
+    #lb{
+        margin-bottom: 15px;
+    } */
+   
+    /* } */
+    /* @media(width: 2560px){
+        #two{padding-bottom: 24px;
+        }
+        #b1p{
+            padding-bottom: 24px;
+        }
+        #pi {
+            width: 236px;
+            height: 335px;
+        }
+        #ob {
+            padding-bottom: 17px;
+            padding-top: 15px;
+        }
+       
+        #liex{
+            padding-bottom: -5px;
+        }
+        #wapb{
+            padding-bottom: 5px;
+        }        
+    } */

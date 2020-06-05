@@ -18,7 +18,7 @@ class ExchangesE extends Component {
             <div>
                 {/* // <React.Fragment> */}
                 <HeaderDetails className="container-fluid align-items-center pt-">
-                    <h1 className="display-3 text-center  font-weight-bold mb-5 "><img  src={hall} alt='Front' id="ada" className="card-img-top   "style={{width:"150px", height:"150px", paddingTop: "29px", marginTop:"-60px"}}  /> Exchanges</h1>
+                    <h1 className="display-3 text-center  font-weight-bold mb-5 "><img  src={hall} alt='Front' id="exim" className="card-img-top   "style={{width:"150px", height:"150px", paddingTop: "29px", marginTop:"-60px"}}  /> Exchanges</h1>
                     {/* <h4 className="display-5">dadasd</h4>
                     <p>hellou</p> */}
                       <div className="container  ">

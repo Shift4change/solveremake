@@ -34,10 +34,10 @@ class BitcoinD extends Component {
         return (
             <div>
                 {/* // <React.Fragment> */}
-      
+
                 <HeaderDetails className="container-fluid align-items-center">
-                    <h1 className="display-2 font-weight-bold  " id="front" > <img src={blogo} alt='Front' className="card-img-top mt-2   mb-" style={{ width: "150px", height: "150px", marginTop: "-45px", marginRight: "-20px", paddingLeft: "2px", paddingRight: "2px", paddingTop:"0px" }} /></h1>
-{/* 
+                    <h1 className="display-2 font-weight-bold  " id="front" > <img src={blogo} alt='Front' className="card-img-top mt-2   mb-" style={{ width: "150px", height: "150px", marginTop: "-45px", marginRight: "-20px", paddingLeft: "2px", paddingRight: "2px", paddingTop: "0px" }} /></h1>
+                    {/* 
                     <ul class="pagination justify-content-center">
     <li class="page-item disabled">
       <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
@@ -49,16 +49,16 @@ class BitcoinD extends Component {
   </ul> */}
 
                     <div className="row justify-content-center">
-                    <div className="col-2">
-                                <Link to="/">
-                                    <i id="left" class="fas fa-arrow-left"> </i> </Link>
-                            </div>
+                        <div className="col-2">
+                            <Link to="/">
+                                <i id="left" class="fas fa-arrow-left"> </i> </Link>
+                        </div>
                         <div className="col-2 col-lg-2">
                             <Link to="/ada">
                                 <i id="right" class="fas fa-arrow-right"></i></Link>
                         </div>
-                        
-                      
+
+
                     </div>
 
                     {/* <h4 className="display-6 mb-2">Digital Gold /  Public Ledger</h4> */}
@@ -68,29 +68,29 @@ class BitcoinD extends Component {
 
                     <div className="container pt-2 ">
                         <div id="row" className="row mt-2">
-                            <div  className="col-10 col-lg-4 mx-auto mt-4 mb-5">
+                            <div className="col-10 col-lg-4 mx-auto mt-4 mb-5">
                                 <div id="1" className="card" >
                                     <h3 className="card-title text-uppercase mt-3">Public Ledger</h3>
-                                    <img src={ledger}  alt='Bitcoin' className="card-img-top" />
+                                    <img src={ledger} alt='Bitcoin' className="card-img-top" />
                                     <div className="card-body">
 
                                         {/* <h5 className="card-title">lalal</h5> */}
 
-                                        <p id="bp" className="card-text mb-4">Being a public ledger, the Bitcoin blockchain works similar to a bank database system.  As blocks are filled to capacity with transaction details, new blocks are mined and added to the blockchain by the network participants called miners.  </p>
+                                        <p id="b1p" className="card-text mb-4">Being a public ledger, the Bitcoin blockchain works similar to a bank database system.  As blocks are filled to capacity with transaction details, new blocks are mined and added to the blockchain by the network participants called miners.  </p>
 
                                     </div>
                                 </div>
                             </div>
 
-                            <div  className="col-10 col-lg-4 col-xl-4 mx-auto mt-4 mb-5">
-                                <div   className="card">
+                            <div className="col-10 col-lg-4 col-xl-4 mx-auto mt-4 mb-5">
+                                <div className="card">
                                     <h3 className="card-title text-uppercase mt-3">Miners</h3>
                                     <img src={miners} alt='Bitcoin' className="card-img-top" />
                                     <div className="card-body">
 
                                         {/* <h5 className="card-title">lalal</h5> */}
 
-                                        <p id="two"  className="card-text">Powerful machines and mining pools are used for mining. On average, the time it takes for all miner's computational power in the world to solve and obtain one new block is 10 minutes. Each block will give the miners a reward. This hard process is know as "Proof of Work" </p>
+                                        <p id="two" className="card-text">Powerful machines and mining pools are used for mining. On average, the time it takes for all miner's computational power in the world to solve and obtain one new block is 10 minutes. Each block will give the miners a reward. This hard process is know as "Proof of Work" </p>
 
 
                                     </div>
@@ -104,7 +104,7 @@ class BitcoinD extends Component {
 
                                         {/* <h5 className="card-title">lalal</h5> */}
 
-                                        <p className="card-text mb-4">Bitcoin is a scarce resource that's resistant to inflation. It's fixed supply of 21 million and it's process called "halving", make this system deflationary. Only 3 million Bitcoin are left to be mined and every 4 years the reward for mining new blocks is halved.</p>
+                                        <p id="dgp" className="card-text mb-4">Bitcoin is a scarce resource that's resistant to inflation. It's fixed supply of 21 million and it's process called "halving", make this system deflationary. Only 3 million Bitcoin are left to be mined and every 4 years the reward for mining new blocks is halved.</p>
 
                                     </div>
                                 </div>
@@ -127,7 +127,7 @@ class BitcoinD extends Component {
 
 
                                     <div className="card-body">
-                                        <img src={hp} id="pi" alt='halving'  className="card-img-top mb-3" />
+                                        <img src={hp} id="pi" alt='halving' className="card-img-top mb-3" />
 
                                     </div>
                                 </div>
@@ -168,13 +168,13 @@ class BitcoinD extends Component {
 
                                         {/* <h5 className="card-title">lalal</h5> */}
 
-                                        <p id="wap" className="card-text mb-1 ">Using Bitcoin for big transaction is very easy. No need for a credit card, e-mail or in some cases to reveal your identity. There are no banks to make you wait 3-7 business days for the transaction to be compleat. You just need a address or a QR code to send or receive funds.</p>
+                                        <p id="wapb" className="card-text mb-1 ">Using Bitcoin for big transaction is very easy. No need for a credit card, e-mail or in some cases to reveal your identity. There are no banks to make you wait 3-7 business days for the transaction to be compleat. You just need a address or a QR code to send or receive funds.</p>
                                         <img src={wa} alt='wallet address' id="wa" className="card-img-top" style={{ width: "78px", height: "100%" }} />
                                     </div>
                                 </div>
                             </div>
-                            <div  className="col-10 col-lg-4 col-xl-4 mx-auto mt-1">
-                                <div id="10"  className="card" >
+                            <div className="col-10 col-lg-4 col-xl-4 mx-auto mt-1">
+                                <div id="10" className="card" >
                                     <h3 className="card-title text-uppercase mt-3">Getting Started</h3>
                                     <p className="mt-2 mb-3">Having control over your money is a great responsibility. </p>
                                     <div className="card-body mb-">
@@ -189,7 +189,7 @@ class BitcoinD extends Component {
 
                                         {/* <h5 className="card-title">lalal</h5> */}
 
-                                        <p id="lb" className="card-text mt-5 mb-3">After acquiring BTC create a new address in your wallet and send yourself or to a friend/family member a small portion of Bitcoin so you can get used to the simplicity of cryptocurrencies. </p>
+                                        <p id="lb" className="card-text mt-5 ">After acquiring BTC create a new address in your wallet and send yourself or to a friend/family member a small portion of Bitcoin so you can get used to the simplicity of cryptocurrencies. </p>
 
                                     </div>
                                 </div>
@@ -245,7 +245,7 @@ class BitcoinD extends Component {
                     <div className="tab-content mb-5">
                         {/* About Place Tab */}
                         <div id="video" className="tab-pane in active text-center" role="tabpanel">
-                        <div className="container">
+                            <div className="container">
                                 <div className="row">
                                     <div className="container col-10 col-lg-6 d-flex justify-content-center mt-5">
                                         <iframe width="420" height="315"
@@ -259,7 +259,7 @@ class BitcoinD extends Component {
                                     </div>
                                 </div>
                             </div>
-                            
+
                         </div>
                         {/* reviews */}
                         <div className="tab-pane" id="reviews" role="tabpanel">
@@ -338,9 +338,7 @@ img {
 #wa{
     padding-top:4px;
 }
-/* #wap{
-    margin-top:-5px;
-} */
+
 #wan{
     font-size: 0.82rem;
 }
@@ -354,13 +352,7 @@ i:hover {
    color: var(--mainBlue);
    cursor:pointer;
 }
-/* #right{
-    font-size: 45px;
-    margin-top: -5px;
-    padding-left: -16px;
-    margin-left: 488px;
-    position: static;
-} */
+
 
 
 .nav-item {
@@ -374,10 +366,187 @@ i:hover {
     margin-top:px;
 }
 
-@media(width: 1326px){
-    /* #right{
-        margin-left: 578px;
-    } */
+
+
+@media only screen  and (min-width : 1224px) {
+   
+   #right {
+       font-size: 40px;
+   margin-top: 16px;
+   padding-left: -16px;
+   margin-left: 126px;
+   padding-bottom: 24px;
+   position: static;
+}
+
+       #left{
+       font-size: 40px;
+   margin-left: -62px;
+   margin-right: 104px;
+   margin-top: 16px;
+   padding-left: 12px;
+   padding-bottom: 23px;
+   position: static;
+       } 
+       #two{
+           padding-bottom:24px;
+       }
+       #b1p{
+           padding-bottom:24px;
+       }
+       #pi {
+    width: 260px;
+    height: 335px;
+}
+#ob{
+    padding-bottom:24px;
+}
+#lb{
+    margin-bottom:-6px;
+}
+
+
+   }
+
+
+   
+   
+/* @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+      
+   #right {
+       font-size: 40px;
+   margin-top: 16px;
+   padding-left: -16px;
+   margin-left: 126px;
+   padding-bottom: 24px;
+   position: static;
+}
+
+       #left{
+       font-size: 40px;
+   margin-left: -62px;
+   margin-right: 104px;
+   margin-top: 16px;
+   padding-left: 12px;
+   padding-bottom: 23px;
+   position: static;
+       } 
+       } */
+       @media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+        .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -26px;
+}
+#pi {
+    width: 260px;
+    height: 320px;
+}
+}
+       @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+        #right {
+       font-size: 40px;
+   margin-top: 16px;
+   padding-left: -16px;
+   margin-left: 126px;
+   padding-bottom: 24px;
+   position: static;
+}
+
+       #left{
+       font-size: 40px;
+   margin-left: -62px;
+   margin-right: 104px;
+   margin-top: 16px;
+   padding-left: 12px;
+   padding-bottom: 23px;
+   position: static;
+       } 
+       #pi {
+    width: 260px;
+    height: 383px;
+}
+#ob{
+    padding-bottom:27px;
+}
+#lb{
+    padding-bottom:17px;
+}
+}
+/* @media only screen  and (min-width : 1824px) {
+   
+   #right {
+       font-size: 40px;
+   margin-top: 16px;
+   padding-left: -16px;
+   margin-left: 126px;
+   padding-bottom: 24px;
+   position: static;
+}
+
+       #left{
+       font-size: 40px;
+   margin-left: -62px;
+   margin-right: 104px;
+   margin-top: 16px;
+   padding-left: 12px;
+   padding-bottom: 23px;
+   position: static;
+       } 
+       #two{
+           padding-bottom:24px;
+       }
+       #b1p{
+           padding-bottom:24px;
+       }
+       #pi {
+    width: 260px;
+    height: 335px;
+}
+#ob{
+    padding-bottom:24px;
+        
+    }
+    #lb{
+        margin-bottom:-5px;
+    }
+
+
+   } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media(width: 1326px){
+    #right{
+    font-size: 40px;
+    margin-top: 16px;
+    padding-left: -16px;
+    margin-left: 123px;
+    position: static;
+}
+#left{
+        font-size: 40px;
+    margin-left: -62px;
+    margin-right: 116px;
+    margin-top: 16px;
+    padding-left: 12px;
+    padding-bottom: 23px;
+    position: static;
+}
 }
 
 
@@ -403,13 +572,38 @@ i:hover {
       padding-top:66px;
       padding-bottom:-15px;
       
-    }
-    /* #right{
-    font-size:45px;
-        padding-top:0px;
-    padding-left:116px;
-    margin-left: 0px;
-    position:static */
+    } */
+   
+/* }
+@media(width: 1024px){
+    #right {
+        font-size: 40px;
+    margin-top: 16px;
+    padding-left: -16px;
+    margin-left: 126px;
+    padding-bottom: 24px;
+    position: static;
+}
+
+        #left{
+        font-size: 40px;
+    margin-left: -62px;
+    margin-right: 104px;
+    margin-top: 16px;
+    padding-left: 12px;
+    padding-bottom: 23px;
+    position: static;
+        } */
+       
+        /* #pi {
+    width: 236px;
+    height: 383px;
+}
+#ob {
+    padding-bottom: 5px;
+    padding-top: 23px;
+}
+    
 }
 @media(width: 1366px){
     #right {
@@ -428,11 +622,13 @@ i:hover {
     padding-left: 12px;
     padding-bottom: 23px;
     position: static;
-}
+        }
+       
+
 #two{
     padding-bottom:24px;
 }
-#bp{
+#b1p{
     padding-top:4px;
     padding-bottom:20px;
 }
@@ -445,29 +641,52 @@ i:hover {
 }
 #ob {
     padding-bottom: 25px;
-    padding-top: 23px;
+    padding-top: 7px;
 }
+#wapb{
+    padding-bottom:7px;
+}
+}
+@media(width: 1768px){
+    #two{
+        padding-bottom:24px;
+    }
+    #b1p{
+        padding-bottom:24px;
+    }
+    #pi {
+    width: 236px;
+    height: 335px;
+}
+#ob {
+    padding-bottom: 27px;
+}
+#lb{
+    margin-bottom: -7px;
+}
+
 }
    
-}
-
-
-
-
-
-
-
 
 
 
 @media(width: 1440px) {
 
 #right{
-font-size:45px;
-margin-top:-100px;
-padding-left: -16px;
-margin-left: 590px;
-position:fixed;
+    font-size: 40px;
+    margin-top: 16px;
+    padding-left: -16px;
+    margin-left: 123px;
+    position: static;
+}
+#left{
+        font-size: 40px;
+    margin-left: -62px;
+    margin-right: 116px;
+    margin-top: 16px;
+    padding-left: 12px;
+    padding-bottom: 23px;
+    position: static;
 }
 #front{margin-left:-50px;
     
@@ -484,13 +703,6 @@ position:fixed;
 padding-bottom:22px;
    
 }
-# one{
-    padding-bottom:2px;
-}
-
-}
-
-
-
+} */
 
 `;

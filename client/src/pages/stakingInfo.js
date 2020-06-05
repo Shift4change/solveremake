@@ -24,14 +24,48 @@ class StakingS extends Component {
                                 <Link to="/wallets">
                                     <i id="left" class="fas fa-arrow-left"> </i> </Link>
                             </div>
+
                             {/* <div className="col-2">
                                 <Link to="/exchanges">
                                     <i id="right" class="fas fa-arrow-right"></i></Link>
                             </div> */}
                         </div>
                     </div>
+                    <div className="container-fluid">
+                        <div className="row">
+                            <h3>Our 3 staking pools for the Testnet are running, if you want to delagate.</h3>
+                            <div className="col-6">
+                                <div id="be" class="exchange-button">
+
+                                    <p id="be">Luna pool <a href="https://luna-pool.io/ " target="_blank" rel="noopener noreferrer nofollow" class="exchange-button__a">
+                                        <span class="exchange-button__content">
+                                            ticker: Luna
+<svg xmlns="http://www.w3.org/2000/svg" width="8px" height="13" viewBox="0 0 9 13" class="exchange-button__next-icon">
+                                                <path fill="none" stroke="#fff" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" d="M1.5 12 7 6.5 1.5 1">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                    </a></p>
+                                </div>
+                            </div>
+                            <div className="col-6">
+                                <div id="be" class="exchange-button">
+
+                                    <p id="be">Solve pool <a href="https://solvestaking.com/ " target="_blank" rel="noopener noreferrer nofollow" class="exchange-button__a">
+                                        <span class="exchange-button__content">
+                                            ticker: Try1
+<svg xmlns="http://www.w3.org/2000/svg" width="8px" height="13" viewBox="0 0 9 13" class="exchange-button__next-icon">
+                                                <path fill="none" stroke="#fff" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" d="M1.5 12 7 6.5 1.5 1">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                    </a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <br></br>
-                    
+
                     <div className="container  mt-5">
                         <div className="row justify-content-center">
                             <div className="col-2">
@@ -47,14 +81,14 @@ class StakingS extends Component {
                             <div className="col-2">
                                 <i className="fab fa-reddit" />
                             </div>
-                            
+
                         </div>
-                        
+
                     </div>
-                   
-               
+
+
                 </HeaderDetails>
-              
+
                 {/* {Navlinks} */}
                 <div className="container mt-2">
                     <ul className="nav nav-tabs">
@@ -95,10 +129,10 @@ class StakingS extends Component {
 
     }
 }
-        
-        
-         
-    
+
+
+
+
 export default StakingS;
 
 
