@@ -35,7 +35,7 @@ class Wallets extends Component {
                     <div className="container" >
                         <div className="row">
 
-                            <div className="col-10 col-lg-4 mx-auto mb-5" >
+                            <div className="col-8 col-lg-4 mx-auto mb-5" >
                                 {/* <h3>cardano</h3>
                    <hr></hr> */}
                                 <div  className="card" >
@@ -58,16 +58,16 @@ class Wallets extends Component {
 
                                     </div>
                                 </div>
-                            </div> <div  className="col-10 col-lg-4 mx-auto mb-5">
+                            </div> <div  className="col-8 col-lg-4 mx-auto mb-5">
                                 <div   className="card" >
-                                    <a 
+                                    <a id="y"
                                         href="https://yoroi-wallet.com/" target="_blank" rel="noopener noreferrer nofollow"
                                         
                                     >  <img  src={yoroi} style={{ height: "170px" }} alt='Bitcoin' className="card-img-top" /> </a>
                                     <div className="card-body mb-4">
                                         <h3 id="lgt" className="card-title text-uppercase">Light wallet</h3>
                                         {/* <h5 className="card-title">lalal</h5> */}
-                                        <p className="card-text"> Developed by Emergo, yoroi is a light wallet. You can use it as a chrom extension or on your phone for easy payments. Although with this wallet you won't download the whole Blockchain, it is secure, easy to use and you can stake your ADA. </p>
+                                        <p id="ywp" className="card-text"> Developed by Emergo, yoroi is a light wallet. You can use it as a chrom extension or on your phone for easy payments. Although with this wallet you won't download the whole Blockchain, it is secure, easy to use and you can stake your ADA. </p>
 
                                         <a 
                                             href="https://yoroi-wallet.com/" target="_blank" rel="noopener noreferrer nofollow"
@@ -80,9 +80,9 @@ class Wallets extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-10 col-lg-4 mx-auto mb-5">
+                            <div className="col-10  col-lg-4 mx-auto mb-5">
                                 <div  className="card" >
-                                    <a 
+                                    <a id="l"
                                         href="https://www.ledger.com/" target="_blank" rel="noopener noreferrer nofollow"
                                         
                                     >  <img  src={Led} alt='Bitcoin' className="card-img-top" style={{    height: "169px"}}/> </a>
@@ -153,12 +153,12 @@ class Wallets extends Component {
                             <div className="container">
                                 <div className="row">
                                     <div className="container col-10 col-lg-6 d-flex justify-content-center mt-5">
-                                        <iframe width="420" height="315"
+                                        <iframe width="550" height="315"
                                             src="https://www.youtube.com/embed/eNUwie_45E8" allowfullscreen="true">
                                         </iframe>
                                     </div>
                                     <div className="container col-10 col-lg-6 d-flex justify-content-center mt-5">
-                                        <iframe width="420" height="315"
+                                        <iframe width="550" height="315"
                                             src="https://www.youtube.com/embed/9jg8lsreIQ8" allowfullscreen="true">
                                         </iframe>
                                     </div>
@@ -272,7 +272,7 @@ i:hover {
     padding-left:40px;
 }
 
-@media(width: 375px){
+/* @media(width: 375px){
     .container {
         width: 100%;
         padding-right: 2px;
@@ -419,8 +419,144 @@ i:hover {
 #lp{
     padding-bottom:13px;
 }
+} */
+p{
+    font-family: Helvetica Neue,Arial,"Noto Sans",sans-serif ;
 }
 
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+h1{
+    font-size:0px;
+}
+.row {
+    
+    display: flex;
+    
+    flex-wrap: wrap;
+    margin-right: -79px;
+    margin-left: -76px;
+    margin-top: 2px;
+}
+#logo {
+    margin-left: -3px;
+    padding-left: 0px;
+    padding-bottom: 12px;
+    margin-right: -1px;
+    margin-bottom: -25px;
+    margin-top: 46px;
+}
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    #left {
+    font-size: 40px;
+    margin-left: -62px;
+    margin-right: 110px;
+    margin-top: 0px;
+    padding-left: 12px;
+    padding-bottom: 23px;
+    position: static;
+}
+#logo {
+    margin-left: -3px;
+    padding-left: 0px;
+    padding-bottom: 12px;
+    margin-right: -1px;
+    margin-bottom: -25px;
+}
+
+#right {
+    font-size: 40px;
+    margin-top: 0px;
+    padding-left: -16px;
+    margin-left: 127px;
+    padding-bottom: 65px;
+    position: static;
+}
+h1{
+    margin-bottom:-44px;
+    padding-top:13%;
+}
+#ywp{
+    padding-bottom:32px;
+}
+#lp{padding-bottom:12px;
+}
+
+
+}
+@media only screen  and (min-width : 1224px) {
+    .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: -3%;
+}
+h1 {
+    padding-top: 8%;
+    /* margin-bottom: -62px; */
+}
+#left {
+    font-size: 40px;
+    margin-left: -62px;
+    margin-right: 166px;
+    margin-top: -26px;
+    padding-left: 12px;
+    padding-bottom: 23px;
+    position: static;
+}
+#right {
+    font-size: 40px;
+    margin-top: -55px;
+    padding-left: -16px;
+    margin-left: 148px;
+    padding-bottom: 65px;
+    position: static;
+}
+}
+@media only screen  and (min-width : 1824px) {
+     h1 {
+    padding-top: 6%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: -3%;
+}
+#left {
+    font-size: 40px;
+    margin-left: -179px;
+    margin-right: 209px;
+    margin-top: -27px;
+    padding-left: 12px;
+    padding-bottom: 23px;
+    position: static;
+}
+#right {
+    font-size: 40px;
+    margin-top: -27px;
+    padding-left: -16px;
+    margin-left: 219px;
+    padding-bottom: 56px;
+    position: static;
+}
+#lp{
+    padding-bottom:12px;
+}
+
+/* #left {
+    font-size: 40px;
+    margin-left: -318px;
+    margin-right: 104px;
+    margin-top: -49px;
+    padding-left: 12px;
+    padding-bottom: 23px;
+    position: static;
+} */
+}
 
 
 `;

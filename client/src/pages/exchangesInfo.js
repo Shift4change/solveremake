@@ -398,11 +398,11 @@ h4{
     font-size: 17px;
     font-weight: 700;
 }
- #ex {
+#ex {
     margin-top: 20px;
     margin-right: -80px;
-    width: 263px;
-    height: 370px;
+    width: 290px;
+    height: 397px;
     padding-left: 0px;
 }
 #eb{
@@ -410,7 +410,7 @@ h4{
        margin-left: -90px;
    }
    h1{
-    padding-top: 12%;
+    padding-top: 16%;
 }
 #exim{
     width: 150px;
@@ -539,6 +539,10 @@ h1{
     width: 749px;
     height: 563px;
     padding-left: 0px;
+}
+h4{
+    font-size:45px;
+    margin-left:53px;
 }
 }
 
