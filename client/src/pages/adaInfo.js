@@ -33,7 +33,7 @@ class AdaA extends Component {
             <div>
                 {/* // <React.Fragment> */}
                 <HeaderDetails id="hd" className="container-fluid align-items-center">
-                    <h1 className="display-2 font-weight-bold " id="front" > <img src={ada} alt='Front' id="ada" className="card-img-top mt-2  mb-5" style={{ width: "150px", height: "150px" }} /></h1>
+                    <h1 className="display-2 font-weight-bold " id="front" > <img src={ada} alt='Front' id="ada" className="card-img-top " style={{width: "175px", height: "175px"}} /></h1>
                     <div className="container ">
                         <div className="row justify-content-center">
                             <div className="col-2">
@@ -52,7 +52,7 @@ class AdaA extends Component {
                             <div className="col-10 col-lg-4 col-xl-4 mx-auto mt-4 mb-5">
                                 <div className="card" >
                                     <h3 className="card-title text-uppercase mt-3">Blockchain</h3>
-                                    <img  src={power} alt='Bitcoin' className="card-img-top" />
+                                    <img src={power} alt='Bitcoin' className="card-img-top" />
                                     <div className="card-body">
 
                                         {/* <h5 className="card-title">lalal</h5> */}
@@ -98,7 +98,7 @@ class AdaA extends Component {
 
                                         {/* <h5 className="card-title">lalal</h5> */}
 
-                                        <p id="dp" className="card-text mb-4">Delegating ADA to a Staking Pool increases the chances for the Pool to find a new Block and therefore to generate rewards. A Staking Pool is a highly competitive business that has to be on 24/7 to generate Blocks and create trust with its delegators (You). The rewards are distributed automatically by the network not by the Stake Pool Operators. Staking rewards are the incentive for delegating your ADA and participating in the network.  </p>
+                                        <p id="dp" className="card-text ">Delegating ADA to a Staking Pool increases the chances for the Pool to find a new Block and therefore to generate rewards. A Staking Pool is a highly competitive business that has to be on 24/7 to generate Blocks and create trust with its delegators (You). The rewards are distributed automatically by the network not by the Stake Pool Operators. Staking rewards are the incentive for delegating your ADA and participating in the network.  </p>
 
                                     </div>
                                 </div>
@@ -108,7 +108,7 @@ class AdaA extends Component {
                                     <h3 className="card-title text-uppercase mt-3">Pool Operators</h3>
                                     <img src={bank} alt='Bitcoin' className="card-img-top" />
                                     <div className="card-body">
-                                        <p id="po" className="card-text mb-4">Anyone can become a Stakepool owner/operator. You will need some Devops knowledge and a lot of time but anyone can do it. To decentralize the network it is encouraged to create a Staking pool if you have the skills. In order to provide trust with the delegators (You), the Pool owners/operators have to pledge a significant amount of ADA before successfully running a Staking Pool, generating blocks and getting rewards. </p>
+                                        <p id="po" className="card-text ">Anyone can become a Stakepool owner/operator. You will need some Devops knowledge and a lot of time but anyone can do it. To decentralize the network it is encouraged to create a Staking pool if you have the skills. In order to provide trust with the delegators (You), the Pool owners/operators have to pledge a significant amount of ADA before successfully running a Staking Pool, generating blocks and getting rewards. </p>
                                     </div>
                                 </div>
                             </div>
@@ -120,7 +120,7 @@ class AdaA extends Component {
 
                                         {/* <h5 className="card-title">lalal</h5> */}
 
-                                        <p id="ab" className="card-text mb-">The speed of Transactions are currently at 1000 tps this will increase over time. Being faster then Bitcoin, having low fees and staking, make ADA an important asset that you can use to transfer value any time and anywhere  in the world. Its cryptography makes it so that nobody can take your money or make a payment on your behalf. ADA can provide you with high security and financial freedom as long as you take your wallet's security seriously.  </p>
+                                        <p id="ab" className="card-text ">The speed of Transactions are currently at 1000 tps this will increase over time. Being faster then Bitcoin, having low fees and staking, make ADA an important asset that you can use to transfer value any time and anywhere  in the world. Its cryptography makes it so that nobody can take your money or make a payment on your behalf. ADA can provide you with high security and financial freedom as long as you take your wallet's security seriously.  </p>
 
                                     </div>
                                 </div>
@@ -129,7 +129,7 @@ class AdaA extends Component {
                                 <div className="card" >
                                     <h3 className="card-title text-uppercase mt-3 mb-3 ">participants</h3>
                                     {/* <img src={bdp} alt='halving' className="card-img-top" style={{width:"200px" }} /> */}
-                                    <p  id="wan">3176.0008067 ADA</p>
+                                    <p id="wan">3176.0008067 ADA</p>
                                     <div className="card-body mb-3">
 
                                         {/* <h5 className="card-title">lalal</h5> */}
@@ -175,7 +175,7 @@ class AdaA extends Component {
 
                                         {/* <h5 className="card-title">lalal</h5> */}
 
-                                        <p  className="card-text mb-">After acquiring ADA create a new address in your wallet and send yourself or to a friend/family member a small portion of ADA so you can get used to the simplicity of cryptocurrencies. </p>
+                                        <p className="card-text mb-">After acquiring ADA create a new address in your wallet and send yourself or to a friend/family member a small portion of ADA so you can get used to the simplicity of cryptocurrencies. </p>
                                         <p id="dsp">Delegating/Staking your ADA doesn't mean your funds will be locked. You are able to move funds between Staking Pools and to transfer funds as you please!</p>
                                     </div>
                                 </div>
@@ -235,12 +235,12 @@ class AdaA extends Component {
                             <div className="container">
                                 <div className="row">
                                     <div className="container col-10 col-lg-6 d-flex justify-content-center mt-5">
-                                        <iframe width="420" height="315"
+                                        <iframe width="575" height="315"
                                             src="https://www.youtube.com/embed/EDyQEUZ0PlY" allowfullscreen="true">
                                         </iframe>
                                     </div>
                                     <div className="container col-10 col-lg-6 d-flex justify-content-center mt-5">
-                                        <iframe width="420" height="315"
+                                        <iframe width="575" height="315"
                                             src="https://www.youtube.com/embed/UlKZ83REIkA" allowfullscreen="true">
                                         </iframe>
                                     </div>
@@ -314,15 +314,8 @@ p {
     margin-bottom: 2%;
     color: var(--mainDark);
 }
-#ada{
-    padding-left:19px;
-    margin-top:2px;
-    margin-bottom:2px;
-     margin-right:-16px;
- }
- #front{
-     padding-top:6%;
- }
+
+   
 img {
     align-self:center;
     width:50px;
@@ -347,215 +340,189 @@ i:hover {
    color: var(--mainBlue);
    cursor:pointer;
 }
-#right{
-    font-size:45px;
-    margin-top:-112px;
-    padding-left: -16px;
-    margin-left: 397px;
-    position:static;
-}
-#left{
-    font-size:45px;
-    margin-left:-450px;
-    margin-top:-112px;
-    padding-left:12px;
-    position:fixed;
-}
+
 #wap{
     padding-bottom:5px;
-}
+} */
 
 
 .nav-item {
     height: 18.75rem;
 }
-@media(width: 1024px){
-    #wap{
-        padding-bottom:29px;
-    }
-}
-@media(max-width: 760px) {
-    h1{
-        font-size:0;
-    }
-   h4{
-        color:var(--mainWhite)
-    }
-    /* #add{
-        margin-left:3%;
-        
-       align-items:center;
-       weight:100%;
-       position: relative;
-    } */
-    #wan{
-        padding-left:94px;
-    }
-    .container{
-        
-        width:26rem;
-        margin-left: -26px;
-    padding-right: 3px;
-    }
-    
-    #hd{
-        margin-right:15px;
-    }
-    #ada{
-        padding-top:27px;
-       margin-right:-20px;
-    }
-    p{
-        align-self:start;
-        display: table;
-    }
-    
-    #front{
-        padding-top:12%;
-        
-    }
-    #right{
-    font-size:45px;
-        padding-top:92px;
-    padding-left:76px;
-    margin-left: 0px;
-    position:static
-}
 
-    #left {
-        font-size: 45px;
-        padding-top: 80px;
-    padding-left: 31px;
-    margin-left: -166px;
-    position: static;
-}
-
-}
-@media (max-width: 375px){
-    #right{
-    font-size:45px;
-        padding-top:92px;
-        margin-top: -73px;
-    padding-left:76px;
-    margin-left: 0px;
-    position:static
-}
-
-    #left {
-        font-size: 45px;
-        margin-top: -61px;
-        padding-top: 80px;
-    padding-left: 31px;
-    margin-left: -166px;
-    position: static;
-}
-}
-@media(width: 1326px){
-    .hd{
-        padding-left:45px;
-    }
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
     .row {
     display: flex;
     flex-wrap: wrap;
-    margin-right: -10px;
-    margin-left: -19px
+    margin-right: -46px;
+    margin-left: -15px;
 }
 #ada {
-    padding-left: 17px;
-    margin-top: 2px;
-    margin-bottom: 2px;
-    margin-right: 22px;
+    padding-left: 21px;
+    margin-top: 66px;
+    margin-bottom: 28px;
+    margin-right: -32px;
 }
-#po{
-    padding-bottom:46px;
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    #right {
+    font-size: 40px;
+    margin-top: 16px;
+    padding-left: -16px;
+    margin-left: 126px;
+    padding-bottom: 24px;
+    position: static;
 }
 
-    #right{
-    font-size:45px;
-    margin-top:-122px;
-    padding-left: -16px;
-    margin-left: 479px;
-    position:static;
-    }
-    #left {
-    font-size: 45px;
-    margin-left: -570px;
-    margin-top: -122px;
-    padding-left: 49px;
-    position: fixed;
-}
-}
-@media(width: 1366px){
-    #right {
-        font-size: 55px;
-    margin-top: 46px;
-    padding-left: -16px;
-    margin-left: 165px;
-    padding-bottom: 38px;
-    position: static;
-        }
-        #left{
-        font-size: 55px;
+#left {
+    font-size: 40px;
     margin-left: -62px;
-    margin-right: 116px;
-    margin-top: 46px;
+    margin-right: 104px;
+    margin-top: 16px;
     padding-left: 12px;
     padding-bottom: 23px;
     position: static;
-        }
-        #po{
-            padding-bottom:23px;
-        }
-        #ab{
-            padding-bottom:23px;
-        }
-        #wap {
-    padding-bottom: 9px;
 }
-#pap{
-    padding-top:15px;
+#ada {
+    padding-left: 21px;
+    margin-top: 40px;
+    margin-bottom: 28px;
+    margin-right: -32px;
 }
-#wan{
-    padding-top:11px;
+#ab{
+    padding-bottom:24px;
 }
+#wap {
+    padding-bottom: 29px;
 }
 
-
-
-@media(width: 1440px) {
-    .row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -58px;
-    margin-right: -67px;
 }
-#ada{
-    margin-right:-14px;
+@media only screen  and (min-width : 1224px) {
+    #right {
+        font-size: 40px;
+    margin-top: 16px;
+    padding-left: -16px;
+    margin-left: 153px;
+    padding-bottom: 24px;
+    position: static;
+}
+
+        #left{
+        font-size: 40px;
+    margin-left: -62px;
+    margin-right: 156px;
+    margin-top: 16px;
+    padding-left: 12px;
+    padding-bottom: 23px;
+    position: static;
+        } 
+        #ada {
+    padding-left: 21px;
+    margin-top: -29px;
+    margin-bottom: 28px;
+    margin-right: -22px;
+}
+ 
+ #front{
+     padding-top:6%;
+ } 
+ #pap{
+     margin-top:22px;
+ }
+ #dsp{
+     margin-top:-5px;
+ }
+ #po{
+     padding-bottom:24px;
+ }
+}
+@media only screen  and (min-width : 1824px) {
+    
+    #right {
+    font-size: 40px;
+    margin-top: 20px;
+    padding-left: -16px;
+    margin-left: 245px;
+    padding-bottom: 24px;
+    position: static;
+}
+
+#left {
+    font-size: 40px;
+    margin-left: -179px;
+    margin-right: 209px;
+    margin-top: 20px;
+    padding-left: 12px;
+    padding-bottom: 23px;
+    position: static;
+}
+#ada {
+    padding-left: 21px;
+    margin-top: -62px;
+    margin-bottom: 28px;
+    margin-right: -32px;
 }
 #po{
     padding-bottom:24px;
 }
 
-    #right{
-    font-size:45px;
-    margin-top:-122px;
-    padding-left: -16px;
-    margin-left: 515px;
-    position:fixed;
     }
-    #left {
-    font-size: 45px;
-    margin-left: -570px;
-    margin-top: -122px;
-    padding-left: 12px;
-    position: fixed;
-    }
-}
-
-
-
 
 
 
 
 `;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -7,8 +7,19 @@
 
   .navbar-toggler {
     border: none;
+    
 
 }  
+#nsm{
+    margin-right: 153px;
+}
+#nic{
+    color:white;
+    padding-right:40px;
+}
+#cw{
+    color:rgb(211, 130, 130);
+}
 #navsol{
     width: 100%;
     

@@ -27,7 +27,7 @@ class Home extends Component {
                             })
                         }}
                     </InfoConsumer> */}
-                    <div id="bit" className="col-10 col-lg-4 col-xl-4 col-md-4  mx-auto mb-5">
+                    <div id="bit" className="col-10 col-lg-4 col-xl-4   mx-auto mb-5">
                         <div id="bit" className="card" >
                         <Link  
                                 to="/bitcoin"
@@ -58,7 +58,7 @@ class Home extends Component {
                             <div className="card-body mb-">
                                 <h3 className="card-title text-uppercase">ADA</h3>
                                 {/* <h5 className="card-title">lalal</h5> */}
-                                <p className="card-text">Named after Ada Lovelace the famous mathematician and writer. ADA is a deflationary digital currency as it has a fixed supply. ADA is provably secure, smart money that is powering the Cardano Blockchain. </p>
+                                <p id="adap" className="card-text">Named after Ada Lovelace the famous mathematician and writer. ADA is a deflationary digital currency as it has a fixed supply. ADA is provably secure, smart money that is powering the Cardano Blockchain. </p>
 
                                 <Link  
                                 to="/ada"

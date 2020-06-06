@@ -1,5 +1,5 @@
 
-
+/* 
 @media(width: 1024px){
     #ex{
         margin-top: 20px;
@@ -41,6 +41,13 @@
         }
    
 }
+@media(width: 375px){
+#exim{
+    padding-top: 29px;
+    margin-top: 5px;
+}
+}
+
 @media(width: 1326px){
     #ex{
         margin-top: 20px;
@@ -92,7 +99,7 @@
         width: 471px;
     height: 229px;
     } */
-}
+/* }
 @media(width: 1366px){
     #left {
         font-size: 55px;
@@ -220,7 +227,7 @@
 padding-left: 89px;
 padding-right: 0px;
 } */
-#ke{
+/* #ke{
 margin-left: -20px;
 padding-left: 42px;
 padding-right: 0px;
@@ -235,5 +242,5 @@ padding-right: 0px;
 padding-left: 47px;
 padding-right: 0px;
 
-}
-}
+} 
+}  */

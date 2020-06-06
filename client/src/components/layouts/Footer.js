@@ -12,7 +12,7 @@ function Footer() {
                         <div className="col-10 col-lg-3 ">
                             <h4><a href="/contacts">Contact Us</a></h4>
                             <ul className="list-unstyled align-items-center ">
-                                <li>University of Pennsilvania</li>
+                                <li>University of Pennsylvania</li>
                                 <li>Address: Philadelphia, PA 19104</li>
                                 <li>Phone: 215 898-5000</li>
                                 <li>Acceptance rate: 9% lol :)</li>

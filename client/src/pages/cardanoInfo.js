@@ -132,7 +132,7 @@ Cardano more useful, more rewarding, and valuable for all users.</p>
 
                                         {/* <h5 className="card-title">lalal</h5> */}
 
-                                        <p className="card-text mb-3">The Goguen era represents a step change in the abilities of Cardano.
+                                        <p id="scp" className="card-text ">The Goguen era represents a step change in the abilities of Cardano.
                                         One of the goals has been the creation of Plutus,
                                         a smart contract development language and execution platform.
                                         The Goguen era will make Cardano accessible to wider audiences via Marlowe,
@@ -401,7 +401,7 @@ i:hover {
    color: var(--mainBlue);
    cursor:pointer;
 }
-#right{
+/* #right{
     font-size:45px;
     margin-top:-138px;
     padding-left: -16px;
@@ -414,7 +414,7 @@ i:hover {
     margin-top: -129px;
     padding-left:12px;
     position:fixed;
-}
+} */
 #logo{
     margin-left: -122px;
     padding-left: 0px;
@@ -426,12 +426,7 @@ i:hover {
     color:#555;
 }
 
-/* #logo{
-    margin-left: 0 px;
-    padding-left: 0px;
-    padding-bottom: 0px;
-    margin-right: -0px;
-} */
+
 
 .nav-item {
     height: 18.75rem;
@@ -439,7 +434,175 @@ i:hover {
 
 
 
-@media(width: 760px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+ 
+h1{
+    font-size:0;
+}
+ #logo {
+    margin-left: 30px;
+    padding-left: 0px;
+    padding-bottom: -13px;
+    margin-right: -1px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -46px;
+    margin-left: -15px;
+}
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+    #right {
+    font-size: 40px;
+    margin-top: -11px;
+    padding-left: -16px;
+    margin-left: 128px;
+    padding-bottom: 24px;
+    position: static;
+}
+
+#left {
+    font-size: 40px;
+    margin-left: -62px;
+    margin-right: 104px;
+    margin-top: -11px;
+    padding-left: 12px;
+    padding-bottom: 23px;
+    position: static;
+}
+#cp{
+    padding-bottom:3px;
+}
+#ch{
+    padding-bottom:27px;
+}
+#pc{
+    margin-bottom:-10px;
+}
+#scp{
+    margin-bottom:-8px;
+}
+
+}
+@media only screen  and (min-width : 1224px) {
+    #right {
+    font-size: 40px;
+    margin-top: -20px;
+    padding-left: -16px;
+    margin-left: 161px;
+    padding-bottom: 24px;
+    position: static;
+}
+#left {
+    font-size: 40px;
+    margin-left: -66px;
+    margin-right: 144px;
+    margin-top: -20px;
+    padding-left: 12px;
+    padding-bottom: 23px;
+    position: static;
+}
+ #logo {
+    margin-left: -41px;
+    padding-left: 0px;
+    padding-bottom: 17px;
+    margin-right: -1px;
+}
+#cp{
+    padding-bottom:12px;
+}
+#bc{
+    padding-bottom:24px;
+}
+#wap{
+    padding-bottom:8px;
+}
+#wc{
+    padding-bottom:18px;
+}
+#scp{
+    padding-bottom:15px;
+}
+#ch{
+    padding-bottom:12px;
+}
+
+}
+@media only screen  and (min-width : 1824px) {
+    #right {
+    font-size: 40px;
+    margin-top: -4px;
+    padding-left: -16px;
+    margin-left: 245px;
+    padding-bottom: 24px;
+    position: static;
+}
+
+#left {
+    font-size: 40px;
+    margin-left: -179px;
+    margin-right: 209px;
+    margin-top: -4px;
+    padding-left: 12px;
+    padding-bottom: 23px;
+    position: static;
+}
+#logo {
+    margin-left: -55px;
+    padding-left: 0px;
+    padding-bottom: 17px;
+    margin-right: -1px;
+}
+#cp{
+    padding-bottom:12px;
+}
+#ch{
+    padding-bottom:12px;
+}
+#bc{
+    padding-bottom:24px;
+}
+#wap{
+    padding-bottom:8px;
+}
+#wc{
+    padding-bottom:19px;
+}
+#scp{
+    padding-bottom:14px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media(width: 760px) {
     h1{
         font-size:0;
     }
@@ -471,11 +634,11 @@ i:hover {
     padding-left: 12px;
     position: fixed;
 
-}
+} */
 
 
 }
-@media(width: 1024px){
+/* @media(width: 1024px){
     #bc{
 padding-bottom:24px;
     }
@@ -496,6 +659,22 @@ padding-bottom:24px;
 }
 @media(width: 1326px){
     #right{
+    font-size: 40px;
+    margin-top: -17px;
+    padding-left: -16px;
+    margin-left: 163px;
+    position: static;
+}
+#left{
+    font-size: 40px;
+    margin-left: -62px;
+    margin-right: 123px;
+    margin-top: -17px;
+    padding-left: 12px;
+    padding-bottom: 15px;
+    position: static;
+} */
+    /* #right{
         font-size:45px;
         margin-top:-139px;
         padding-left: -16px;
@@ -508,8 +687,8 @@ padding-bottom:24px;
         margin-top: -139px;
         padding-left: 49px;
         position: fixed;
-    }
-    #bc{
+    } */
+    /* #bc{
 padding-bottom:11px;
     }
 
@@ -552,7 +731,7 @@ padding-bottom:11px;
 #wc {
     padding-bottom: 17px;
 }
-}
+
     }
 
 
@@ -560,22 +739,24 @@ padding-bottom:11px;
 
 @media(width: 1440px) {
     #right{
-    font-size:45px;
-    margin-top:-138px;
+    font-size: 40px;
+    margin-top: -17px;
     padding-left: -16px;
-    margin-left: 489px;
-    position:fixed;
-    }
-    #left {
-    font-size: 45px;
-    margin-left: -533px;
-    margin-top: -138px;
+    margin-left: 163px;
+    position: static;
+}
+#left{
+    font-size: 40px;
+    margin-left: -62px;
+    margin-right: 123px;
+    margin-top: -17px;
     padding-left: 12px;
-    position: fixed;
+    padding-bottom: 15px;
+    position: static;
 }
     
     #front{
-        margin-left:-86px;
+        margin-left:70px;
     }
     #logo{
         padding-right:10px;
@@ -640,6 +821,37 @@ h1{
 }
 
 }
+@media(width: 2560px){
+    #ch {
+    padding-bottom: 11px;
+}
+#bc{
+    padding-bottom:24px;
+}
+#wc {
+    padding-bottom: 17px;
+}
+#right{
+        font-size: 34px;
+    margin-top: -12px;
+    padding-left: -16px;
+    margin-left: 182px;
+    position: static;
+}
+#left{
+    font-size: 35px;
+    margin-left: -81px;
+    margin-right: 171px;
+    margin-top: -12px;
+    padding-left: 12px;
+    padding-bottom: 25px;
+    position: static;
+}
+#front{
+        margin-left:70px;
+    }
+
+} */
 
 
 
