@@ -513,6 +513,9 @@ h1 {
     padding-bottom: 65px;
     position: static;
 }
+#lp{
+    padding-bottom:12px;
+}
 }
 @media only screen  and (min-width : 1824px) {
      h1 {

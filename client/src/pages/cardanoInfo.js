@@ -307,12 +307,12 @@ A major innovation of Cardano is that it will balance the needs of users with th
                                         </iframe>
                                     </div>
                                     <div className="container col-10 col-lg-4 d-flex justify-content-center mt-5">
-                                        <iframe width="420" height="315"
+                                        <iframe width="650" height="415"
                                             src="https://www.youtube.com/embed/nB6eDbnkAk8" allowfullscreen="true">
                                         </iframe>
                                     </div>
                                     <div className="container col-10 col-lg-4 d-flex justify-content-center mt-5">
-                                        <iframe width="420" height="315"
+                                        <iframe width="650" height="415"
                                             src="https://www.youtube.com/embed/PoNaw-Mtxgo" allowfullscreen="true">
                                         </iframe>
                                     </div>
