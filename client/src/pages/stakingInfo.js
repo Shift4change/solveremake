@@ -31,19 +31,22 @@ class StakingS extends Component {
                             </div> */}
                         </div>
                     </div>
+                    <br></br>
                     <div className="container-fluid">
+                    <h3>Our two staking pools for the Testnet are running and earning rewards.</h3>
                         <div className="row">
-                            <h3>Our 3 staking pools for the Testnet are running, if you want to delagate.</h3>
+                           
+                           <br></br>
                             <div className="col-6">
                                 <div id="be" class="exchange-button">
 
                                     <p id="be">Luna pool <a href="https://luna-pool.io/ " target="_blank" rel="noopener noreferrer nofollow" class="exchange-button__a">
                                         <span class="exchange-button__content">
                                             ticker: Luna
-<svg xmlns="http://www.w3.org/2000/svg" width="8px" height="13" viewBox="0 0 9 13" class="exchange-button__next-icon">
+
                                                 <path fill="none" stroke="#fff" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" d="M1.5 12 7 6.5 1.5 1">
                                                 </path>
-                                            </svg>
+                                           
                                         </span>
                                     </a></p>
                                 </div>
@@ -54,10 +57,10 @@ class StakingS extends Component {
                                     <p id="be">Solve pool <a href="https://solvestaking.com/ " target="_blank" rel="noopener noreferrer nofollow" class="exchange-button__a">
                                         <span class="exchange-button__content">
                                             ticker: Try1
-<svg xmlns="http://www.w3.org/2000/svg" width="8px" height="13" viewBox="0 0 9 13" class="exchange-button__next-icon">
+
                                                 <path fill="none" stroke="#fff" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" d="M1.5 12 7 6.5 1.5 1">
                                                 </path>
-                                            </svg>
+                                          
                                         </span>
                                     </a></p>
                                 </div>
@@ -86,6 +89,8 @@ class StakingS extends Component {
 
                     </div>
 
+<br></br>
+<br></br>
 
                 </HeaderDetails>
 
@@ -175,7 +180,7 @@ i:hover {
    position:static;
 }
 
-@media(max-width: 760px) {
+/* @media(max-width: 760px) {
     h1,h4{
         color:var(--mainWhite)
     }
@@ -203,6 +208,46 @@ i:hover {
     margin-top: -138px;
     padding-left: 12px;
     position: static;
+}
+} */
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+}
+@media only screen  and (min-width : 1224px) {
+
+}
+@media only screen  and (min-width : 1824px) {
+    #left {
+    font-size: 45px;
+    margin-left: -607px;
+    margin-right: 264px;
+    margin-top: -138px;
+    padding-left: 12px;
+    position: static;
+}
+.exchange-button__content {
+    background-color: #126bff;
+    display: block;
+    border-radius: 28px;
+    padding: 23px 12px 12px;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    margin-right: -103px;
+    margin-bottom:3px;
+}
+h1 {
+    padding-top: 7%;
+    padding-bottom:25px;
+}
+h3{
+    color:black;
+    font-family: Helvetica Neue,Arial,"Noto Sans",sans-serif ;
+    padding-bottom:45px;
 }
 }
 `;
