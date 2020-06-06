@@ -436,7 +436,7 @@ i:hover {
         .row {
     display: flex;
     flex-wrap: wrap;
-    margin-right: -15px;
+    margin-right: -41px;
     margin-left: -26px;
 }
 #pi {
