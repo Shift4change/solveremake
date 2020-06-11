@@ -15,7 +15,7 @@ function Footer() {
                                 <li>University of Pennsylvania</li>
                                 <li>Address: 3401 Grays Ferry Ave, Philadelphia, PA 19146</li>
                                 <li>Phone: +1 267-534-5393</li>
-                                
+
                             </ul>
                         </div>
                         {/* Column 2    */}
@@ -33,8 +33,10 @@ function Footer() {
                             <h4 className="ml-5">Tools</h4>
                             <ul className="list-unstyled">
                                 <li><a className="btn text-uppercase ml-4" target="_blank" rel="noopener noreferrer" href="https://pooltool.io/">Pool Tool</a></li>
-                                <li><a className="btn text-uppercase mr-5"  target="_blank" rel="noopener noreferrer" href="https://explorer.cardano.org/">Block/Address Explorer</a></li>
+
+
                                 <li><a className="btn btn-outline text-uppercase " target="_blank" rel="noopener noreferrer" href="https://guides.poapool.com/">Stakepool guides</a></li>
+                                <li><a id="blockx" className="btn text-uppercase " target="_blank" rel="noopener noreferrer" href="https://explorer.cardano.org/">Block/Address Explorer</a></li>
                                 {/* <li><a href="/">Lorem Lorem</a></li> */}
                             </ul>
                         </div>{/* Column 4    */}
@@ -92,7 +94,10 @@ ul li a{
 }
 ul li a:hover {
     color: var(--mainLightGrey)
+}#blockx{
+    margin-left: -20px;
 }
+
 @media(max-width: 760px) {
     .row{
         padding-left:60px;
