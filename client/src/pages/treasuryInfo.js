@@ -14,11 +14,11 @@ class Treasury extends Component {
             <div>
                 {/* // <React.Fragment> */}
                 <HeaderDetails className="container-fluid align-items-center">
-                    <h1 className="display-1 font-weight-bold">dadsfd</h1>
-                    <h4 className="display-5">dadasd</h4>
-                    <p>hellou</p>
+                    <h1 className="display-1 font-weight-bold">available by the end of December 2020</h1>
+                    {/* <h4 className="display-5">dadasd</h4>
+                    <p>hellou</p> */}
                     {/* Social Icons */}
-                    <div className="container mt-5">
+                    {/* <div className="container mt-5">
                         <div className="row justify-content-center">
                             <div className="col-2">
                                 <i className="fab fa-facebook"></i>
@@ -40,42 +40,42 @@ class Treasury extends Component {
                                 <i className="fab fa-facebook-messenger" />
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </HeaderDetails>
                 {/* {Navlinks} */}
-                <div className="container">
-                    <ul className="nav nav-tabs">
+                {/* <div className="container">
+                    <ul className="nav nav-tabs"> */}
                         {/* About Place Link */}
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <a href="#aboutPlace" className="nav-link active" role="tab" data-toggle="tab">About</a>
-                        </li>
+                        </li> */}
                         {/* Reviews link */}
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <a href="#reviews" className="nav-link" role="tab" data-toggle="tab">Reviews</a>
-                        </li>
+                        </li> */}
                         {/* Map link */}
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <a href="#map" className="nav-link" role="tab" data-toggle="tab">videos</a>
                         </li>
-                    </ul>
+                    </ul> */}
                     {/* Tab Pane */}
-                    <div className="tab-content mb-5">
+                    {/* <div className="tab-content mb-5"> */}
                         {/* About Place Tab */}
-                        <div id="aboutPlace" className="tab-pane in active text-center" role="tabpanel">
+                        {/* <div id="aboutPlace" className="tab-pane in active text-center" role="tabpanel">
                             <h2 className="mb-3">dsadas</h2>
                             <p>hellou</p>
                             <img src="" alt="" className="img-thumbnail img-fluid" />
-                        </div>
+                        </div> */}
                         {/* reviews */}
-                        <div className="tab-pane" id="reviews" role="tabpanel">
+                        {/* <div className="tab-pane" id="reviews" role="tabpanel">
                             <Reviews />
-                        </div>
+                        </div> */}
                         {/* Map */}
-                        <div className="tab-pane" id="map" role="tabpanel">
+                        {/* <div className="tab-pane" id="map" role="tabpanel">
                             <iframe src="" style={{ border: '0', height: '28.125rem', width: "100%", frameborder: '0' }}></iframe>
-                        </div>
-                    </div>
-                </div>
+                        </div> */}
+                    {/* </div>
+                </div> */}
             </div>
             // </React.Fragment>
         );
