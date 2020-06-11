@@ -97,11 +97,11 @@ class StakingS extends Component {
                 <br></br> */}
                 {/* <br></br>
                 <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
                 <br></br> */}
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
                 {/* {Navlinks} */}
                 <div id="con5" className="container mt-5">
                     <ul id="ana" className="nav nav-tabs">
@@ -240,6 +240,9 @@ i:hover {
     padding-top: 28%;
     padding-bottom: 47px;
 }
+h2 {
+    font-size: 1rem;
+}
 
 
 #left {
@@ -249,7 +252,7 @@ i:hover {
     margin-top: -32px;
     padding-left: 12px;
     position: static;
-    margin-bottom: 87px;
+    margin-bottom: 0px;
 }
     .col-2{
     margin-bottom:20px;
@@ -263,7 +266,7 @@ h3{
     margin-bottom:20px;
 }
 .container {
-    margin-top: -10px;
+    margin-top: 20px;
     margin-bottom: -40px;
 }
 
