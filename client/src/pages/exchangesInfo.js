@@ -36,7 +36,7 @@ class ExchangesE extends Component {
                     <div className="container-fluid mt-  pt-2">
                         <div className="row">
 
-                            <div id="cont" className="card container col-8 col-lg-8  mx-auto mt-1 pt-2 mb-1 p-1" >
+                            <div id="cont" className="card container col-9 col-lg-8   mx-auto mt-1 pt-2 mb-1 p-1" >
 
                                 <div className="card-body">
                                     {/* <h5 className="card-title text-center">Exchanges</h5> */}
@@ -48,9 +48,9 @@ class ExchangesE extends Component {
 
                                     
                                    
-                                    <div id="be" class="exchange-button">
+                                    {/* <div id="be" class="exchange-button">
 
-                                        <p id="be">Bittrex  <a href="https://bittrex.com/ " target="_blank" rel="noopener noreferrer nofollow" class="exchange-button__a">
+                                        <p id="be">  <a href="https://bittrex.com/ " target="_blank" rel="noopener noreferrer nofollow" class="exchange-button__a">
                                             <span class="exchange-button__content">
                                                 Go to Bittrex
       <svg xmlns="http://www.w3.org/2000/svg" width="8px" height="13" viewBox="0 0 9 13" class="exchange-button__next-icon">
@@ -59,10 +59,10 @@ class ExchangesE extends Component {
                                                 </svg>
                                             </span>
                                         </a></p>
-                                    </div>
+                                    </div> */}
                                     <div id="ke" class="exchange-button">
 
-<p id="ke">Kraken  <a href="https://www.kraken.com/ " target="_blank" rel="noopener noreferrer nofollow" class="exchange-button__a">
+<p id="ke">  <a href="https://www.kraken.com/ " target="_blank" rel="noopener noreferrer nofollow" class="exchange-button__a">
     <span class="exchange-button__content">
         Go to Kraken
 <svg xmlns="http://www.w3.org/2000/svg" width="8px" height="13" viewBox="0 0 9 13" class="exchange-button__next-icon">
@@ -74,7 +74,7 @@ class ExchangesE extends Component {
 </div>
                                     <div class="exchange-button">
 
-                                        <p id="eb">Binance  <a href="https://www.binance.com/en/register?ref=16336880 " target="_blank" rel="noopener noreferrer nofollow" class="exchange-button__a">
+                                        <p id="eb">  <a href="https://www.binance.com/en/register?ref=16336880 " target="_blank" rel="noopener noreferrer nofollow" class="exchange-button__a">
                                             <span class="exchange-button__content">
                                                 Go to Binance
       <svg xmlns="http://www.w3.org/2000/svg" width="8px" height="13" viewBox="0 0 9 13" class="exchange-button__next-icon">
@@ -89,7 +89,7 @@ class ExchangesE extends Component {
                                     </div>
                                     <div id="cb" class="exchange-button">
 
-                                        <p id="cb">Coinbase <a href="https://www.coinbase.com/join/fodrov_v " target="_blank" rel="noopener noreferrer nofollow" class="exchange-button__a">
+                                        <p id="cb"> <a href="https://www.coinbase.com/join/fodrov_v " target="_blank" rel="noopener noreferrer nofollow" class="exchange-button__a">
                                             <span class="exchange-button__content">
                                                 Go to Coinbase
       <svg xmlns="http://www.w3.org/2000/svg" width="8px" height="13" viewBox="0 0 9 13" class="exchange-button__next-icon">
@@ -111,19 +111,19 @@ class ExchangesE extends Component {
                     {/* Social Icons */}
                     <div className="container mt-5">
                         <div className="row justify-content-center">
-                            <div className="col-2">
+                            {/* <div className="col-2">
                                 <i className="fab fa-facebook"></i>
 
-                            </div>
+                            </div> */}
                             <div className="col-2">
-                                <i className="fab fa-twitter"></i>
+                              <a href="https://twitter.com/@Ada4theWorld" target="_blank" rel="noopener noreferrer nofollow">  <i className="fab fa-twitter"> </i></a>
                             </div>
-                            <div className="col-2">
+                            {/* <div className="col-2">
                                 <i className="fab fa-google-plus-g" />
                             </div>
                             <div className="col-2">
                                 <i className="fab fa-reddit" />
-                            </div>
+                            </div> */}
                             
                         </div>
                     </div>
@@ -339,7 +339,7 @@ i:hover {
 
 } */
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 760px) {
     h1{
         font-size:50px;
     padding-top: 34%;
@@ -369,8 +369,8 @@ h4{
 #ex {
     margin-top: -18px;
     margin-right: -35px;
-    width: 200px;
-    height: 126px;
+    width: 249px;
+    height: 141px;
     padding-left: 0px;
 }
 .exchange-button__content {
@@ -383,9 +383,14 @@ h4{
     font-weight: 700;
     margin-right: -103px;
 }
-#eb {
-    margin-left: -90px;
-    margin-top: 5px;
+ #ke {
+    margin-top: -20px;
+    padding-top: 25px;
+    margin-left: -52px;
+}
+ #eb {
+    margin-left: -103px;
+    margin-top: 12px;
 }
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
@@ -397,19 +402,41 @@ h4{
     color: #fff;
     font-size: 17px;
     font-weight: 700;
+    margin-right: -73px;
 }
 #ex {
-    margin-top: 20px;
-    margin-right: -80px;
-    width: 290px;
-    height: 397px;
+    margin-top: 8px;
+    margin-right: -81px;
+    width: 314px;
+    height: 481px;
     padding-left: 0px;
 }
-#eb{
-       
-       margin-left: -90px;
+#be {
+    margin-top: -16px;
+    padding-top: 25px;
+    margin-left: -54px;
+    margin-bottom: -22px;
+}
+#eb{    padding-top:20px;
+        margin-bottom: -25px;
+       margin-left: -100px;
    }
+   #ke {
+    margin-top: -20px;
+    padding-top: 25px;
+    margin-left: -53px;
+}
+#cb {
+    margin-top: -19px;
+    padding-top: 35px;
+    margin-left: -53px;
+    padding-bottom: 28px;
+}
+h4{
+    padding-bottom:25px;
+}
    h1{
+     
     padding-top: 16%;
 }
 #exim{
@@ -451,7 +478,7 @@ h4{
     margin-top: 20px;
     margin-right: -120px;
     width: 488px;
-    height: 563px;
+    height: 600px;
     padding-left: 0px;
 }
 #eb{
@@ -460,6 +487,25 @@ h4{
    }
    h1{
     padding-top: 8%;
+}
+h4 {
+    padding-right: 2px;
+    padding-left: 5px;
+    color: var(--mainDark);
+    padding-bottom: 35px;
+    padding-top: 17px;
+}
+#ke {
+    margin-top: -20px;
+    padding-top: 25px;
+    margin-left: -49px;
+    padding-bottom: 9px;
+}
+#cb {
+    margin-top: -19px;
+    padding-top: 25px;
+    margin-left: -53px;
+    padding-bottom: 19px;
 }
 #exim{
     width: 150px;
@@ -529,15 +575,21 @@ h1{
     padding-left: 11px;
     vertical-align: middle;
 }
+ #cb {
+    margin-top: -16px;
+    padding-top: 25px;
+    margin-left: -53px;
+    padding-bottom: 19px;
+}
 #eb{
        
        margin-left: -90px;
    }
     #ex {
     margin-top: 20px;
-    margin-right: -48px;
-    width: 749px;
-    height: 563px;
+    margin-right: -90px;
+    width: 806px;
+    height: 684px;
     padding-left: 0px;
 }
 h4{

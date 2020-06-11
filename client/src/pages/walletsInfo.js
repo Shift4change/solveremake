@@ -112,19 +112,19 @@ class Wallets extends Component {
                     {/* Social Icons */}
                     <div id="social" className="container mt-5">
                         <div className="row justify-content-center">
-                            <div className="col-2">
+                            {/* <div className="col-2">
                                 <i className="fab fa-facebook"></i>
 
-                            </div>
+                            </div> */}
                             <div className="col-2">
-                                <i className="fab fa-twitter"></i>
+                              <a href="https://twitter.com/@Ada4theWorld" target="_blank" rel="noopener noreferrer nofollow">  <i className="fab fa-twitter"> </i></a>
                             </div>
-                            <div className="col-2">
+                            {/* <div className="col-2">
                                 <i className="fab fa-google-plus-g" />
                             </div>
                             <div className="col-2">
                                 <i className="fab fa-reddit" />
-                            </div>
+                            </div> */}
                        
                         </div>
                     </div>
@@ -153,12 +153,12 @@ class Wallets extends Component {
                             <div className="container">
                                 <div className="row">
                                     <div className="container col-10 col-lg-6 d-flex justify-content-center mt-5">
-                                        <iframe width="550" height="315"
+                                        <iframe width="575" height="315"
                                             src="https://www.youtube.com/embed/eNUwie_45E8" allowfullscreen="true">
                                         </iframe>
                                     </div>
                                     <div className="container col-10 col-lg-6 d-flex justify-content-center mt-5">
-                                        <iframe width="550" height="315"
+                                        <iframe width="575" height="315"
                                             src="https://www.youtube.com/embed/9jg8lsreIQ8" allowfullscreen="true">
                                         </iframe>
                                     </div>

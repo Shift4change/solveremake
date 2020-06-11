@@ -96,7 +96,7 @@ class Contacts extends Component {
 
                     <div className="row">
                         <div className="col-md-7">
-                            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=11aAMX1OvVQ1Aq7bW0DiOpCmMJf01NDAH"
+                            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1xEIVsbCJYkK9JTgTX1xmZRW8J_PTFg4M"
                                 style={{
                                     border: "0",
                                     width: "100%",

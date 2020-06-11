@@ -189,19 +189,19 @@ class AdaA extends Component {
                     {/* Social Icons */}
                     <div className="container mt-5">
                         <div className="row justify-content-center">
-                            <div className="col-2">
+                            {/* <div className="col-2">
                                 <i className="fab fa-facebook"></i>
 
-                            </div>
+                            </div> */}
                             <div className="col-2">
-                                <i className="fab fa-twitter"></i>
+                              <a href="https://twitter.com/@Ada4theWorld" target="_blank" rel="noopener noreferrer nofollow">  <i className="fab fa-twitter"> </i></a>
                             </div>
-                            <div className="col-2">
+                            {/* <div className="col-2">
                                 <i className="fab fa-google-plus-g" />
                             </div>
                             <div className="col-2">
                                 <i className="fab fa-reddit" />
-                            </div>
+                            </div> */}
                             {/* Map */}
                             <div className="tab-pane" id="map" role="tabpanel">
                                 {/* <iframe src="" style={{ border: '0', height: '28.125rem', width: "100%", frameborder: '0' }}></iframe>
@@ -213,25 +213,25 @@ class AdaA extends Component {
                 </HeaderDetails>
                 <br></br>
                 {/* {Navlinks} */}
-                <div className="container">
-                    <ul className="nav nav-tabs">
+                {/* <div className="container">
+                    <ul className="nav nav-tabs"> */}
                         {/* About Place Link */}
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <a href="#video" className="nav-link active " role="tab" data-toggle="tab">Videos</a>
-                        </li>
+                        </li> */}
                         {/* Reviews link */}
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <a href="#reviews" className="nav-link" role="tab" data-toggle="tab">Questions</a>
-                        </li>
+                        </li> */}
                         {/* Map link */}
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <a href="#about" className="nav-link" role="tab" data-toggle="tab">About</a>
                         </li>
-                    </ul>
+                    </ul> */}
                     {/* Tab Pane */}
-                    <div className="tab-content mb-5">
+                    {/* <div className="tab-content mb-5"> */}
                         {/* About Place Tab */}
-                        <div id="video" className="tab-pane in active text-center" role="tabpanel">
+                        {/* <div id="video" className="tab-pane in active text-center" role="tabpanel">
                             <div className="container">
                                 <div className="row">
                                     <div className="container col-10 col-lg-6 d-flex justify-content-center mt-5">
@@ -247,22 +247,22 @@ class AdaA extends Component {
                                 </div>
                             </div>
 
-                        </div>
+                        </div> */}
                         {/* reviews */}
-                        <div className="tab-pane" id="reviews" role="tabpanel">
+                        {/* <div className="tab-pane" id="reviews" role="tabpanel">
                             <Reviews />
-                        </div>
+                        </div> */}
                         {/* Map */}
-                        <div className="tab-pane" id="about" role="tabpanel">
+                        {/* <div className="tab-pane" id="about" role="tabpanel"> */}
                             {/* <iframe src="" style={{ border: '0', height: '28.125rem', width: "100%", frameborder: '0' }}></iframe>
                      */}
-                            <h2 className="mb-3">PROOF OF WORK AND MINING</h2>
+                            {/* <h2 className="mb-3">PROOF OF WORK AND MINING</h2>
                             <p>Proof of work is the most common consensus algorithm type for cryptocurrencies. It originated in Bitcoin, and this is how this cryptocurrency works. To generate proof of work, a computer has to solve a challenge. The challenge is a computationally heavy problem which is hard to solve, but the solution is easy to verify. When a computer on a proof of work based network finds a solution, it publishes it along with the transactions that the computer has been observing while cracking the problem. The owner of this computer collects the transaction fees and a reward for generating a block. The entire process is called mining. Mining is very energy consuming, and the amount of energy needed is constantly increasing, which can lead to unsound competition.</p>
                             <img src="" alt="" className="img-thumbnail img-fluid" />
 
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div >
             // </React.Fragment>
         );

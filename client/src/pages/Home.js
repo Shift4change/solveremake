@@ -139,7 +139,7 @@ class Home extends Component {
                                 className="hover">
                                 <img src={staking} id="trystaking" alt='Staking' className="card-img-top" /></Link>
                             <div className="card-body">
-                                <h3 className="card-title text-uppercase">TRY STAKING</h3>
+                                <h3 className="card-title text-uppercase">Start STAKING</h3>
                                 {/* <h5 className="card-title">lalal</h5> */}
                                 <p className="card-text">Now that you understand what a Cryptocurrency is, you can start learning how to Stake and create a passive income! </p>
 

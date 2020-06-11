@@ -202,19 +202,19 @@ class BitcoinD extends Component {
 
                     <div className="container mt-5">
                         <div className="row justify-content-center">
-                            <div className="col-2">
+                            {/* <div className="col-2">
                                 <i className="fab fa-facebook"></i>
 
-                            </div>
+                            </div> */}
                             <div className="col-2">
-                                <i className="fab fa-twitter"></i>
+                              <a href="https://twitter.com/@Ada4theWorld" target="_blank" rel="noopener noreferrer nofollow">  <i className="fab fa-twitter"> </i></a>
                             </div>
-                            <div className="col-2">
+                            {/* <div className="col-2">
                                 <i className="fab fa-google-plus-g" />
                             </div>
                             <div className="col-2">
                                 <i className="fab fa-reddit" />
-                            </div>
+                            </div> */}
                             {/* Map */}
                             <div className="tab-pane" id="map" role="tabpanel">
                                 {/* <iframe src="" style={{ border: '0', height: '28.125rem', width: "100%", frameborder: '0' }}></iframe>
