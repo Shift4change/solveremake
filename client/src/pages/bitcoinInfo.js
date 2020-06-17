@@ -233,9 +233,9 @@ class BitcoinD extends Component {
                             <a href="#video" className="nav-link active " role="tab" data-toggle="tab">Videos</a>
                         </li>
                         {/* Reviews link */}
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <a href="#reviews" className="nav-link" role="tab" data-toggle="tab">Questions</a>
-                        </li>
+                        </li> */}
                         {/* Map link */}
                         <li className="nav-item">
                             <a href="#about" className="nav-link" role="tab" data-toggle="tab">About</a>
@@ -262,9 +262,9 @@ class BitcoinD extends Component {
 
                         </div>
                         {/* reviews */}
-                        <div className="tab-pane" id="reviews" role="tabpanel">
+                        {/* <div className="tab-pane" id="reviews" role="tabpanel">
                             <Reviews />
-                        </div>
+                        </div> */}
                         {/* Map */}
                         <div className="tab-pane" id="about" role="tabpanel">
                             {/* <iframe src="" style={{ border: '0', height: '28.125rem', width: "100%", frameborder: '0' }}></iframe>

@@ -238,51 +238,49 @@ class StakingS extends Component {
                     <ul id="ana" className="nav nav-tabs">
                         {/* About Place Link */}
                         <li className="nav-item">
-                            <a href="#map" className="nav-link" role="tab" data-toggle="tab">video</a>
+                            <a href="#video" className="nav-link active " role="tab" data-toggle="tab">Videos</a>
                         </li>
-                       
                         {/* Reviews link */}
                         {/* <li className="nav-item">
-                            <a href="#reviews" className="nav-link" role="tab" data-toggle="tab">Reviews</a>
+                            <a href="#reviews" className="nav-link" role="tab" data-toggle="tab">Questions</a>
                         </li> */}
                         {/* Map link */}
                         <li className="nav-item">
-                            <a href="#aboutPlace" className="nav-link active" role="tab" data-toggle="tab">About</a>
+                            <a href="#about" className="nav-link" role="tab" data-toggle="tab">About</a>
                         </li>
                     </ul>
                     {/* Tab Pane */}
-                    <div className="tab-content ">
+                    <div className="tab-content mb-5">
                         {/* About Place Tab */}
-                        
-                       
+                        <div id="video" className="tab-pane in active text-center" role="tabpanel">
+                            <div className="container">
+                                <div className="row">
+                                    <div className="container col-10 col-lg-6 d-flex justify-content-center mt-5">
+                                        <iframe width="575" height="315"
+                                            src="https://www.youtube.com/embed/tWdyDcBuC2Y" allowfullscreen="true">
+                                        </iframe>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
                         {/* reviews */}
                         {/* <div className="tab-pane" id="reviews" role="tabpanel">
                             <Reviews />
                         </div> */}
                         {/* Map */}
-                        <div className="tab-pane nav-link active" id="map"  role="tabpanel">
-                            <div className="container">
-                                <div className="row">
-                                    <div className="container mb-5 col-10 col-lg-10 d-flex justify-content-center mt-5">
-                                        <iframe width="575" height="315"
-                                            src="https://www.youtube.com/embed/tWdyDcBuC2Y" allowfullscreen="true">
-                                        </iframe>
-                                    </div>
-                                    {/* <div className="container col-10 col-lg-6 d-flex justify-content-center mt-5">
-                                        <iframe width="575" height="315"
-                                            src="https://www.youtube.com/embed/9jg8lsreIQ8" allowfullscreen="true">
-                                        </iframe>
-                                    </div> */}
-                                </div>
-                            </div>
-                            {/* <iframe src="" style={{ border: '0', height: '28.125rem', width: "100%", frameborder: '0' }}></iframe> */}
-                        </div>
-                        <div id="aboutPlace" className="tab-pane in active text-center mb-5" role="tabpanel">
-                            <h2>Welcome to the new financial operation system. Taking control over your funds and earning rewards by staking is only one of the many benefits of a decentralized system like Cardano.  </h2>
-                            {/* <p></p>
-                            <img src="" alt="" className="img-thumbnail img-fluid" /> */}
+                        <div className="tab-pane" id="about" role="tabpanel">
+                            {/* <iframe src="" style={{ border: '0', height: '28.125rem', width: "100%", frameborder: '0' }}></iframe>
+                     */}
+                            <h2 className="mb-3">Staking</h2>
+                            <p>Welcome to the new financial operation system. Taking control over your funds and earning rewards by staking is only one of the many benefits of a decentralized system like Cardano.</p>
+                            {/* <img src="" alt="" className="img-thumbnail img-fluid" /> */}
+
                         </div>
                     </div>
+
+
                 </div>
             </div>
             // </React.Fragment>
