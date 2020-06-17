@@ -35,7 +35,7 @@ class Wallets extends Component {
                     <div className="container" >
                         <div className="row">
 
-                            <div className="col-8 col-lg-4 mx-auto mb-5" >
+                            <div className="col-8 col-sm-7 col-lg-4 mx-auto mb-5" >
                                 {/* <h3>cardano</h3>
                    <hr></hr> */}
                                 <div  className="card" >
@@ -58,7 +58,8 @@ class Wallets extends Component {
 
                                     </div>
                                 </div>
-                            </div> <div  className="col-8 col-lg-4 mx-auto mb-5">
+                            </div> 
+                            <div  className=" col-8 col-sm-7 col-lg-4 mx-auto mb-5">
                                 <div   className="card" >
                                     <a id="y"
                                         href="https://yoroi-wallet.com/" target="_blank" rel="noopener noreferrer nofollow"
@@ -80,7 +81,7 @@ class Wallets extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-10  col-lg-4 mx-auto mb-5">
+                            <div className="col-sm-7 col-8  col-lg-4 mx-auto mb-5">
                                 <div  className="card" >
                                     <a id="l"
                                         href="https://www.ledger.com/" target="_blank" rel="noopener noreferrer nofollow"

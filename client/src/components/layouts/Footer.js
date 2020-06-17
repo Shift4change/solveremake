@@ -9,7 +9,7 @@ function Footer() {
                 <div className="container-fluid align-items-center">
                     <div className="row">
                         {/* Column 1    */}
-                        <div className="col-12 col-lg-3 ">
+                        <div className="col-sm-6 col-10 col-lg-3 ">
                             <h4><a href="/contacts">Contact Us</a></h4>
                             <ul className="list-unstyled align-items-center ">
                                 <li>University of Pennsylvania</li>
@@ -19,7 +19,7 @@ function Footer() {
                             </ul>
                         </div>
                         {/* Column 2    */}
-                        <div className="col-12 col-lg-3">
+                        <div className=" col-sm-6 col-10  col-lg-3">
                             <h4><a className=" btn-outline ml-4" target="_blank" rel="noopener noreferrer" href="https://cardano.org">Cardano.org</a> </h4>
                             <ul className="list-unstyled">
                                 <li><a id="iohk" className="btn btn-outline text-uppercase  " target="_blank" rel="noopener noreferrer" href="https://iohk.io/en/team/">IOHK</a></li>
@@ -29,7 +29,7 @@ function Footer() {
                             </ul>
                         </div>
                         {/* Column 3    */}
-                        <div className="col-12 col-lg-3">
+                        <div className="col-sm-6 col-10 col-lg-3">
                             <h4 className="ml-5">Tools</h4>
                             <ul className="list-unstyled">
                                 <li><a className="btn text-uppercase ml-4" target="_blank" rel="noopener noreferrer" href="https://pooltool.io/">Pool Tool</a></li>
@@ -40,7 +40,7 @@ function Footer() {
                                 {/* <li><a href="/">Lorem Lorem</a></li> */}
                             </ul>
                         </div>{/* Column 4    */}
-                        <div className="col-12 col-lg-3">
+                        <div className="col-sm-6 col-10 col-lg-3">
                             <h4 className="ml-5">Wallets</h4>
                             <ul className="list-unstyled">
                                 <li><a className="btn text-uppercase" target="_blank" rel="noopener noreferrer" href="https://daedaluswallet.io/">Daedalus Wallet</a></li>
