@@ -18,7 +18,7 @@ import Exchanges from './pages/exchangesInfo';
 import Wallets from './pages/walletsInfo';
 import Staking from './pages/stakingInfo';
 import Treasury from './pages/treasuryInfo';
-
+import Shop from './pages/shopInfo';
 
 
 class App extends Component {
@@ -29,6 +29,7 @@ class App extends Component {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/altmedia" component={Altmedia} />
+          <Route path="/shop" component={Shop} />
           <Route path="/contacts" component={Contacts} />
           <Route path="/details" component={Details} />
           <Route path="/bitcoin" component={Bitcoin} />

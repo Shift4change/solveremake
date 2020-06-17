@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components'
+import da from "../assets/img/donateaddress.png"
+
 
 function Footer() {
     return (
@@ -9,27 +11,30 @@ function Footer() {
                 <div className="container-fluid align-items-center">
                     <div className="row">
                         {/* Column 1    */}
-                        <div className="col-12 col-lg-3 ">
+                        <div className="col-sm-6 col-10 col-lg-3 ">
                             <h4><a href="/contacts">Contact Us</a></h4>
                             <ul className="list-unstyled align-items-center ">
                                 <li>University of Pennsylvania</li>
                                 <li>Address: 3401 Grays Ferry Ave, Philadelphia, PA 19146</li>
                                 <li>Phone: +1 267-534-5393</li>
 
+
+                                <br></br>
+                                {/* <br></br>
+                                <br></br> */}
+
+                                <h4>Donate:</h4>
+                                <img src={da} ></img>
+                                <h6>ADA address: </h6>
+                                <a class="donate-link" href="ADA:Ae2tdPwUPEZ23obVwEp5xLfmc7CjM9K4xirpTD65cftMKb6CnqLNvN4pENt" target="_blank">Ae2tdPwUPEZ23obVwEp5xLfmc7CjM9K4xirpTD65cftMKb6CnqLNvN4pENt</a>
+
+
                             </ul>
+
                         </div>
-                        {/* Column 2    */}
-                        <div className="col-12 col-lg-3">
-                            <h4><a className=" btn-outline ml-4" target="_blank" rel="noopener noreferrer" href="https://cardano.org">Cardano.org</a> </h4>
-                            <ul className="list-unstyled">
-                                <li><a id="iohk" className="btn btn-outline text-uppercase  " target="_blank" rel="noopener noreferrer" href="https://iohk.io/en/team/">IOHK</a></li>
-                                <li><a className="btn btn-outline text-uppercase ml-5" target="_blank" rel="noopener noreferrer" href="https://emurgo.io/en/about-us#our-team">Emurgo</a></li>
-                                <li><a className="btn btn-outline text-uppercase mr-3" target="_blank" rel="noopener noreferrer" href="https://cardanofoundation.org/">Cardano Foundation</a></li>
-                                {/* <li><a href="/">Lorem Lorem</a></li> */}
-                            </ul>
-                        </div>
+
                         {/* Column 3    */}
-                        <div className="col-12 col-lg-3">
+                        <div className="col-sm-6 col-10 col-lg-3">
                             <h4 className="ml-5">Tools</h4>
                             <ul className="list-unstyled">
                                 <li><a className="btn text-uppercase ml-4" target="_blank" rel="noopener noreferrer" href="https://pooltool.io/">Pool Tool</a></li>
@@ -40,12 +45,22 @@ function Footer() {
                                 {/* <li><a href="/">Lorem Lorem</a></li> */}
                             </ul>
                         </div>{/* Column 4    */}
-                        <div className="col-12 col-lg-3">
+                        <div className="col-sm-6 col-10 col-lg-3">
                             <h4 className="ml-5">Wallets</h4>
                             <ul className="list-unstyled">
                                 <li><a className="btn text-uppercase" target="_blank" rel="noopener noreferrer" href="https://daedaluswallet.io/">Daedalus Wallet</a></li>
                                 <li><a className="btn btn-outline text-uppercase ml-3" target="_blank" rel="noopener noreferrer" href="https://yoroi-wallet.com/">Yoroi Wallet</a></li>
                                 <li><a className="btn btn-outline text-uppercase" target="_blank" rel="noopener noreferrer" href="https://www.ledger.com/">Hardware Wallet</a></li>
+                                {/* <li><a href="/">Lorem Lorem</a></li> */}
+                            </ul>
+                        </div>
+                        {/* Column 2    */}
+                        <div className=" col-sm-6 col-10  col-lg-3">
+                            <h4><a className=" btn-outline ml-4" target="_blank" rel="noopener noreferrer" href="https://cardano.org">Cardano.org</a> </h4>
+                            <ul className="list-unstyled">
+                                <li><a id="iohk" className="btn btn-outline text-uppercase  " target="_blank" rel="noopener noreferrer" href="https://iohk.io/en/team/">IOHK</a></li>
+                                <li><a className="btn btn-outline text-uppercase ml-5" target="_blank" rel="noopener noreferrer" href="https://emurgo.io/en/about-us#our-team">Emurgo</a></li>
+                                <li><a className="btn btn-outline text-uppercase mr-3" target="_blank" rel="noopener noreferrer" href="https://cardanofoundation.org/">Cardano Foundation</a></li>
                                 {/* <li><a href="/">Lorem Lorem</a></li> */}
                             </ul>
                         </div>
@@ -96,6 +111,9 @@ ul li a:hover {
     color: var(--mainLightGrey)
 }#blockx{
     margin-left: -20px;
+}
+.bol{
+
 }
 
 @media(max-width: 760px) {

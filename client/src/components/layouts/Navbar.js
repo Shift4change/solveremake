@@ -64,6 +64,14 @@ class Navbar extends Component {
               <Link className="nav-link text-white text-uppercase ml-5" to="/altmedia">Alt. Media
         </Link>
             </li> */}
+             <li className="nav-item">
+              <Link className="nav-link text-white text-uppercase ml-5" to="/staking">Staking
+        </Link>
+            </li>
+            {/* <li className="nav-item">
+              <Link className="nav-link text-white text-uppercase ml-5" to="/shop">Shop
+        </Link>
+            </li> */}
             <li className="nav-item">
               <Link className="nav-link text-white text-uppercase ml-5 " to="/contacts"><img src={shop} alt="home" style={{ width: "25px", marginTop: "-7px" }} />Contact us
         </Link>

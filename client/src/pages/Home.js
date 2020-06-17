@@ -180,7 +180,7 @@ class Home extends Component {
                             <div className="card-body mb-3">
                                 <h3 className="card-title text-uppercase">Marlowe</h3>
                                 {/* <h5 className="card-title">lalal</h5> */}
-                                <p id="marlowe" className="card-text mb-2">Is a domain-specific language (DSL) which is designed to be usable by someone who is expert in a particular field: in the case of Marlowe, financial contracts, rather than requiring programming skills to use it. Using a DSL has many advantages beyond its use by non-programmers </p>
+                                <p id="marlowe" className="card-text mb-2">Is a domain-specific language (DSL) which is designed to be usable by someone who is an expert in a particular field: in the case of Marlowe, financial contracts, rather than requiring programming skills to use it. Using a DSL has many advantages beyond it's use by non-programmers </p>
 
 
                                 <a className="btn btn-outline-primary text-uppercase" target="_blank" rel="noopener noreferrer" href="https://iohk.io/en/blog/posts/2018/12/11/marlowe-financial-contracts-on-blockchain/">More Info</a>
